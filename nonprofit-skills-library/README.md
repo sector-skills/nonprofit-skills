@@ -41,8 +41,9 @@ Or clone the whole library and point your agent at the `skills/` directory.
 | [Strategy & Growth](skills/strategy-growth) | strategic planning, EOS/Traction for nonprofits, revenue diversification, mergers & fiscal sponsorship, change management |
 | [Technology & Data](skills/technology-data) | donor CRM, data privacy, digital fundraising tools |
 | [Retail & Resale Operations](skills/retail-operations) | donation intake & grading, retail pricing & merchandising, retail store operations, online resale, retail staffing, in-kind gift acceptance |
+| [Executive Leadership](skills/executive-leadership) | CEO ↔ board partnership, executive transitions, executive search, executive communications, executive dashboard |
 
-## All skills (58)
+## All skills (63)
 
 | Skill | What it's for |
 |---|---|
@@ -98,6 +99,11 @@ Or clone the whole library and point your agent at the `skills/` directory.
 | `nonprofit-donor-crm` | CRM selection/configuration, data hygiene |
 | `nonprofit-data-privacy` | Donor data privacy, PCI compliance |
 | `nonprofit-digital-fundraising-tools` | Online giving platforms, payment processors |
+| `nonprofit-ceo-board-partnership` | CEO's side of the board relationship: board reports, exec-session prep, chair 1:1s, CEO evaluation |
+| `nonprofit-executive-transitions` | Incoming/outgoing/interim ED transitions: 90-day plans, listening tours, handoff memos |
+| `nonprofit-executive-search` | Board-run ED/CEO/C-suite hiring: charter, position profile, comp benchmarking, structured interviews |
+| `nonprofit-executive-communications` | First-person CEO/ED messages: all-staff, crisis/RIF, funder letters, town halls, culture notes |
+| `nonprofit-executive-dashboard` | ED/COO one-page KPI dashboard and board scorecard: metric selection, thresholds, review rhythm |
 | `nonprofit-donation-intake-grading` | Donated-goods drop-off/pickup, sorting, sell/recycle/discard triage |
 | `nonprofit-retail-pricing-merchandising` | Pricing used goods, store floor layout, seasonal merchandising |
 | `nonprofit-retail-store-operations` | POS/inventory, cash handling, loss prevention, open/close procedures |
@@ -108,7 +114,45 @@ Or clone the whole library and point your agent at the `skills/` directory.
 ## Contributing
 
 This library is designed to grow. New skills should follow the same format: a single `SKILL.md`
-with quoted YAML frontmatter (`name`, `description`, `license: MIT`), a description with concrete
-trigger phrases and an explicit boundary line against overlapping sibling skills, and a body full of
-named frameworks, standard deliverables, numbered steps, and common failure modes — not generic
-advice a model already knows.
+with quoted YAML frontmatter (`name`, `description`, `license: MIT`, `last_reviewed: YYYY-MM-DD`),
+a description with concrete trigger phrases and an explicit boundary line against overlapping
+sibling skills, and a body full of named frameworks, standard deliverables, numbered steps, and
+common failure modes — not generic advice a model already knows.
+
+Minimal frontmatter template:
+
+```yaml
+---
+name: nonprofit-example-skill
+description: "One paragraph. What it does, when to use it, and an explicit boundary line against overlapping sibling skills."
+license: MIT
+last_reviewed: 2026-09-07
+---
+```
+
+## Maintenance & review cadence
+
+Skills stay useful only if they're maintained. This library commits to a predictable rhythm:
+
+- **Quarterly light touch** — broken links, outdated tool names, deprecated regulations. Extra
+  attention to fast-moving areas: AI tools, IRS/990 rules, grant platforms, fundraising tech.
+- **Semi-annual category sweep** — rotate categories so every one is reviewed at least once a
+  year. Test prompts against current models; refresh examples, sample outputs, and any embedded
+  benchmarks.
+- **Annual full-library audit** — re-evaluate the 10-category taxonomy for gaps or overlaps,
+  retire or merge low-use or overlapping skills, publish a changelog.
+- **Event-triggered updates** — major IRS/state regulatory changes, significant sector-standard
+  shifts (e.g. new BoardSource frameworks), material AI model releases. Community pull requests
+  and issues get a two-week response target.
+
+Every `SKILL.md` carries a `last_reviewed: YYYY-MM-DD` field. To see which skills are overdue:
+
+```
+python3 scripts/check_review_status.py         # list overdue skills
+python3 scripts/check_review_status.py --all   # show every skill with its status
+python3 scripts/check_review_status.py --json  # machine-readable output
+```
+
+Fast-moving categories (`fundraising-development`, `governance-compliance`, `technology-data`)
+use a 90-day review interval; all others use 365 days. The script exits non-zero when anything
+is overdue, so it can gate CI merges.
