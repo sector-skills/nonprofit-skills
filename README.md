@@ -127,8 +127,40 @@ name: nonprofit-example-skill
 description: "One paragraph. What it does, when to use it, and an explicit boundary line against overlapping sibling skills."
 license: MIT
 last_reviewed: 2026-09-07
+supervision: review
+supervision_note: "One line on why this level, in terms of what a wrong output costs."
 ---
 ```
+
+## Supervision level
+
+Not every skill carries the same risk. A draft thank-you letter that comes out wrong costs an
+edit. A Form 990 or a set of bylaws that comes out wrong is filed with the IRS or binds the
+organization — and the person running the agent is often the least equipped to notice.
+
+`supervision:` records that difference in the frontmatter, so an agent, a CI job, or a human
+browsing the library can see it *before* the output is used.
+
+| Level | Meaning |
+|---|---|
+| `unsupervised` | Usable with ordinary editing. A mistake costs time, not much else. |
+| `review` | A knowledgeable staff member must read it before it is used or circulated. Consequential internally, but nothing is filed externally. |
+| `expert-required` | Must be reviewed by a credentialed professional (attorney, CPA, licensed auditor) before it is filed, adopted, or relied on. |
+
+The dividing line for `expert-required` is deliberately narrow: the output goes to an outside
+authority, or it legally binds the organization. That keeps the label meaningful — if most
+skills carry it, none of them do.
+
+To see which skills declare a level:
+
+```
+python3 scripts/check_supervision.py         # list skills missing the field
+python3 scripts/check_supervision.py --all   # show every skill with its level
+python3 scripts/check_supervision.py --json  # machine-readable output
+```
+
+The script exits non-zero only when a skill declares a level outside the three above. Missing
+fields are reported but do not fail, so the field can be adopted category by category.
 
 ## Maintenance & review cadence
 

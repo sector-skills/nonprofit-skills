@@ -2,6 +2,8 @@
 name: nonprofit-board-governance
 description: "Designs board roles/responsibilities frameworks, meeting structures and agendas, committee charters, board self-assessment tools, and the ED-board relationship (executive limitations, ED evaluation process). Use when asked to run or fix board meetings, write a board meeting agenda or consent agenda, design or reshuffle standing/ad hoc committees, run a board self-assessment or board matrix health check, clarify board-vs-staff decision boundaries (governance vs. management), draft board member job descriptions or a code of conduct, or design the ED performance review and ED-board communication cadence. Does not cover recruiting or onboarding new board members (use nonprofit-board-recruitment), drafting bylaws or conflict-of-interest/whistleblower/document-retention policy text (use nonprofit-bylaws-policy), or Form 990 board-related disclosure questions (use nonprofit-form-990)."
 license: MIT
+supervision: review
+supervision_note: "Internal process design; consequential but not externally filed."
 ---
 
 # Nonprofit Board Governance

@@ -2,6 +2,8 @@
 name: nonprofit-c3-c4-structure
 description: "Structures and operates paired 501(c)(3)/501(c)(4) entity arrangements: entity design decisions, the 501(h) expenditure test election for lobbying limits, substantial-part-test alternative, cost-sharing and shared-staff/shared-resource allocation compliance, common-control governance, and inter-entity transaction documentation. Use when asked to decide whether an organization needs a companion 501(c)(4), set up or review a dual c3/c4 structure, elect or evaluate the 501(h) expenditure test versus the substantial-part test, allocate shared staff time/overhead/facilities costs between the two entities, or document inter-entity transactions and cost-sharing agreements to withstand IRS scrutiny. Does not cover direct legislator meeting/testimony/lobby-day tactics (use nonprofit-legislative-advocacy) or general coalition MOU structuring (use nonprofit-coalition-building)."
 license: MIT
+supervision: expert-required
+supervision_note: "Entity structure and 501(h) election decisions carry tax-exemption risk."
 ---
 
 # Nonprofit 501(c)(3)/501(c)(4) Dual-Entity Structure
