@@ -2,6 +2,8 @@
 name: nonprofit-bylaws-policy
 description: "Drafts and reviews nonprofit bylaws (membership structure, board size/terms, quorum, amendment procedure) and core governance policies: conflict-of-interest policy, whistleblower/non-retaliation policy, document retention and destruction policy, and related policy text (gift acceptance, joint venture, compensation-setting process). Use when asked to write or revise bylaws, draft a conflict-of-interest disclosure form and policy, write a whistleblower policy, create a document retention and destruction schedule, or run a bylaws compliance check against actual practice. Does not cover running board meetings or committees under existing bylaws (use nonprofit-board-governance), Form 990 filing itself (use nonprofit-form-990), or state charitable solicitation registration bylaws-adjacent requirements (use nonprofit-charitable-registration)."
 license: MIT
+supervision: expert-required
+supervision_note: "Bylaws are legally binding on the organization and controlled by state law."
 ---
 
 # Nonprofit Bylaws & Core Policy Drafting
