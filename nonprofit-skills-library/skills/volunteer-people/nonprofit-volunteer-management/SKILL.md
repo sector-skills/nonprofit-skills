@@ -2,6 +2,8 @@
 name: nonprofit-volunteer-management
 description: "Designs and runs volunteer programs: writing volunteer role descriptions and applications, building recruitment funnels, screening and onboarding volunteers, creating schedules and shift systems, running recognition events, and diagnosing volunteer retention/attrition. Use for tasks like 'write a volunteer job description,' 'build a volunteer onboarding checklist,' 'design a volunteer recognition program,' 'figure out why volunteers stop showing up,' or 'set up a volunteer scheduling system.' Boundary: recruiting and onboarding candidates for the governing board is nonprofit-board-recruitment; staff (paid employee) culture and retention is nonprofit-staff-retention; this skill covers unpaid/service volunteers only."
 license: MIT
+supervision: review
+supervision_note: "Screening and onboarding volunteers touches background checks and duty of care."
 metadata:
   author: nonprofit-skills-library
   version: '1.0'

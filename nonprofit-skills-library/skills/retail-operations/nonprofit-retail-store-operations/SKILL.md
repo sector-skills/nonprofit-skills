@@ -2,6 +2,8 @@
 name: nonprofit-retail-store-operations
 description: "Runs resale-store floor procedures: point-of-sale/inventory systems, cash handling and reconciliation, loss prevention/shrinkage control, opening/closing procedures. Use for 'set up our POS,' 'design a daily cash reconciliation process,' 'reduce shrinkage.' Org-wide control policy lives in nonprofit-financial-controls; this implements it on the floor."
 license: MIT
+supervision: review
+supervision_note: "Cash handling, reconciliation and loss prevention are financial controls."
 ---
 
 # Nonprofit Retail Store Operations

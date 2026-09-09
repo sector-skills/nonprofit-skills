@@ -2,6 +2,8 @@
 name: nonprofit-executive-dashboard
 description: "Designs the nonprofit ED/COO one-page executive dashboard and matching quarterly board scorecard: picking 8–15 cross-functional KPIs across finance, fundraising, programs, people/culture, and mission delivery; separating leading from lagging indicators; setting SMART targets and yellow/red thresholds; assigning owners and data sources; wiring the monthly leadership-team and quarterly board review rhythms; tying it to the strategic plan. Use when asked to build or fix an executive dashboard, KPI scorecard, leadership team scorecard, monthly ops review, or the board scorecard/metrics section of a board packet. Does not cover preparing the underlying financial statements (use nonprofit-financial-statements), program outcome and evaluation design (use nonprofit-outcomes-measurement), installing EOS org-wide (use nonprofit-eos-traction), writing the strategic plan (use nonprofit-strategic-planning), or the CEO's narrative board report that uses this dashboard (use nonprofit-ceo-board-partnership)."
 license: MIT
+supervision: review
+supervision_note: "Board-facing KPIs drive decisions; a wrong indicator misdirects the org."
 last_reviewed: 2026-09-07
 ---
 

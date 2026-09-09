@@ -2,6 +2,8 @@
 name: nonprofit-financial-controls
 description: "Designs internal financial controls (segregation of duties, approval/signing thresholds, check/wire authorization, credit card and expense reimbursement policy, bank reconciliation review), and manages annual audit preparation, PBC (provided-by-client) list fulfillment, and auditor liaison, including responding to management letter findings. Use when asked to design or fix internal controls, address a segregation-of-duties gap (especially in a small finance team), set approval thresholds and signing authority, prepare for a financial statement audit, assemble a PBC list, or respond to an audit management letter. Does not cover the annual budget (use nonprofit-budgeting), producing the statements being audited (use nonprofit-financial-statements), or Form 990 filing itself (use nonprofit-form-990)."
 license: MIT
+supervision: expert-required
+supervision_note: "Audit preparation and control design are reviewed by a licensed auditor."
 ---
 
 # Nonprofit Financial Controls

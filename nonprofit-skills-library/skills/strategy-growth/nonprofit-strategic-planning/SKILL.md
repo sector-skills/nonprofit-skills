@@ -2,6 +2,8 @@
 name: nonprofit-strategic-planning
 description: "Runs an end-to-end nonprofit strategic planning process: environmental scans (SWOT/PEST), stakeholder input (board/staff/community surveys and interviews), priority-setting retreats, 3-5 year plan structure (mission/vision alignment, strategic pillars, goals, objectives), and board/staff facilitation agendas. Use when a user says things like \"we need a strategic plan,\" \"our strategic plan expires this year,\" \"help me facilitate a board retreat to set priorities,\" or \"how do we structure a 3-year plan.\" Does not cover translating a chosen program strategy into a logic model or theory of change (use nonprofit-program-design), does not cover installing a weekly execution/accountability operating system like EOS (use nonprofit-eos-traction), and does not cover evaluating specific new revenue streams (use nonprofit-revenue-diversification)."
 license: MIT
+supervision: review
+supervision_note: "A board-adopted 3-5 year plan that allocates everything."
 ---
 
 # Nonprofit Strategic Planning

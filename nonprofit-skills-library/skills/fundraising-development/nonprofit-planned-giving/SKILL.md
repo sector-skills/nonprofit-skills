@@ -2,6 +2,8 @@
 name: nonprofit-planned-giving
 description: "Builds bequest and legacy society programs: structuring planned-gift vehicles (bequests, beneficiary designations, charitable gift annuities, charitable remainder trusts), scripting legacy-gift donor conversations, marketing a legacy society, and stewarding named/estate commitments. Use when a user asks to launch or grow a legacy/bequest society, script a planned-giving conversation, market planned gifts to a donor segment, explain a planned-gift vehicle to a donor or board, or design stewardship for documented estate commitments. Does not cover outright major gifts made today (use nonprofit-major-gifts) or general pipeline stage tracking (use nonprofit-donor-pipeline)."
 license: MIT
+supervision: expert-required
+supervision_note: "Gift annuities, remainder trusts and bequests are legal instruments with state registration rules."
 ---
 
 # Planned & Legacy Giving

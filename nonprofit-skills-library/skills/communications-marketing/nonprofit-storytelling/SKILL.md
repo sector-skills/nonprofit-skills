@@ -2,6 +2,8 @@
 name: nonprofit-storytelling
 description: "Builds ethical beneficiary and impact storytelling for a nonprofit's case for support: selecting and structuring stories (narrative arc, protagonist framing), running dignity-safe informed-consent and interview processes, and rewriting \"poverty porn\"/savior-framed drafts into strengths-based narratives. Use for tasks like \"write a beneficiary story for our gala program,\" \"review this story for savior framing,\" \"build our case-for-support narrative,\" or \"train our team on ethical storytelling guidelines.\" Does not cover annual report layout/structure (nonprofit-annual-report), brand voice/messaging house (nonprofit-brand-messaging), social captions or content calendars (nonprofit-social-media), press releases/media pitching (nonprofit-media-relations), or donation-page conversion copy (nonprofit-donation-page-copy)."
 license: MIT
+supervision: review
+supervision_note: "Beneficiary stories involve consent, dignity and identifiable people."
 ---
 
 # Nonprofit Storytelling

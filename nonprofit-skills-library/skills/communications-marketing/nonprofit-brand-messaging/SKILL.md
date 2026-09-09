@@ -2,6 +2,8 @@
 name: nonprofit-brand-messaging
 description: "Defines a nonprofit's brand voice, positioning statement, and messaging house (mission-aligned pillar messages, proof points, boilerplate) for consistent use across every channel. Use for tasks like \"define our brand voice and tone,\" \"write a positioning statement,\" \"build a messaging house/message map,\" \"create boilerplate language for our org,\" \"our website copy and our social posts sound inconsistent, fix that,\" or \"draft messaging guidelines for staff to use.\" Does not cover writing individual beneficiary stories (nonprofit-storytelling), annual report structure (nonprofit-annual-report), platform-specific social content calendars (nonprofit-social-media), press release writing (nonprofit-media-relations), or donation-page conversion copy (nonprofit-donation-page-copy) — those channels should draw on, but this skill does not produce, channel-specific copy."
 license: MIT
+supervision: unsupervised
+supervision_note: "Internal voice and positioning work; a wrong draft costs an edit."
 ---
 
 # Nonprofit Brand Messaging

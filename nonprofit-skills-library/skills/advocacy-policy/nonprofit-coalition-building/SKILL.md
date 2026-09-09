@@ -2,6 +2,8 @@
 name: nonprofit-coalition-building
 description: "Builds and runs multi-organization advocacy coalitions: partner recruitment, coalition MOUs and governance structures, shared decision-making rules, message alignment across partners, and joint sign-on letters. Use when a user asks to form or join an advocacy coalition, draft a coalition MOU or governance charter, resolve disagreement between partner orgs on messaging or strategy, coordinate a joint sign-on letter or statement, or design how a coalition makes decisions and shares credit/resources. Covers cross-organizational structure and alignment, not single-org issue research (nonprofit-policy-analysis), not one org's legislator meetings (nonprofit-legislative-advocacy), and not public supporter mobilization tactics (nonprofit-grassroots-mobilization)."
 license: MIT
+supervision: review
+supervision_note: "Coalition MOUs and shared decision rights commit the organization to partners."
 ---
 
 # Nonprofit Coalition Building

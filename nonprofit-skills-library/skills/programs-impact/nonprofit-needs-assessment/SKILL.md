@@ -2,6 +2,8 @@
 name: nonprofit-needs-assessment
 description: "Plans and conducts community needs assessments and landscape/gap scans to justify launching, continuing, or discontinuing a nonprofit program, including secondary data review, primary data collection (surveys, focus groups, key informant interviews), asset mapping, and gap analysis against existing providers. Use when a user asks to assess community need before starting a program, prove there is unmet demand for a funder or board, conduct a landscape scan of who else serves this population, run a gap analysis, plan community listening sessions or focus groups, or decide whether to sunset a program because the need has shifted. Covers the pre-program research phase, not the causal design of the program itself once need is established (nonprofit-program-design) and not measuring outcomes once the program is running (nonprofit-outcomes-measurement)."
 license: MIT
+supervision: review
+supervision_note: "Primary data collection involves human participants and consent."
 ---
 
 # Nonprofit Needs Assessment

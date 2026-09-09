@@ -2,6 +2,8 @@
 name: nonprofit-executive-search
 description: "Runs a nonprofit ED/CEO or C-suite executive search led by a board search committee (with or without an outside firm): charters the committee, sets board-vs-committee decision rights, writes an opportunity-framed position profile, benchmarks pay via Form 990 Schedule J and sector comp surveys, manages sourcing and a structured slate with a calibrated rubric and structured interviews (behavioral, case, scenario), runs references and background checks, and handles offer and announcement. Use when asked to launch an ED/CEO search, staff a search committee, write a position profile, set or defend an ED salary range, interview finalists, run references, negotiate an offer, or draft the hire announcement. Does not cover non-executive staff hiring (use nonprofit-hr, nonprofit-staff-retention), board recruitment (use nonprofit-board-recruitment), leadership pipeline or emergency succession (use nonprofit-succession-planning), or the incoming executive's first-90-days plan (use nonprofit-executive-transitions)."
 license: MIT
+supervision: expert-required
+supervision_note: "Executive pay benchmarking is reported on the Form 990 and carries intermediate-sanctions risk."
 last_reviewed: 2026-09-07
 ---
 

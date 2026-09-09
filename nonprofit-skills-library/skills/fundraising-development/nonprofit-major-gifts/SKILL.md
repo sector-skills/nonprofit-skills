@@ -2,6 +2,8 @@
 name: nonprofit-major-gifts
 description: "Sets major and principal gift strategy: rating prospect capacity and readiness, setting a specific ask amount, structuring a gift proposal or one-page case document, and drafting/negotiating gift agreements including multi-year pledges and named-gift terms. Use when a user asks how much to ask a specific donor for, wants help structuring a major-gift proposal or gift agreement, needs a capacity/readiness rating for one prospect, or is preparing a solicitation visit. Does not cover moving a prospect through general pipeline stages (use nonprofit-donor-pipeline), bequests/estate and legacy gifts (use nonprofit-planned-giving), or campaign-wide gift tables and campaign leadership (use nonprofit-capital-campaigns)."
 license: MIT
+supervision: expert-required
+supervision_note: "Gift agreements, multi-year pledges and naming rights are enforceable commitments."
 ---
 
 # Major & Principal Gift Strategy

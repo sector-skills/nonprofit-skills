@@ -2,6 +2,8 @@
 name: nonprofit-eos-traction
 description: "Adapts the EOS/Traction operating system for nonprofits: Vision/Traction Organizer (V/TO), Rocks (90-day priorities), Level 10 Meetings (L10s) with IDS, weekly Scorecards with leading-indicator metrics, and the Accountability Chart mapped onto a nonprofit's ED/board/staff structure. Use when a user says things like \"we want to run EOS,\" \"help me set our quarterly Rocks,\" \"how do I structure an L10 meeting,\" \"build our accountability chart,\" or \"our meetings are unproductive and we want more accountability.\" Does not cover setting the 3-5 year strategic priorities themselves (use nonprofit-strategic-planning, whose output feeds the V/TO's long-term goals) and does not cover board governance structure, board meeting agendas, or committee design (use nonprofit-board-governance)."
 license: MIT
+supervision: review
+supervision_note: "An operating system the whole staff is asked to follow."
 ---
 
 # Nonprofit EOS/Traction Operating System

@@ -2,6 +2,8 @@
 name: nonprofit-executive-communications
 description: "Drafts first-person nonprofit CEO/ED communications to staff, board, funders, and close stakeholders: all-staff and monthly notes, crisis and layoff/RIF/restructure announcements (with manager talking points and internal FAQ), funder and partner letters, town-hall scripts and Q&A, 'from the ED' newsletter columns, culture-setting notes, and public statements paired with a 'should we speak?' decision memo. Use when writing, revising, or gut-checking a message going out under the ED/CEO's own name — hard-news announcements, layoff letters, tone-setting notes, or personal statements on public issues affecting the org. Does not cover organizational brand voice or marketing (use nonprofit-brand-messaging), press releases and reporter relationships (use nonprofit-media-relations), donor appeals, annual reports, or donation pages (use nonprofit-annual-report, nonprofit-annual-appeals, or nonprofit-donation-page-copy), or CEO-to-board work like board reports and 1:1 agendas (use nonprofit-ceo-board-partnership)."
 license: MIT
+supervision: review
+supervision_note: "All-staff and funder notes carry the CEO's name. Layoff/RIF content should also go to employment counsel."
 last_reviewed: 2026-09-07
 ---
 

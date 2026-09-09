@@ -2,6 +2,8 @@
 name: nonprofit-policy-analysis
 description: "Researches and writes issue briefs, policy position papers, one-pagers, and comparative bill/regulation analyses for a nonprofit's advocacy agenda. Use when a user asks to draft a policy brief or white paper, analyze a bill or proposed regulation, write a position statement or talking points on an issue, build an evidence base for a policy ask, or compare policy options before deciding a stance. Covers research and written analysis only, not scheduling legislator meetings or delivering testimony (nonprofit-legislative-advocacy), not multi-org sign-on or coalition messaging governance (nonprofit-coalition-building), and not action alerts or petition copy to mobilize supporters (nonprofit-grassroots-mobilization)."
 license: MIT
+supervision: review
+supervision_note: "Published position papers are quoted back to you; errors are public."
 ---
 
 # Nonprofit Policy Analysis

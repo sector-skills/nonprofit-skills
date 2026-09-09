@@ -2,6 +2,8 @@
 name: nonprofit-retail-staffing
 description: "Designs the paid-plus-volunteer staffing model for a resale storefront: shift scheduling, retail-specific training, and floor role design. Use for 'schedule our store shifts,' 'train new thrift-store staff and volunteers,' 'design register/floor role coverage.' General hiring/personnel policy is nonprofit-hr; general volunteer program design is nonprofit-volunteer-management."
 license: MIT
+supervision: review
+supervision_note: "Mixed paid/volunteer scheduling touches wage-and-hour boundaries."
 ---
 
 # Nonprofit Retail Staffing

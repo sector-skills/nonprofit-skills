@@ -2,6 +2,8 @@
 name: nonprofit-donor-pipeline
 description: "Builds and manages donor pipeline and moves-management systems: prospect identification, qualification, cultivation move sequencing, solicitation staging, and stage-to-stage conversion tracking. Use when a user asks to build a moves-management plan, set up pipeline/gift range stages, triage a prospect list, write a portfolio's next-move plan, calculate stage conversion rates, or diagnose why prospects are stalling in a stage. Does not cover setting ask amounts or structuring major-gift proposals (use nonprofit-major-gifts), thank-you/acknowledgment mechanics and lapsed-donor win-back (use nonprofit-donor-retention), or CRM software selection/configuration (use nonprofit-donor-crm)."
 license: MIT
+supervision: review
+supervision_note: "Moves management runs on donor records and personal information."
 ---
 
 # Donor Pipeline & Moves Management

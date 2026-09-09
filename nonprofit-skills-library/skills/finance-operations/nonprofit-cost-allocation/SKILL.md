@@ -2,6 +2,8 @@
 name: nonprofit-cost-allocation
 description: "Calculates and negotiates indirect cost rates (de minimis 10% de minimis rate, negotiated indirect cost rate agreements/NICRA under 2 CFR 200 Uniform Guidance), builds true-cost-of-program analysis, and designs shared-cost allocation methodologies (time studies, square footage, headcount, cost pools) for splitting overhead across programs and grants. Use when asked to calculate an indirect cost rate, decide whether to elect the 10% de minimis rate, negotiate a NICRA with a federal cognizant agency, determine the true full cost of running a program, or design/document a cost allocation plan. Does not cover building the overall annual operating budget or its program/admin/fundraising split for board purposes (use nonprofit-budgeting), producing the audited functional expense statement (use nonprofit-financial-statements), or reserve/cash-timing questions (use nonprofit-reserves-cash-flow)."
 license: MIT
+supervision: expert-required
+supervision_note: "Indirect cost rates and NICRAs under 2 CFR 200 are negotiated with the federal government."
 ---
 
 # Nonprofit Cost Allocation
