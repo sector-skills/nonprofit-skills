@@ -160,7 +160,16 @@ python3 scripts/check_supervision.py --json  # machine-readable output
 ```
 
 The script exits non-zero only when a skill declares a level outside the three above. Missing
-fields are reported but do not fail, so the field can be adopted category by category.
+fields are reported but do not fail, so new skills can be added before their level is settled.
+
+All 63 skills currently declare a level: **7 unsupervised, 38 review, 18 expert-required**. The
+`expert-required` set is deliberately small and shares one test — a credentialed professional
+(attorney, CPA, licensed auditor) is genuinely needed, not merely advisable. It covers Form 990
+and charitable registration, bylaws and entity structure, audited statements, indirect cost rates
+under 2 CFR 200, FLSA classification, binding contracts and leases, gift instruments and named
+gifts, IRS Form 8283 appraisals, 501(h) lobbying limits, electioneering rules, executive
+compensation, merger and fiscal-sponsorship structures, unrelated business income, and data
+privacy obligations.
 
 ## Maintenance & review cadence
 

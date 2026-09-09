@@ -2,6 +2,8 @@
 name: nonprofit-peer-to-peer-fundraising
 description: "Plans and runs walk/run/ride and team-fundraising campaigns: participant and team-captain recruitment, individual fundraising page copy templates, team captain toolkits, incentive/leaderboard mechanics, and peer-to-peer email/social prompts to participants' own networks. Use when a user asks to plan a walkathon/run/ride fundraiser, recruit or support team captains, write participant fundraising-page copy or coaching emails, design a leaderboard or incentive structure, or grow per-participant fundraising averages. Does not cover corporate sponsorship of the event (use nonprofit-corporate-sponsorships), venue/day-of event logistics (use nonprofit-fundraising-events), or one-time appeal letters not routed through individual participant networks (use nonprofit-annual-appeals)."
 license: MIT
+supervision: unsupervised
+supervision_note: "Participant toolkits and prompts; low stakes and easily corrected."
 ---
 
 # Peer-to-Peer & Team Fundraising

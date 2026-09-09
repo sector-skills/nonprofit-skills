@@ -2,6 +2,8 @@
 name: nonprofit-donor-crm
 description: "Selects and configures a donor CRM/database (e.g., Salesforce Nonprofit Cloud, Bloomerang, Little Green Light, Neon CRM, DonorPerfect, Virtuous), designs data hygiene routines (deduplication, standardized constituent records, data entry policy), and builds list segmentation for mailings and reporting. Use for CRM RFPs/vendor comparison, field mapping and data migration planning, dedup and merge rules, household/soft-credit setup, and saved-segment or query-tag design. Does not cover writing appeal copy or ask strings (nonprofit-annual-appeals), online giving/payment processor setup (nonprofit-digital-fundraising-tools), or donor data privacy/PCI policy (nonprofit-data-privacy)."
 license: MIT
+supervision: review
+supervision_note: "CRM selection and data hygiene decide where constituent data lives for years."
 ---
 
 # Nonprofit Donor CRM

@@ -2,6 +2,8 @@
 name: nonprofit-donation-page-copy
 description: "Writes and structures nonprofit website donation/giving pages to maximize completed gifts: headline and form-flow copy, ask-string/suggested-amount design, impact framing per gift amount, trust signals, and friction-reduction fixes for checkout abandonment. Use for tasks like \"rewrite our donate page to convert better,\" \"what suggested donation amounts should we use,\" \"our donation form has high abandonment, diagnose it,\" \"write the thank-you/confirmation page copy,\" or \"add impact statements next to each gift amount.\" Does not cover paid ad copy, general website copy outside the giving flow, annual appeal email/letter copy (nonprofit-annual-appeals), peer-to-peer participant fundraising pages (nonprofit-peer-to-peer-fundraising), or payment processor/platform selection (nonprofit-digital-fundraising-tools)."
 license: MIT
+supervision: review
+supervision_note: "Impact claims per gift amount are representations made to donors."
 ---
 
 # Nonprofit Donation Page Copy

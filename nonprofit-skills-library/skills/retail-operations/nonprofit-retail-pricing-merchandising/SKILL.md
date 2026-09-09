@@ -2,6 +2,8 @@
 name: nonprofit-retail-pricing-merchandising
 description: "Sets pricing strategy for used/donated goods, plans store floor layout, seasonal category rotation, and visual merchandising/display for a thrift or resale store. Use for 'price our donated inventory,' 'redesign the store floor plan,' 'plan a seasonal color-tag rotation.' Online marketplace listing/pricing lives in nonprofit-online-resale."
 license: MIT
+supervision: unsupervised
+supervision_note: "Pricing and floor layout for donated goods; adjust and move on."
 ---
 
 # Nonprofit Retail Pricing & Merchandising

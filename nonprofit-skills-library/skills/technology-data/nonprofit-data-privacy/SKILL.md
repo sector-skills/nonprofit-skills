@@ -2,6 +2,8 @@
 name: nonprofit-data-privacy
 description: "Designs donor and constituent data privacy practices: privacy policy and donor Bill of Rights language, PCI-DSS scope reduction for online donation pages, data-sharing/co-op and list-rental agreements, consent and opt-in management, breach response, and CCPA/GDPR/state-privacy-law applicability for nonprofits. Use for privacy policy drafting or review, PCI compliance questions about card data handling, donor list rental/exchange agreements, and data subject access/opt-out requests. Does not cover choosing or configuring the CRM itself (nonprofit-donor-crm) or selecting a payment processor/giving platform (nonprofit-digital-fundraising-tools)."
 license: MIT
+supervision: expert-required
+supervision_note: "Privacy policy, PCI-DSS scope and breach response carry statutory obligations."
 ---
 
 # Nonprofit Data Privacy

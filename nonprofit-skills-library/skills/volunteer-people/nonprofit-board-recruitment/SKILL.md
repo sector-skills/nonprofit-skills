@@ -2,6 +2,8 @@
 name: nonprofit-board-recruitment
 description: "Builds board recruitment pipelines for the governing board: board composition/skills matrices, gap analysis against strategic needs, prospective board member identification and cultivation, board candidate packets, term/rotation design, and new-board-member onboarding through their first meeting. Use for tasks like 'build a board skills matrix,' 'find and cultivate new board candidates,' 'design our board onboarding packet,' 'set board term limits,' or 'diagnose why our board recruitment keeps stalling.' Boundary: running existing board meetings, committee structure, and board self-assessment is nonprofit-board-governance; recruiting program/event volunteers is nonprofit-volunteer-management; ED transition planning is nonprofit-succession-planning."
 license: MIT
+supervision: review
+supervision_note: "Board composition is a governance decision with fiduciary consequences."
 metadata:
   author: nonprofit-skills-library
   version: '1.0'

@@ -2,6 +2,8 @@
 name: nonprofit-reserves-cash-flow
 description: "Designs operating reserve policy (target months of expense, funding sources, drawdown/replenishment triggers), builds 12-13 week and annual cash flow forecasts, and plans bridge financing for seasonal or grant-timing funding gaps (lines of credit, grant advances, reimbursement-cycle float). Use when asked how many months of reserves a nonprofit should hold, to build a cash flow forecast or cash flow projection, to diagnose a cash crunch or seasonal gap, to write a board reserve policy, or to plan around delayed reimbursement grants. Does not cover the annual operating budget itself (use nonprofit-budgeting), producing GAAP financial statements (use nonprofit-financial-statements), or indirect cost rate/true-cost analysis (use nonprofit-cost-allocation)."
 license: MIT
+supervision: review
+supervision_note: "Reserve policy and cash forecasts drive real solvency decisions."
 ---
 
 # Nonprofit Reserves & Cash Flow

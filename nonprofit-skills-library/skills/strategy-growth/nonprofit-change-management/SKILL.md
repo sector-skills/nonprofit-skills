@@ -2,6 +2,8 @@
 name: nonprofit-change-management
 description: "Leads nonprofit organizational change through leadership transitions, mergers, restructurings, layoffs, and program pivots: change-readiness assessment, stakeholder impact mapping, a phased communication plan (staff, board, funders, clients/community), and named change models (ADKAR, Kotter's 8 Steps, Bridges' Transition Model) adapted for mission-driven culture. Use when a user says things like \"we're going through a merger and staff are anxious,\" \"how do we announce this restructuring,\" \"help me communicate a program pivot to our community,\" \"we're losing our founder and need a transition communication plan,\" or \"morale is cratering during this change.\" Does not cover the merger/sponsorship feasibility analysis or deal terms themselves (use nonprofit-mergers-fiscal-sponsorship), does not cover the ED succession planning process itself (use nonprofit-succession-planning), and does not cover day-to-day staff culture/retention practices absent an active change event (use nonprofit-staff-retention)."
 license: MIT
+supervision: review
+supervision_note: "Restructures and layoffs affect real people and morale."
 ---
 
 # Nonprofit Change Management
