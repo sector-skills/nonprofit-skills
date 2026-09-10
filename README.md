@@ -22,26 +22,26 @@ Copy the `SKILL.md` file(s) you want into your agent's skills folder. For exampl
 skill:
 
 ```
-curl -o SKILL.md https://raw.githubusercontent.com/<your-org>/nonprofit-skills/main/skills/fundraising-development/nonprofit-grant-writing/SKILL.md
+curl -o SKILL.md https://raw.githubusercontent.com/<your-org>/nonprofit-skills/main/nonprofit-skills-library/skills/fundraising-development/nonprofit-grant-writing/SKILL.md
 ```
 
-Or clone the whole library and point your agent at the `skills/` directory.
+Or clone the whole library and point your agent at the `nonprofit-skills-library/skills/` directory.
 
 ## Categories
 
 | Category | Skills |
 |---|---|
-| [Fundraising & Development](skills/fundraising-development) | donor pipeline, major gifts, grant writing, grant research, annual appeals, planned giving, capital campaigns, peer-to-peer fundraising, corporate sponsorships, donor retention, fundraising events |
-| [Governance & Compliance](skills/governance-compliance) | board governance, bylaws & policy, Form 990, charitable registration, risk management, 501(c)(3)/(c)(4) structure |
-| [Finance & Operations](skills/finance-operations) | budgeting, financial statements, reserves & cash flow, cost allocation, financial controls, HR, vendor & facilities |
-| [Programs & Impact](skills/programs-impact) | program design, outcomes measurement, needs assessment, program scaling |
-| [Communications & Marketing](skills/communications-marketing) | storytelling, annual report, brand messaging, social media, email newsletter, media relations, donation page copy |
-| [Advocacy & Public Policy](skills/advocacy-policy) | policy analysis, legislative advocacy, coalition building, voter engagement, grassroots mobilization |
-| [Volunteer & People](skills/volunteer-people) | volunteer management, board recruitment, staff retention, succession planning |
-| [Strategy & Growth](skills/strategy-growth) | strategic planning, EOS/Traction for nonprofits, revenue diversification, mergers & fiscal sponsorship, change management |
-| [Technology & Data](skills/technology-data) | donor CRM, data privacy, digital fundraising tools |
-| [Retail & Resale Operations](skills/retail-operations) | donation intake & grading, retail pricing & merchandising, retail store operations, online resale, retail staffing, in-kind gift acceptance |
-| [Executive Leadership](skills/executive-leadership) | CEO ↔ board partnership, executive transitions, executive search, executive communications, executive dashboard |
+| [Fundraising & Development](nonprofit-skills-library/skills/fundraising-development) | donor pipeline, major gifts, grant writing, grant research, annual appeals, planned giving, capital campaigns, peer-to-peer fundraising, corporate sponsorships, donor retention, fundraising events |
+| [Governance & Compliance](nonprofit-skills-library/skills/governance-compliance) | board governance, bylaws & policy, Form 990, charitable registration, risk management, 501(c)(3)/(c)(4) structure |
+| [Finance & Operations](nonprofit-skills-library/skills/finance-operations) | budgeting, financial statements, reserves & cash flow, cost allocation, financial controls, HR, vendor & facilities |
+| [Programs & Impact](nonprofit-skills-library/skills/programs-impact) | program design, outcomes measurement, needs assessment, program scaling |
+| [Communications & Marketing](nonprofit-skills-library/skills/communications-marketing) | storytelling, annual report, brand messaging, social media, email newsletter, media relations, donation page copy |
+| [Advocacy & Public Policy](nonprofit-skills-library/skills/advocacy-policy) | policy analysis, legislative advocacy, coalition building, voter engagement, grassroots mobilization |
+| [Volunteer & People](nonprofit-skills-library/skills/volunteer-people) | volunteer management, board recruitment, staff retention, succession planning |
+| [Strategy & Growth](nonprofit-skills-library/skills/strategy-growth) | strategic planning, EOS/Traction for nonprofits, revenue diversification, mergers & fiscal sponsorship, change management |
+| [Technology & Data](nonprofit-skills-library/skills/technology-data) | donor CRM, data privacy, digital fundraising tools |
+| [Retail & Resale Operations](nonprofit-skills-library/skills/retail-operations) | donation intake & grading, retail pricing & merchandising, retail store operations, online resale, retail staffing, in-kind gift acceptance |
+| [Executive Leadership](nonprofit-skills-library/skills/executive-leadership) | CEO ↔ board partnership, executive transitions, executive search, executive communications, executive dashboard |
 
 ## All skills (63)
 
@@ -154,9 +154,9 @@ skills carry it, none of them do.
 To see which skills declare a level:
 
 ```
-python3 scripts/check_supervision.py         # list skills missing the field
-python3 scripts/check_supervision.py --all   # show every skill with its level
-python3 scripts/check_supervision.py --json  # machine-readable output
+python3 nonprofit-skills-library/scripts/check_supervision.py         # list skills missing the field
+python3 nonprofit-skills-library/scripts/check_supervision.py --all   # show every skill with its level
+python3 nonprofit-skills-library/scripts/check_supervision.py --json  # machine-readable output
 ```
 
 The script exits non-zero only when a skill declares a level outside the three above. Missing
@@ -189,9 +189,9 @@ Skills stay useful only if they're maintained. This library commits to a predict
 Every `SKILL.md` carries a `last_reviewed: YYYY-MM-DD` field. To see which skills are overdue:
 
 ```
-python3 scripts/check_review_status.py         # list overdue skills
-python3 scripts/check_review_status.py --all   # show every skill with its status
-python3 scripts/check_review_status.py --json  # machine-readable output
+python3 nonprofit-skills-library/scripts/check_review_status.py         # list overdue skills
+python3 nonprofit-skills-library/scripts/check_review_status.py --all   # show every skill with its status
+python3 nonprofit-skills-library/scripts/check_review_status.py --json  # machine-readable output
 ```
 
 Fast-moving categories (`fundraising-development`, `governance-compliance`, `technology-data`)
