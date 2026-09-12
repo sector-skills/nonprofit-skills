@@ -42,8 +42,9 @@ Or clone the whole library and point your agent at the `nonprofit-skills-library
 | [Technology & Data](nonprofit-skills-library/skills/technology-data) | donor CRM, data privacy, digital fundraising tools |
 | [Retail & Resale Operations](nonprofit-skills-library/skills/retail-operations) | donation intake & grading, retail pricing & merchandising, retail store operations, online resale, retail staffing, in-kind gift acceptance |
 | [Executive Leadership](nonprofit-skills-library/skills/executive-leadership) | CEO ↔ board partnership, executive transitions, executive search, executive communications, executive dashboard |
+| [Affordable Housing](nonprofit-skills-library/skills/affordable-housing) | housing continuum planning, homelessness services, rapid rehousing & transitional housing, permanent supportive housing, affordable rental operations, homeownership programs, home repair & preservation, development & finance, LIHTC/HUD compliance, fair housing, land-use advocacy, community ownership, construction volunteers |
 
-## All skills (63)
+## All skills (76)
 
 | Skill | What it's for |
 |---|---|
@@ -110,6 +111,19 @@ Or clone the whole library and point your agent at the `nonprofit-skills-library
 | `nonprofit-online-resale` | ShopGoodwill/eBay-style listings, photography, shipping |
 | `nonprofit-retail-staffing` | Paid+volunteer retail shift scheduling and floor training |
 | `nonprofit-in-kind-gift-acceptance` | Form 8283, qualified appraisals, gift acceptance policy |
+| `nonprofit-housing-continuum-planning` | Map the community housing continuum, AMI-band gap analysis, where-we-play portfolio decisions |
+| `nonprofit-housing-homelessness-services` | Street outreach, emergency shelter, diversion/prevention, coordinated entry, HMIS, PIT counts |
+| `nonprofit-housing-rapid-rehousing-transitional` | Rapid rehousing and transitional housing program design under CoC/ESG rules, landlord engagement |
+| `nonprofit-housing-permanent-supportive-housing` | PSH design, Housing First fidelity, staffing models, retention, braided funding |
+| `nonprofit-housing-affordable-rental-operations` | Tenant selection plans, income certs, rent setting, waitlists, property vs. asset management |
+| `nonprofit-housing-homeownership-programs` | Homebuyer selection, sweat equity, below-market financing, post-purchase support, resale formulas |
+| `nonprofit-housing-repair-preservation` | Critical home repair, weatherization, aging-in-place, lead-safe work, NOAH preservation |
+| `nonprofit-housing-development-finance` | Site control, entitlements, pro formas, LIHTC/HOME/bond capital stacks, construction oversight |
+| `nonprofit-housing-lihtc-hud-compliance` | Section 42 certifications, income/rent limits, monitoring-visit prep, tenant file readiness |
+| `nonprofit-housing-fair-housing` | FHA, 504/ADA, reasonable accommodation, screening policy review, complaint response |
+| `nonprofit-housing-advocacy-land-use` | Zoning reform, hearing testimony, NIMBY response, housing ballot measures, lobbying limits |
+| `nonprofit-housing-community-ownership` | Community land trusts, limited-equity co-ops, shared-equity resale formulas, stewardship |
+| `nonprofit-housing-construction-volunteers` | Build-season scheduling, crew-leader development, jobsite safety, AmeriCorps deployment |
 
 ## Contributing
 
