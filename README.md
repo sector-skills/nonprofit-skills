@@ -42,9 +42,10 @@ Or clone the whole library and point your agent at the `nonprofit-skills-library
 | [Technology & Data](nonprofit-skills-library/skills/technology-data) | donor CRM, data privacy, digital fundraising tools |
 | [Retail & Resale Operations](nonprofit-skills-library/skills/retail-operations) | donation intake & grading, retail pricing & merchandising, retail store operations, online resale, retail staffing, in-kind gift acceptance |
 | [Executive Leadership](nonprofit-skills-library/skills/executive-leadership) | CEO ↔ board partnership, executive transitions, executive search, executive communications, executive dashboard |
+| [Faith-Based Organizations](nonprofit-skills-library/skills/faith-based) | church governance, finance & clergy comp, 990 exemption, stewardship & giving, ministerial-exception employment, religious liberty compliance, programs & social services, pastoral communications, lay leadership, facilities & sanctuary |
 | [Affordable Housing](nonprofit-skills-library/skills/affordable-housing) | housing continuum planning, homelessness services, rapid rehousing & transitional housing, permanent supportive housing, affordable rental operations, homeownership programs, home repair & preservation, development & finance, LIHTC/HUD compliance, fair housing, land-use advocacy, community ownership, construction volunteers |
 
-## All skills (76)
+## All skills (86)
 
 | Skill | What it's for |
 |---|---|
@@ -111,6 +112,16 @@ Or clone the whole library and point your agent at the `nonprofit-skills-library
 | `nonprofit-online-resale` | ShopGoodwill/eBay-style listings, photography, shipping |
 | `nonprofit-retail-staffing` | Paid+volunteer retail shift scheduling and floor training |
 | `nonprofit-in-kind-gift-acceptance` | Form 8283, qualified appraisals, gift acceptance policy |
+| `nonprofit-faith-990-exemption` | Church/synagogue/mosque tax status: automatic 501(c)(3) exemption, 990 filing exemption, §7611 audit protections |
+| `nonprofit-faith-church-governance` | Worship-community polity: bylaws, congregational meetings, elder/vestry/shura structures, pastor call and separation |
+| `nonprofit-faith-finance-clergy-comp` | Clergy pay and church finance: §107 housing allowance, SECA, love offerings, accountable plans, §4958, 403(b) |
+| `nonprofit-faith-stewardship-giving` | Congregational stewardship: pledge campaigns, tithe/zakat messaging, worship-building capital campaigns, §6115 rules |
+| `nonprofit-faith-employment-ministerial-exception` | Ministerial exception, §702 religious hiring, clergy misconduct and safe-sanctuary employment policy |
+| `nonprofit-faith-religious-liberty-compliance` | RFRA/RLUIPA, religious hiring rights, free-exercise framework for faith-based nonprofits |
+| `nonprofit-faith-programs-social-services` | Faith-based food pantry, recovery, re-entry, shelter, and resettlement programs under Charitable Choice rules |
+| `nonprofit-faith-communications-pastoral` | Pastoral voice: letters, funeral/crisis notices, misconduct responses, farewell/arrival messages |
+| `nonprofit-faith-volunteer-lay-leadership` | Deacon/elder/warden/trustee recruitment and formation, lay-leader burnout and sabbaticals |
+| `nonprofit-faith-facilities-sanctuary` | Worship-building operations: property-tax exemption, RLUIPA zoning, facility-use policies, rental UBIT |
 | `nonprofit-housing-continuum-planning` | Map the community housing continuum, AMI-band gap analysis, where-we-play portfolio decisions |
 | `nonprofit-housing-homelessness-services` | Street outreach, emergency shelter, diversion/prevention, coordinated entry, HMIS, PIT counts |
 | `nonprofit-housing-rapid-rehousing-transitional` | Rapid rehousing and transitional housing program design under CoC/ESG rules, landlord engagement |
