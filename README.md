@@ -44,8 +44,9 @@ Or clone the whole library and point your agent at the `nonprofit-skills-library
 | [Executive Leadership](nonprofit-skills-library/skills/executive-leadership) | CEO ↔ board partnership, executive transitions, executive search, executive communications, executive dashboard |
 | [Faith-Based Organizations](nonprofit-skills-library/skills/faith-based) | church governance, finance & clergy comp, 990 exemption, stewardship & giving, ministerial-exception employment, religious liberty compliance, programs & social services, pastoral communications, lay leadership, facilities & sanctuary |
 | [Affordable Housing](nonprofit-skills-library/skills/affordable-housing) | housing continuum planning, homelessness services, rapid rehousing & transitional housing, permanent supportive housing, affordable rental operations, homeownership programs, home repair & preservation, development & finance, LIHTC/HUD compliance, fair housing, land-use advocacy, community ownership, construction volunteers |
+| [Community Development Finance](nonprofit-skills-library/skills/community-development-finance) | CDFI finance, NMTC deals, opportunity zones, community facilities finance, disaster recovery finance |
 
-## All skills (86)
+## All skills (91)
 
 | Skill | What it's for |
 |---|---|
@@ -135,6 +136,11 @@ Or clone the whole library and point your agent at the `nonprofit-skills-library
 | `nonprofit-housing-advocacy-land-use` | Zoning reform, hearing testimony, NIMBY response, housing ballot measures, lobbying limits |
 | `nonprofit-housing-community-ownership` | Community land trusts, limited-equity co-ops, shared-equity resale formulas, stewardship |
 | `nonprofit-housing-construction-volunteers` | Build-season scheduling, crew-leader development, jobsite safety, AmeriCorps deployment |
+| `nonprofit-cdfi-finance` | CDFI lenders and deal partners, Treasury CDFI Fund awards, nonprofit CDFI certification |
+| `nonprofit-nmtc-deals` | New Markets Tax Credit deals: CDE allocations, structuring, 7-year compliance, LIHTC layering |
+| `nonprofit-opportunity-zones` | QOF/QOZB structuring, current-law mechanics, nonprofit roles, community-benefit covenants |
+| `nonprofit-community-facilities-finance` | Capital stacks for health centers, child care, charter schools, food retail: USDA CF, bonds, layering |
+| `nonprofit-disaster-recovery-finance` | FEMA PA for nonprofits, SBA disaster loans, CDBG-DR/MIT, rebuild capital stacks |
 
 ## Contributing
 

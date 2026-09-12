@@ -24,6 +24,10 @@ $180,000."
 building is `nonprofit-capital-campaigns`. Section 42 tenant certifications, ongoing HOME/ESG
 monitoring, and audit file-readiness after close are `nonprofit-housing-lihtc-hud-compliance`.
 Campaigning for zoning reform or against NIMBY opposition is `nonprofit-housing-advocacy-land-use`.
+NMTC allocation and deal structuring, CDFI lending and award programs, Opportunity Zone funds,
+and community-facility (health center, child care, school, food retail) capital stacks are
+`nonprofit-nmtc-deals`, `nonprofit-cdfi-finance`, `nonprofit-opportunity-zones`, and
+`nonprofit-community-facilities-finance`.
 Ground leases, community land trusts, and limited-equity co-op ownership structures are
 `nonprofit-housing-community-ownership`. The organization's own annual operating budget is
 `nonprofit-budgeting`. Property management of the finished asset — rent setting, certifications,
