@@ -2,7 +2,7 @@
 name: nonprofit-faith-volunteer-lay-leadership
 description: "Lay leadership inside a worship community: recruiting, discerning, forming, and sustaining deacons, elders, wardens, trustees, gabbaim, shura members, temple committees, small-group leaders, and volunteer teachers — plus clergy and lay-leader burnout, Sabbath practice, and clergy sabbatical planning (Lilly Clergy Renewal, Louisville Institute, CREDO). Use for 'nominate elders,' 'small-group pipeline,' 'same twelve people run everything,' 'pastor is burning out,' 'plan a clergy sabbatical,' 'SHAPE assessment,' 'gabbai or shura training.' Not for episodic volunteers (nonprofit-volunteer-management), secular board recruitment (nonprofit-board-recruitment), non-clergy staff retention (nonprofit-staff-retention), polity/bylaws (nonprofit-faith-church-governance), congregation-into-program delivery (nonprofit-faith-programs-social-services), safe-sanctuary/misconduct (nonprofit-faith-employment-ministerial-exception), or paying a lay leader who becomes staff (nonprofit-faith-finance-clergy-comp)."
 license: MIT
-supervision: autonomous
+supervision: review
 supervision_note: "Formation, discernment, and sustainability content — no legal/tax artifact of record. Escalate to review-mode siblings when a volunteer crosses into paid status, when safe-sanctuary or misconduct facts appear, or when removal from office requires denominational due process."
 last_reviewed: 2026-09-10
 ---

@@ -2,7 +2,7 @@
 name: nonprofit-faith-communications-pastoral
 description: "Pastoral-voice communications for US faith-based orgs: pastoral letters, funeral/memorial notices, crisis and tragedy responses, clergy misconduct letters, denominational statements, farewell/arrival letters, and Christian/Jewish/Muslim liturgical-calendar messages. Use when clergy or a faith-based ED says 'draft a pastoral letter,' 'should we say anything,' 'note about a death,' 'Ramadan greeting,' or 'letter about the investigation.' Not secular CEO all-staff (nonprofit-executive-communications), brand copy (nonprofit-brand-messaging), press releases (nonprofit-media-relations), giving letters (nonprofit-faith-stewardship-giving), or statement-adoption process (nonprofit-faith-church-governance)."
 license: MIT
-supervision: autonomous
+supervision: review
 supervision_note: "Pastoral communications do not carry direct legal or tax consequence when the clergy adopts the draft in their own voice; the clergy remains the author of record."
 last_reviewed: 2026-09-10
 ---
