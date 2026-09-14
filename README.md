@@ -27,7 +27,7 @@ curl -o SKILL.md https://raw.githubusercontent.com/<your-org>/nonprofit-skills/m
 
 Or clone the whole library and point your agent at the `nonprofit-skills-library/skills/` directory.
 
-## Categories
+## Core categories
 
 | Category | Skills |
 |---|---|
@@ -40,13 +40,21 @@ Or clone the whole library and point your agent at the `nonprofit-skills-library
 | [Volunteer & People](nonprofit-skills-library/skills/volunteer-people) | volunteer management, board recruitment, staff retention, succession planning |
 | [Strategy & Growth](nonprofit-skills-library/skills/strategy-growth) | strategic planning, EOS/Traction for nonprofits, revenue diversification, mergers & fiscal sponsorship, change management |
 | [Technology & Data](nonprofit-skills-library/skills/technology-data) | donor CRM, data privacy, digital fundraising tools |
-| [Retail & Resale Operations](nonprofit-skills-library/skills/retail-operations) | donation intake & grading, retail pricing & merchandising, retail store operations, online resale, retail staffing, in-kind gift acceptance |
 | [Executive Leadership](nonprofit-skills-library/skills/executive-leadership) | CEO ↔ board partnership, executive transitions, executive search, executive communications, executive dashboard |
+
+## Special collections
+
+Domain packs built for practitioners in specific audiences and settings — same single-file format, deeper ground.
+
+| Collection | Skills |
+|---|---|
 | [Faith-Based Organizations](nonprofit-skills-library/skills/faith-based) | church governance, finance & clergy comp, 990 exemption, stewardship & giving, ministerial-exception employment, religious liberty compliance, programs & social services, pastoral communications, lay leadership, facilities & sanctuary |
 | [Affordable Housing](nonprofit-skills-library/skills/affordable-housing) | housing continuum planning, homelessness services, rapid rehousing & transitional housing, permanent supportive housing, affordable rental operations, homeownership programs, home repair & preservation, development & finance, LIHTC/HUD compliance, fair housing, land-use advocacy, community ownership, construction volunteers |
 | [Community Development Finance](nonprofit-skills-library/skills/community-development-finance) | CDFI finance, NMTC deals, opportunity zones, community facilities finance, disaster recovery finance |
+| [Retail & Resale Operations](nonprofit-skills-library/skills/retail-operations) | donation intake & grading, retail pricing & merchandising, retail store operations, online resale, retail staffing, in-kind gift acceptance |
+| [Arts & Culture](nonprofit-skills-library/skills/arts-culture) | box office & subscriptions, membership programs, venue rental & earned income, season & production sponsorship, arts grant writing, season & exhibition planning, commissioning & new work, teaching artists & education, performance & music rights, union agreements & artist visas, AD/ED partnership |
 
-## All skills (91)
+## All skills (102)
 
 | Skill | What it's for |
 |---|---|
@@ -141,6 +149,17 @@ Or clone the whole library and point your agent at the `nonprofit-skills-library
 | `nonprofit-opportunity-zones` | QOF/QOZB structuring, current-law mechanics, nonprofit roles, community-benefit covenants |
 | `nonprofit-community-facilities-finance` | Capital stacks for health centers, child care, charter schools, food retail: USDA CF, bonds, layering |
 | `nonprofit-disaster-recovery-finance` | FEMA PA for nonprofits, SBA disaster loans, CDBG-DR/MIT, rebuild capital stacks |
+| `nonprofit-arts-box-office-subscriptions` | Ticketing platforms and fee models, subscription packages, dynamic pricing, group sales, subscriber renewal economics |
+| `nonprofit-arts-membership-program` | Member tiers and benefits, pricing, renewal campaigns, subscriber→member→donor ladder, token-benefit substantiation |
+| `nonprofit-arts-venue-rental-earned-income` | Hall/gallery/studio rental programs, rental agreements and COI/liquor terms, ancillary earned lines, rental UBIT basics |
+| `nonprofit-arts-season-sponsorship` | Season/production/exhibition underwriting packages, sponsor benefits matrices, in-kind valuation, renewal reporting |
+| `nonprofit-arts-grant-writing` | NEA Grants for Arts Projects, state arts agencies, arts foundations: panel scoring, 1:1 cost share, grants management |
+| `nonprofit-arts-season-planning` | Annual programming cycles, selection scorecards, rights and exhibition lead times, per-title cost estimating, extension math |
+| `nonprofit-arts-commissioning-new-work` | Commission agreement anatomy, IP ownership and options, development pipelines, co-commissioning, gallery consignment |
+| `nonprofit-arts-education-programs` | Teaching-artist rosters and classification, district partnerships, student matinees, youth safety, standards alignment |
+| `nonprofit-arts-performance-licensing` | Grand vs small rights, play/musical licensing houses, PRO blankets, streaming/archival rights, film screening licenses |
+| `nonprofit-arts-union-agreements-visas` | AEA/IATSE/AFM/SAG-AFTRA basics, guest-artist contracts, O-1/P visas, foreign-artist 30% withholding and CWAs |
+| `nonprofit-arts-ad-ed-partnership` | AD/ED decision rights, the board's artistic mandate, tension patterns and repairs, dual-model succession |
 
 ## Contributing
 
