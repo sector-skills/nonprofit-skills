@@ -69,7 +69,7 @@ Both paths produce art; they produce very different spreadsheets. The choice of 
 
 | Factor | Licensed work | Premiere / new work |
 |---|---|---|
-| Rights cost | Per-performance royalty plus materials rental; predictable, quotable in advance | No royalty to a licensor, but commissioning fee, development workshops, and readings; route contract terms to the commissioning skill |
+| Rights cost | Per-performance royalty plus materials rental; predictable, quotable in advance | Commission fee plus development workshops/readings and applicable premiere production royalties or license fees; budget these separately and confirm the actual grant and payment terms through the commissioning skill |
 | Revenue risk | Lower — known title, known audience | Higher — no title recognition to sell; marketing must sell the artist, topic, or production concept |
 | Cost risk | Royalties and materials quoted; but the *build* is on you | Script can change through development; build costs move later and design must adapt |
 | Funding access | Standard project grants | New-work funders (NEA Grants for Arts Projects, state arts agencies, foundation new-work funds) favor premieres; a premiere strengthens `nonprofit-arts-grant-writing` applications |
@@ -77,6 +77,15 @@ Both paths produce art; they produce very different spreadsheets. The choice of 
 | Upside | Fixed economics — a hit earns margin capped by royalty structure | A hit on a commissioned work can tour, transfer, or generate royalty income *to* the organization if negotiated (route to commissioning skill) |
 
 A balanced season typically carries one new-work slot (premiere, second production, or co-commission) and fills the rest with licensed titles — the new-work slot is where mission, funders, and artistic reputation concentrate, and it is the slot most protected by the balance matrix above.
+
+**New-work rights check:** a commission or option alone is not permission to perform the
+premiere. Require an executed production license or an explicit premiere performance grant
+within the signed commissioning agreement, covering the planned production and its payment
+terms. Budget the commission fee, development costs, and applicable production royalties
+separately; do not infer a royalty waiver or offset from payment of the commission fee.
+Follow `nonprofit-arts-commissioning-new-work` for the grant and contract terms.
+Targeted commissioning/licensing alignment checked September 16, 2026; actual rights and
+royalties remain agreement-specific.
 
 ## Part 3 — Budgeting the Season: Per-Title Cost Estimating
 
@@ -93,7 +102,7 @@ Fixed lines (pre-opening):
 
 Variable lines (per performance / per week):
 
-1. **Royalties per performance** (licensed musicals) — from the licensor quote; scales with box office on percentage deals.
+1. **Production royalties** (including commissioned premieres where applicable): use the actual license or premiere-grant terms; model per-performance, weekly, minimum, or percentage payments as agreed. Keep these separate from the commission fee and flag unconfirmed terms rather than assuming zero.
 2. **Running personnel.** Actors (weekly contracts, not per-performance), musicians (size of pit drives this for musicals), stage crew, front-of-house staffing.
 3. **Per-show operations.** House costs, per-performance consumables, stagehand minimums (often a 4-hour minimum per call — IATSE agreements drive this; verify current terms).
 
@@ -128,7 +137,7 @@ The extension decision is a marginal analysis: extend when **incremental revenue
 
 Your job at announcement is **coordination, not restatement** — marketing mechanics belong to Core skills; the season planner owns the dependencies that make the launch safe:
 
-1. **Confirm every title is contracted.** Written license (or executed commissioning agreement) for each announced title. An announced title that later loses rights is a refund crisis and a credibility hit.
+1. **Confirm every title is contracted.** Require an executed production license or an explicit premiere performance grant in the signed commissioning agreement for each announced copyrighted title. Confirm the planned dates, venue, performance scope, and announcement conditions; a commission or option alone is insufficient. Record applicable royalties separately from the commission fee in the approved budget. An announced title that later loses rights is a refund crisis and a credibility hit.
 2. **Lock the calendar.** Dates, venue, run lengths final — subscription packages are built on them (`nonprofit-arts-box-office-subscriptions`).
 3. **Confirm sponsor credits before the announcement lists them.** Sponsors expect named placement in the announcement; benefits must match signed agreements (`nonprofit-arts-season-sponsorship`).
 4. **Sequence the audience.** Renewing subscribers first (with their deadline), then new-subscriber and member presales (`nonprofit-arts-membership-program`), then single tickets and the public on-sale, then press. A same-day public on-sale cannibalizes the renewal window.

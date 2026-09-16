@@ -269,12 +269,24 @@ an exclusion — but the exceptions are exactly where arts venues get hurt. The 
    not. Also categorically outside the exclusion: hotel rooms, storage units, and **parking
    lots** — parking-lot fee income was held not to be rent from real property (*Ocean Pines
    Association*). Treat parking-line revenue as presumptively taxable, not excluded.
-3. **Exception — "net profits" leases.** If any part of the rent is based on a percentage of the
-   lessee's sales or profits (a bar-percentage deal, a box-office revenue share), that
-   percentage-based component is **not** excluded. Structure revenue-share deals knowingly: the
-   share component is UBIT-exposed income, while a flat-fee component remains excluded. A
-   percentage-of-sales liquor arrangement with a caterer creates taxable income where a flat
-   caterer fee would not.
+3. **Exception: income- or profits-based rent; distinguish gross receipts.** Under
+   **IRC §512(b)(3)(B)(ii)**, the rent exclusion does not apply when the rent determination
+   depends wholly or partly on income or profits derived from the leased property. The rule
+   expressly preserves rent based on a fixed percentage or percentages of gross receipts or
+   sales. A percentage arrangement is therefore not automatically disqualified.
+   - **Gross-receipts example:** $2,000 base rent plus 5% of gross ticket sales does not lose
+     the rent exclusion merely because of that formula. Other exclusion requirements still
+     apply; do not assume a bar or catering payment is real-property rent.
+   - **Net-profits example:** $2,000 base rent plus 5% of the renter's net profits from the
+     leased property triggers this exception. Do not promise that the $2,000 base remains
+     excluded by splitting it from the profit share; the rule covers rent determined "in
+     whole or in part" by income or profits.
+   Obtain the actual lease and payment formula, identify deductions from the percentage base,
+   and have the org's CPA review the entire arrangement before adopting a contract structure
+   or tax position. Loss of this exclusion alone does not settle every element of UBIT.
+   References: [IRC §512(b)(3)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section512&num=0&edition=prelim)
+   and [IRS Publication 598, rents](https://www.irs.gov/publications/p598).
+   Targeted rent-formula correction checked September 16, 2026; not a full rental-tax review.
 4. **Exception — mixed leases (personal property).** Where a lease bundles real and personal
    property (the hall plus the lighting rig, sound system, chairs, pianos), rent attributable to
    personal property is excludable only if it is an incidental share of total rents; if **more
@@ -309,10 +321,13 @@ an exclusion — but the exceptions are exactly where arts venues get hurt. The 
    federal rules. Have the org's CPA confirm state filing duties when the rental program scales —
    this is a `nonprofit-form-990` (or CPA) conversation, not something to resolve here.
 
-**UBIT decision output:** a one-page schedule per line — rental (real property, fixed fee),
-equipment, parking, concessions/bar/merch — each marked excluded / excepted / debt-financed, with
-the reasoning, kept with the org's tax file and refreshed when the deal mix or the mortgage
-changes.
+**UBIT decision output:** a one-page schedule per line: rental, equipment, parking, and
+concessions/bar/merch. For rental arrangements, record the actual formula (fixed fee,
+fixed percentage of gross receipts/sales, or income/profit-dependent), the relevant lease
+clause, provisional rent-exclusion conclusion, other UBIT issues including debt financing,
+and the CPA's review status. Do not label a revenue share taxable solely because it is
+percentage-based, or protect a base fee automatically when rent also depends on net profits.
+Keep the schedule with the org's tax file and refresh it when the deal mix or mortgage changes.
 
 ## The Failure Mode: "The rental that cost us money"
 
