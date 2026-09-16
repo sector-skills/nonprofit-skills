@@ -66,11 +66,12 @@ statute-driven, and generic 501(c)(3) advice is often wrong for a church.
   filing Form 990, 990-EZ, and 990-N. This is why the church across the street has no Form 990 on
   ProPublica Nonprofit Explorer.
 - **Treas. Reg. §1.6033-2(h)** — the operational definition of "integrated auxiliary of a church":
-  (1) 501(c)(3), (2) affiliated with a church or convention/association of churches, and (3)
-  internally supported (not primarily supported by governmental sources, fees for services, or
-  admissions, sales, or receipts from unrelated trades or businesses). Elementary and secondary
-  schools, colleges/universities, seminaries and mission societies get special treatment inside
-  this reg — read it before classifying a denominational school or seminary.
+  (1) described in both §501(c)(3) and §509(a)(1), (2), or (3), (2) affiliated with a church or
+  convention/association of churches, and (3) internally supported. The internal-support rule
+  is an **unless-both** test involving public-facing sales and specified support sources, not
+  a requirement for majority church funding. Paragraph (h)(5) names the special groups that
+  need not meet internal support; qualifying below-college-level schools have a separate
+  annual-return exception under (g)(1)(vii). Use the classification checklist below.
 - **IRS 14-point church test** — the working definition the IRS uses in the absence of a statutory
   one. Restated in **IRS Publication 1828 (Tax Guide for Churches and Religious Organizations)**
   and applied in cases including American Guidance Foundation v. United States and Foundation of
@@ -177,36 +178,52 @@ concluding "yes" from religious identity alone without walking the 14 characteri
 
 Use this when the user has an affiliated seminary, mission board, publishing house, denominational
 agency, denominational retreat center, denominational counseling center, or campus ministry and
-wants to know whether it is (a) an integrated auxiliary — no Form 990 required — or (b) an ordinary
-501(c)(3) affiliated with a church that still files a 990. The failure mode is stopping at
-"affiliated" and skipping the internal-support test.
+wants to determine its annual-return obligation. Distinguish integrated-auxiliary status from
+other filing exceptions, including the separate qualifying-school exception. Neither
+affiliation alone nor a majority-fee calculation settles the result.
 
-1. **501(c)(3) status**: confirm the entity itself is (or is applying to be) a §501(c)(3). An
-   entity without its own §501(c)(3) status (and not covered by a group ruling) fails the first
-   prong regardless of affiliation.
+1. **Tax-status requirement:** document that the entity is described in §501(c)(3) and in
+   §509(a)(1), (2), or (3), as required by (h)(1)(i). Record the basis for that status,
+   including applicable group-ruling coverage; a pending application alone is not a completed
+   classification analysis.
 2. **Affiliation with a church or convention/association of churches**: Reg. §1.6033-2(h)(2)
-   defines "affiliated" — governance/control links (shared board seats, appointment powers,
-   bylaws referencing the church), coverage by the same group ruling, or an authoritative
-   affiliation letter from the church or denomination. Loose branding or theological alignment is
-   not enough.
-3. **Internal support test**: does the org normally receive more than 50% of its support from
-   church contributions and internal denominational sources, rather than from (a) governmental
-   sources, (b) fees charged in the exercise of exempt functions, or (c) admissions, sales, or
-   receipts from unrelated trades or businesses? If majority support is grants, tuition, fees, or
-   program income, the entity generally does NOT clear internal support and is NOT an integrated
-   auxiliary — even though 501(c)(3) and church-affiliated. It must file Form 990/990-EZ/990-N
-   like any other charity.
-4. **Special education/seminary carve-outs**: elementary and secondary schools, colleges and
-   universities, and typically seminaries and mission societies have special treatment inside
-   Reg. §1.6033-2(h) — often treated as integrated auxiliaries without meeting the internal-
-   support test. Read the reg against the entity's activities before concluding.
-5. **Recheck annually**: internal support is measured "normally," so a one-year swing doesn't
-   flip classification, but a sustained shift does. A denominational counseling center that was
-   internally supported at founding and now runs 80% on insurance-billed fees has probably lost
-   integrated-auxiliary status and needs to start filing a 990.
-6. **Document the conclusion**: write a short classification memo (entity, three-prong analysis,
-   conclusion, review date). This is what you hand the auditor, the state, or the grantor when
-   they ask "why doesn't this ministry file a 990."
+   provides three routes: coverage by an applicable church group exemption letter;
+   operation, supervision, or control by or in connection with a church as defined in
+   §1.509(a)-4; or relevant facts and circumstances. For the last route, document the (h)(3)
+   factors, including governing documents, appointment powers, reporting relationships,
+   institutional affirmation, and dissolution provisions. Do not substitute branding alone
+   for the regulatory analysis.
+3. **Internal-support test under (h)(4):** the organization is internally supported
+   **unless both A and B are true**:
+   - **A, public-facing sales:** it offers admissions, goods, services, or facilities for sale
+     to the general public other than incidentally. Exclude goods, services, or facilities
+     sold at a nominal charge or for an insubstantial portion of cost.
+   - **B, support mix:** it normally receives **more than 50%** of its support from the
+     combination of governmental sources, public solicitation of contributions, and receipts
+     from selling admissions or goods, performing services, or furnishing facilities in
+     activities that are **not unrelated trades or businesses**.
+   Record A and B separately with evidence. A false or B false means internal support is
+   satisfied for this test; only A true and B true fails it. Exactly 50% does not satisfy B.
+   Do not substitute "majority grants or fees" or "majority church funding" for these rules.
+4. **Special groups and separate school exception:** men's and women's organizations,
+   seminaries, mission societies, and youth groups satisfying steps 1 and 2 are integrated
+   auxiliaries under (h)(5) regardless of internal support. Colleges and universities do not
+   qualify for this special rule merely because they are religiously affiliated.
+   Separately, (g)(1)(vii) excepts a below-college-level educational organization described in
+   §170(b)(1)(A)(ii), with a general academic program, that is affiliated with a church under
+   (h)(2) or operated by a religious order. Record that as its own annual-return exception,
+   not an automatic integrated-auxiliary classification or a blanket Form 1023 exemption.
+5. **Recheck annually:** apply the regulation's "normally" standard to the support evidence
+   and reassess public-facing activities and special-group status. An 80%-fee figure alone
+   does not settle classification; test both A and B and any applicable exception.
+6. **Document and review the conclusion:** the memo names the legal entity, tax-status and
+   affiliation evidence, A/B findings or (h)(5) exception, any separate school filing exception,
+   conclusion, and review date. Obtain qualified tax-counsel review before relying on a
+   no-filing conclusion; if no exception applies, determine the appropriate annual return.
+
+Classification references: [Treas. Reg. §1.6033-2(g)(1)(vii), (h)(1)–(5)](https://www.irs.gov/pub/irs-regs/td8640.txt)
+and [IRS Publication 557, annual-return exceptions](https://www.irs.gov/pub/irs-pdf/p557.pdf).
+Targeted decision-tree correction checked September 16, 2026; this is not tax-counsel sign-off.
 
 ## Group Exemption Rulings for Denominations
 
@@ -411,13 +428,14 @@ scoping any church-status advice; do not stop at federal.
   determination letter (only issued on filing) and, where grants matter, recommending the 1023.
 - **Integrated-auxiliary status claimed without the internal-support test**: a denominational
   counseling center or camp is claimed as an integrated auxiliary based only on affiliation, and
-  the 990 is never filed. If income is majority fees or grants, the entity is not internally
-  supported and owes 990 filings, with escalating penalties on discovery. Fix by running the full
-  three-prong test annually and documenting.
+  the 990 is never filed. Fix by documenting tax status, affiliation, both internal-support
+  conditions, and any (h)(5) special rule. Majority fees or grants alone do not determine the
+  result; check other filing exceptions before concluding that a return is required.
 - **Church-affiliated 501(c)(3) treated as a church**: a related legal-aid ministry, food pantry
   corp, or K-12 school is treated as "the church" for 990 purposes when it is actually a separate
-  §501(c)(3) that must file. Fix by mapping every legal entity in the ministry family and
-  classifying each individually: church, integrated auxiliary, or ordinary §501(c)(3).
+  §501(c)(3). Fix by mapping each legal entity and testing its own filing exception:
+  church, integrated auxiliary, qualifying below-college-level school, or another applicable
+  exception. Separate incorporation does not itself prove that a Form 990 is required.
 - **Ignoring UBIT because "we're a church"**: cell tower on the roof + mortgage on the sanctuary
   produces UBI via §514 debt-financing; nobody files 990-T; discovery on audit produces back tax,
   interest, penalties. Fix by inventorying every non-donation revenue stream annually and running

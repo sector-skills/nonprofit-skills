@@ -120,11 +120,13 @@ state-law claim.
   religion-based discrimination provisions when providing housing to co-religionists, provided
   the housing is not operated commercially and membership is not restricted on race, color, or
   national origin.
-- **Title II of the Civil Rights Act (public accommodations), 42 USC §2000a** — generally does
-  not reach religious organizations. Ceiling on state-law public-accommodation claims runs
-  through **Masterpiece Cakeshop v. Colorado Civil Rights Commission, 584 US 617 (2018)** and
-  **303 Creative LLC v. Elenis, 600 US 570 (2023)** — narrow doctrines, not general religious-
-  liberty defenses.
+- **Title II of the Civil Rights Act (public accommodations), 42 USC §2000a** — prohibits
+  discrimination on race, color, religion, or national origin at covered establishments.
+  Test the facility/activity categories, commerce or State-action connection, and any
+  §2000a(e) private-club/not-open-to-public exception; religious ownership alone does not
+  establish an exemption. Assess state-law coverage separately. **Masterpiece Cakeshop**
+  and **303 Creative** supply narrow, fact-dependent constitutional doctrines, not blanket
+  religious-organization defenses; see the public-accommodation workflow below.
 - **Religious-worker immigration** — R-1 nonimmigrant and EB-4 special immigrant religious
   worker (8 USC §1101(a)(15)(R) and §1101(a)(27)(C)). Compliance touchpoint only; deep
   immigration work is out of scope.
@@ -383,20 +385,33 @@ what its state actually provides:
   Wisconsin, and others; the doctrine may go by "compelled violation of conscience,"
   Sherbert-style balancing, or a state Sherbert-Yoder line. Verify the current state
   case-law.
-- **State public-accommodation and fair-housing exemptions**: state anti-discrimination
-  statutes usually provide narrower religious exemptions than federal law and often reach
-  religious organizations that Title II does not. Read the specific state statute and its
-  religious-organization exemption provisions.
+- **State public-accommodation and fair-housing exemptions**: state coverage, protected
+  classes, and exceptions must be checked separately from the applicable federal statute.
+  Read the specific state law and its religious-organization provisions; do not assume a
+  federal exception carries over to state law or infer a Title II religious-ownership exemption.
 
 ## Deep Dive: Public-Accommodation Questions
 
 Faith-based nonprofits that operate open-to-the-public facilities — event rentals, retreat
 centers, camps, bookstores, coffee shops, wedding venues, day cares — face public-
-accommodation questions the church itself does not.
+accommodation questions that depend on the actual facility and activity, not just the
+operator's religious identity.
 
-- **Title II of the Civil Rights Act (42 USC §2000a)** does not cover religion as a protected
-  class in most contexts and does not reach most religious organizations; its private-club
-  and religious-organization exemptions are broad.
+- **Title II of the Civil Rights Act (42 USC §2000a)** expressly protects race, color,
+  religion, and national origin. It does not contain a blanket religious-organization
+  exemption. Prepare a facility-specific coverage analysis:
+  1. Identify the relevant §2000a(b) category: transient lodging (including its stated
+     proprietor-occupied small-establishment exception), on-premises food service or gasoline
+     station, exhibition/entertainment, or a covered co-located establishment serving patrons
+     of the other establishment. Being open to the public alone is not the whole federal test.
+  2. Apply the commerce or State-action requirement under §2000a(b)–(d) to the actual facts.
+     Document the basis rather than inferring either coverage or exemption from ownership.
+  3. Test §2000a(e): a private club or other establishment not in fact open to the public
+     is excepted, but not to the extent its facilities are made available to customers or
+     patrons of a covered establishment. A "private club" label alone does not establish this.
+  4. Record federal coverage as supported, unsupported, or unresolved, with the facts and
+     authority for counsel to review. Check state/local coverage independently before
+     recommending an admission, rental, or service policy.
 - **State public-accommodation laws** typically reach further, cover more protected classes
   (including sexual orientation and gender identity in many jurisdictions), and have narrower
   religious exemptions. This is where the actual friction lives.
@@ -408,8 +423,13 @@ accommodation questions the church itself does not.
   beliefs. Narrow speech carveout turning on the expressive nature of the specific service,
   not a general religious-liberty defense.
 
-Do not overread either. Route through the state statute's religious-organization exemption
-first; treat expressive-speech and Free Exercise defenses as narrow and fact-dependent.
+Do not overread either. Complete both federal and state/local coverage analyses, then evaluate
+any applicable exceptions or defenses with counsel. Treat expressive-speech and Free Exercise
+defenses as narrow and fact-dependent; retain the counsel-review gate before use.
+
+Title II reference: [DOJ statutory text, 42 USC §2000a](https://www.justice.gov/crt/title-ii-civil-rights-act-public-accommodations).
+Targeted coverage correction checked September 16, 2026; this is not a determination that
+any particular faith-based venue is covered or exempt.
 
 ## Deep Dive: Fair Housing Act §3607(a)
 
@@ -457,8 +477,8 @@ investigations.
   open-records requests the day the denial arrives.
 - **Overreading Masterpiece and 303 Creative** — declining to serve a class under state
   public-accommodation law on the theory that either case is a general religious-liberty
-  defense. Fix by naming the actual narrow holdings and routing through the state statute's
-  religious-organization exemption first.
+  defense. Fix by naming the actual narrow holdings, checking federal and state/local
+  coverage and applicable exceptions separately, and obtaining counsel review before a denial.
 - **Losing church-audit protection while chasing federal money** — forgetting that IRC §7611
   church-audit protection (owned by `nonprofit-faith-990-exemption`) does not stop a federal-
   grants audit under 2 CFR Part 200. Fix by modeling grants-audit exposure separately and
@@ -480,8 +500,8 @@ investigations.
   historic-preservation, or corrections letter arrives, do not negotiate before the
   litigation hold and open-records request go out; the record you preserve in the first two
   weeks decides the case. Never rely on Masterpiece or 303 Creative as a general public-
-  accommodation defense — route through the state statute's religious-organization exemption
-  first, and get counsel signoff before you decline any service on a religious-liberty theory.
+  accommodation defense; check federal and state/local coverage and applicable exceptions
+  separately, and get counsel signoff before you decline any service on a religious-liberty theory.
 - **As counsel or an advisor to a faith-based nonprofit**: your first move is always to name
   the operative statute and the operative sovereign — federal action gets RFRA and Free
   Exercise; state or local land use gets RLUIPA §2; institutional custody gets RLUIPA §3;

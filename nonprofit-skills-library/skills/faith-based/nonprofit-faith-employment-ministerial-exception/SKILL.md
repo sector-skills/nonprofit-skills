@@ -3,7 +3,7 @@ name: nonprofit-faith-employment-ministerial-exception
 description: "US faith-based-nonprofit employment law: ministerial exception (Hosanna-Tabor, Our Lady of Guadalupe), Title VII §702 religious-hiring exemption, Groff accommodation, Bostock interactions, clergy misconduct and safe-sanctuary policy (USCCB/VIRTUS, MinistrySafe, GRACE), background checks, denominational discipline, and pastor termination or administrative-leave workflows. Use when a church, synagogue, mosque, denominational body, or advisor asks about firing clergy, a misconduct allegation, a religious-hiring question, safe-church policy, or the ministerial exception. Not for clergy pay/housing/SECA (use nonprofit-faith-finance-clergy-comp), generic non-clergy HR (use nonprofit-hr), congregational-vote or property disputes (use nonprofit-faith-church-governance), or RFRA/RLUIPA and federally funded programs (use nonprofit-faith-religious-liberty-compliance)."
 license: MIT
 supervision: review
-supervision_note: "Ministerial-exception scope calls, misconduct responses, and termination workflows create direct employment-law and criminal-reporting exposure — always route to counsel and insurer before acting."
+supervision_note: "Ministerial-exception scope calls, misconduct responses, and termination workflows require counsel review and appropriate insurer coordination. Emergency protection and legally required reporting must not wait for counsel, insurer, board, or internal approval; retain professional review for subsequent employment decisions and discretionary disclosures."
 last_reviewed: 2026-09-10
 ---
 
@@ -258,7 +258,9 @@ employee, volunteer, and (in age-appropriate form) participant.
   member or volunteer with reasonable suspicion of abuse of a minor must report directly to
   authorities (not "up the chain" first), and a policy statement on how the org handles the
   clergy-penitent privilege in states where it has been narrowed or abolished for child-abuse
-  reports.
+  reports. Emergency protection and legally required reporting must not await counsel,
+  insurer, board, or internal approval. Internal notification does not replace a required
+  report to the designated civil authority.
 - **Investigation ownership** — for allegations against clergy or senior staff, use an
   independent investigator (GRACE, an outside law firm, or a denomination-level review board),
   not the alleged perpetrator's peers or direct reports.
@@ -328,12 +330,21 @@ employee, volunteer, and (in age-appropriate form) participant.
 
 When an allegation lands, run this sequence. Do not improvise; do not "look into it" first.
 
+**Safety and reporting take precedence:** the responsible human must initiate urgent protection
+and make legally required reports to the designated authorities without waiting for a complete
+intake record, the response-team meeting, counsel, or insurance clearance. Identify the applicable
+jurisdiction, reporting trigger, authority, and deadline; do not turn the "72 hours" heading or
+the 24-hour team-convening target into a reporting grace period. The agent supports preparation
+and documentation; it does not substitute for the responsible person's reporting duty.
+
 1. **Take the report seriously and in writing**: the intake person documents the allegation
    verbatim, date/time, source, and immediate details. Do not interrogate the reporter or
    press for corroboration.
 2. **If the allegation involves a minor, report to civil authorities per state law immediately**
    — before internal deliberation. Mandatory-reporter obligations run to the individual, not
-   the organization; a staff member with reasonable suspicion cannot wait for board approval.
+   the organization; a staff member with reasonable suspicion cannot wait for counsel, insurer,
+   board, or internal approval. Record who reported, to which authority, when, and any
+   confirmation available, without delaying the report to complete that record.
 3. **Convene the pre-named allegation-response team within 24 hours** — clergy or ED, board
    chair (or designated director if allegation involves the ED/senior clergy), safe-sanctuary
    coordinator, insurer, counsel. If the allegation is against the ED or senior clergy, they
@@ -357,6 +368,9 @@ When an allegation lands, run this sequence. Do not improvise; do not "look into
     permitted), take employment action based on the finding, complete required reporting to
     civil authorities and denomination, and conduct an after-action review to fix the system
     conditions that allowed the incident.
+
+Targeted reporting-precedence correction checked September 16, 2026. This resolves an internal
+instruction conflict; it is not a determination of any particular state's reporting law.
 
 ## Terminating or Placing a Pastor on Leave — Workflow
 
@@ -505,7 +519,8 @@ the org calls them.
   later treat as ministerial; hold safe-church training on a documented cycle and keep the
   attendance records; pre-name the allegation-response team and rehearse the first-72-hours
   runbook. When an allegation arrives, do not "look into it" first — run the runbook and call
-  counsel and the insurer inside 24 hours. When a termination is coming, have counsel draft the
+  counsel and the insurer inside 24 hours, without delaying urgent protection or legally required
+  reporting for those contacts. When a termination is coming, have counsel draft the
   letter and a ministerial-exception memo before the action, not after.
 - **As an advisor** (attorney, denominational staff, consultant, board chair coaching an ED):
   name the framework each question lives under before answering — ministerial exception, §702,
@@ -516,4 +531,5 @@ the org calls them.
   ministerial-exception questions from titles (they turn on function). For any real employment
   action against clergy, insist on: current written job description, contemporaneous
   ministerial-exception memo, counsel-drafted letter, denominational coordination, insurer
-  notice, and community communication plan — in that order, before the action.
+  notice, and community communication plan before the planned employment action. This review
+  sequence must not delay emergency protection or legally required reporting.
