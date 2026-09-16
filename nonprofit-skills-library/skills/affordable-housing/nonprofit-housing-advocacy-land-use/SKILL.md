@@ -2,9 +2,12 @@
 name: nonprofit-housing-advocacy-land-use
 description: "Advances affordable-housing and zoning-reform advocacy at the local level: upzoning, missing-middle, ADU, and parking-minimum policy arguments, inclusionary-zoning trade-offs, responding to NIMBY opposition at public hearings, housing element and housing action plan advocacy, housing ballot measures, and 501(c)(3) lobbying limits as they apply to housing work. Use when a user says 'help us prepare testimony for the planning commission hearing', 'the neighbors are organizing against our project', 'draft a one-pager supporting the missing-middle bill', 'our housing element is up for review', or 'can our 501(c)(3) support the housing bond'. Not for general lobbying mechanics and rules (use nonprofit-legislative-advocacy), coalition building (use nonprofit-coalition-building), elections and voter engagement (use nonprofit-voter-engagement), developing or financing the project itself (use nonprofit-housing-development-finance), or community housing-needs gap analysis (use nonprofit-housing-continuum-planning)."
 license: MIT
-supervision: review
-supervision_note: "Hearing testimony and campaign plans commit the org to public positions; lobbying compliance calls route to nonprofit-legislative-advocacy and counsel."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Hearing testimony and campaign plans commit the org to public positions; lobbying compliance calls route to nonprofit-legislative-advocacy and counsel."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Nonprofit Housing Advocacy and Land Use

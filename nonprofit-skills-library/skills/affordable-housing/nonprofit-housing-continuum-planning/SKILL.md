@@ -2,9 +2,12 @@
 name: nonprofit-housing-continuum-planning
 description: "Maps a community's housing ecosystem across the housing continuum, from homelessness services to affordable homeownership; measures the need-vs-supply gap by AMI band and tenure using HUD CHAS, PIT, and local needs data; and helps nonprofit boards decide where the org should play: enter a stage, expand, exit, or partner. Use when a user says things like \"map our community's housing continuum,\" \"what's our county's housing gap,\" \"should we get into permanent supportive housing,\" or \"should we exit our shelter program and partner instead.\" Not for org-wide strategic planning (use nonprofit-strategic-planning), general needs-assessment methodology (use nonprofit-needs-assessment), market study or pro forma for a specific deal (use nonprofit-housing-development-finance), or design of one stage's programs (use nonprofit-housing-homelessness-services, nonprofit-housing-rapid-rehousing-transitional, nonprofit-housing-permanent-supportive-housing, nonprofit-housing-homeownership-programs)."
 license: MIT
-supervision: review
-supervision_note: "Gap math and board-level play decisions must be checked by a housing staffer before they inform strategy or funding requests."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Gap math and board-level play decisions must be checked by a housing staffer before they inform strategy or funding requests."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Nonprofit Housing Continuum Planning

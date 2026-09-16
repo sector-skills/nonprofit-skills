@@ -2,8 +2,11 @@
 name: nonprofit-program-scaling
 description: "Provides frameworks for scaling, replicating, or expanding a proven nonprofit program to new sites, geographies, or populations, including readiness-to-scale assessment, fidelity-vs-adaptation tradeoffs, replication models (direct site expansion, licensing/affiliate, open-source toolkit), and the operational/staffing/funding infrastructure scaling requires. Use when a user asks whether a program is ready to scale or replicate, how to expand a program to a new city or population, how to adapt a program for a new context without losing what made it work, how to build a replication toolkit or affiliate model, or how to plan the staffing/systems needed to grow program capacity. Covers growth of an already-proven program specifically, not initial program design (nonprofit-program-design), not evaluation methodology used to prove the program works in the first place (nonprofit-outcomes-measurement), and not organization-wide revenue or business-model diversification (nonprofit-revenue-diversification)."
 license: MIT
-supervision: review
-supervision_note: "Replication decisions commit multi-site budgets and staff."
+metadata:
+  supervision: "review"
+  supervision_note: "Replication decisions commit multi-site budgets and staff."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Program Scaling

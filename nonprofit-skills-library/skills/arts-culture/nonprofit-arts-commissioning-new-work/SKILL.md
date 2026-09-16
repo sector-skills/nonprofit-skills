@@ -2,9 +2,12 @@
 name: nonprofit-arts-commissioning-new-work
 description: "Commissioning and new-work development for nonprofit arts orgs: commission agreement anatomy (scope, milestones, approvals/consultation rights, billing, IP ownership, options and premiere rights); the development pipeline (29-hour readings, workshops, labs); co-commissioning and consortia; commission fee benchmarks (Dramatists Guild, Meet The Composer); and gallery consignment and public-art basics. Use when a user says 'we want to commission a new play,' 'the playwright's agent wants approval over the director,' 'two other theaters want to co-commission,' 'who owns copyright in a commissioned work,' or 'the city percent-for-art program wants a proposal.' Not for licensing existing plays or musicals (use nonprofit-arts-performance-licensing), union rules for workshops and readings (use nonprofit-arts-union-agreements-visas), season slot decisions (use nonprofit-arts-season-planning), teaching-artist contracts (use nonprofit-arts-education-programs), or general contract risk (use nonprofit-risk-management)."
 license: MIT
-supervision: review
-supervision_note: "Commissioning agreements bind the organization, commit funds across multiple fiscal years, and dispose of rights — a knowledgeable staff lead (and counsel on any first-of-its-kind agreement) must read them before signature."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Commissioning agreements bind the organization, commit funds across multiple fiscal years, and dispose of rights — a knowledgeable staff lead (and counsel on any first-of-its-kind agreement) must read them before signature."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Commissioning and New-Work Development

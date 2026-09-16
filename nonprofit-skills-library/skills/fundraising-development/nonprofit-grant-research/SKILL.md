@@ -2,8 +2,11 @@
 name: nonprofit-grant-research
 description: "Finds and vets foundation, government, and corporate grant funders: prospect research and fit scoring, RFP/NOFO tracking, funder database searches (Candid/Foundation Directory, grants.gov, state portals), and building a grant calendar of deadlines and renewal dates. Use when a user asks to find funders for a specific program, build or maintain a grant prospect list or grants calendar, score how well a funder matches the org's mission, or track upcoming RFP/NOFO deadlines. Does not cover writing the LOI or proposal itself (use nonprofit-grant-writing)."
 license: MIT
-supervision: unsupervised
-supervision_note: "Prospect research and calendars; a wrong entry costs a look."
+metadata:
+  supervision: "unsupervised"
+  supervision_note: "Prospect research and calendars; a wrong entry costs a look."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Grant Prospect Research & Pipeline Tracking

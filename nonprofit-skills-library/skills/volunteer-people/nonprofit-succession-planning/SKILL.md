@@ -2,9 +2,11 @@
 name: nonprofit-succession-planning
 description: "Plans executive director/CEO leadership transitions and builds leadership pipelines: emergency backup (departure risk) plans, strategic long-term succession plans, ED transition/search timelines and interim leadership arrangements, and identifying/developing internal successors. Use for tasks like 'we need an emergency succession plan for our ED,' 'the founder is retiring in two years, help us plan the transition,' 'build a leadership pipeline so we're not one person deep,' or 'design an interim ED arrangement during a search.' Boundary: general staff culture/retention/morale is nonprofit-staff-retention; recruiting new board members is nonprofit-board-recruitment; org-wide restructuring communication during any transition is nonprofit-change-management."
 license: MIT
-supervision: review
-supervision_note: "Emergency and long-term ED succession is a board responsibility."
 metadata:
+  supervision: "review"
+  supervision_note: "Emergency and long-term ED succession is a board responsibility."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
   author: nonprofit-skills-library
   version: '1.0'
 ---

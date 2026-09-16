@@ -2,9 +2,12 @@
 name: nonprofit-faith-religious-liberty-compliance
 description: "US religious-liberty statutory and regulatory framework for faith-based nonprofits (churches, synagogues, mosques, denominational agencies, religiously-affiliated providers): Free Exercise after Smith and Fulton, federal RFRA, RLUIPA land-use and institutionalized-persons claims, Charitable Choice / Equal Treatment Regulations (45 CFR Part 87, 13 CFR Part 113) for federally funded services, ACA contraceptive-mandate accommodations, Section 1557 religious exemptions, Fair Housing Act §3607(a). Use when deciding whether to accept federal funds, responding to a zoning or historic-preservation denial, drafting the beneficiary notice, or evaluating an RFRA/RLUIPA claim. Does not cover faith-based service-delivery mechanics — use nonprofit-faith-programs-social-services; ministerial-exception firings and Title VII religious hiring — use nonprofit-faith-employment-ministerial-exception; physical facility management — use nonprofit-faith-facilities-sanctuary."
 license: MIT
-supervision: review
-supervision_note: "Religious-liberty determinations bind federal-funding compliance, land-use posture, and litigation strategy; every artifact this skill produces is reviewed by counsel before it is sent, signed, or filed."
-last_reviewed: 2026-09-10
+metadata:
+  supervision: "review"
+  supervision_note: "Religious-liberty determinations bind federal-funding compliance, land-use posture, and litigation strategy; every artifact this skill produces is reviewed by counsel before it is sent, signed, or filed."
+  last_reviewed: "2026-09-10"
+  date_added: "2026-09-12"
+  date_added_source: "git:297d3ef69a314702df1ccc8174826716c88cff40"
 ---
 
 # Faith-Based Nonprofit Religious Liberty & Federal-Funding Compliance

@@ -2,9 +2,12 @@
 name: nonprofit-housing-lihtc-hud-compliance
 description: "Compliance operating system for LIHTC (Section 42) and HUD-assisted affordable housing: income and rent limits, gross rent and utility allowances, tenant certifications, student and unit rules, credit recapture triggers, HOME/ESG/CoC/HCV monitoring, tenant file audits, and MOR/state HFA monitoring-visit prep, with a file-readiness checklist, findings-and-remedies list, and annual compliance calendar. Use when a user says 'our state HFA monitoring visit is next month', 'what counts as gross rent under Section 42', 'we missed an annual recertification', 'the agency filed a Form 8823 on us', or 'help us get tenant files audit-ready'. Not for day-to-day property management, tenant selection, or rent-setting operations (use nonprofit-housing-affordable-rental-operations), fair-housing complaints or reasonable accommodation disputes (use nonprofit-housing-fair-housing), or deal structuring and capital-stack design before close (use nonprofit-housing-development-finance)."
 license: MIT
-supervision: expert-required
-supervision_note: "Certifications are filed with state HFAs and the IRS and errors trigger credit recapture; every compliance filing needs attorney or CPA review before submission."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Certifications are filed with state HFAs and the IRS and errors trigger credit recapture; every compliance filing needs attorney or CPA review before submission."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # LIHTC and HUD Program Compliance

@@ -2,9 +2,12 @@
 name: nonprofit-housing-development-finance
 description: "Nonprofit affordable-housing development deals: site control and phased acquisition, entitlements, market studies, development pro formas (sources-and-uses, operating pro forma, 15-year cash flow, sensitivities), the capital stack (9% and 4% LIHTC equity, HOME, CDBG, National Housing Trust Fund, state trust funds, housing bonds, soft debt), deal structures (nonprofit GP, fee developer, co-developer, developer fees), and construction oversight (draws, change orders, closeout). Use when a user says 'we want to build affordable housing on this site,' 'run a pro forma,' 'should we do a 9% or 4% deal,' 'who should be the general partner,' or 'review this construction draw.' Not for capital campaigns (use nonprofit-capital-campaigns), Section 42 certifications and post-close compliance (use nonprofit-housing-lihtc-hud-compliance), zoning advocacy (use nonprofit-housing-advocacy-land-use), ground leases and CLTs (use nonprofit-housing-community-ownership), or the org budget (use nonprofit-budgeting)."
 license: MIT
-supervision: review
-supervision_note: "Deal documents, tax credit applications, and lender negotiations require counsel and CPA review before execution."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Deal documents, tax credit applications, and lender negotiations require counsel and CPA review before execution."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Nonprofit Housing Development Finance

@@ -157,10 +157,17 @@ Or clone the whole library and point your agent at the `skills/` directory.
 ## Contributing
 
 This library is designed to grow. New skills should follow the same format: a single `SKILL.md`
-with quoted YAML frontmatter (`name`, `description`, `license: MIT`, `last_reviewed: YYYY-MM-DD`),
+with quoted YAML frontmatter (`name`, `description`, `license: MIT`),
 a description with concrete trigger phrases and an explicit boundary line against overlapping
 sibling skills, and a body full of named frameworks, standard deliverables, numbered steps, and
 common failure modes — not generic advice a model already knows.
+
+Put library-specific fields inside the standard `metadata` mapping, with string values.
+Record `metadata.date_added` when the first addition to this repository is known and retain its
+evidence in `metadata.date_added_source` (for a Git backfill, `git:<full-commit-sha>`).
+This is not the original creation date. Omit unknown dates rather than guessing.
+Add `metadata.last_reviewed` only when supported by a documented substantive review of the
+whole skill, as described below; never substitute the addition date for a review date.
 
 Minimal frontmatter template:
 
@@ -169,9 +176,12 @@ Minimal frontmatter template:
 name: nonprofit-example-skill
 description: "One paragraph. What it does, when to use it, and an explicit boundary line against overlapping sibling skills."
 license: MIT
-last_reviewed: 2026-09-07
-supervision: review
-supervision_note: "One line on why this level, in terms of what a wrong output costs."
+metadata:
+  supervision: "review"
+  supervision_note: "One line on why this level, in terms of what a wrong output costs."
+  # date_added: "YYYY-MM-DD"       # Actual, evidenced repository-addition date.
+  # date_added_source: "git:<full-commit-sha>"
+  # last_reviewed: "YYYY-MM-DD"    # Only after a documented whole-skill review.
 ---
 ```
 
@@ -181,7 +191,7 @@ Not every skill carries the same risk. A draft thank-you letter that comes out w
 edit. A Form 990 or a set of bylaws that comes out wrong is filed with the IRS or binds the
 organization — and the person running the agent is often the least equipped to notice.
 
-`supervision:` records that difference in the frontmatter, so an agent, a CI job, or a human
+`metadata.supervision` records that difference in the frontmatter, so an agent, a CI job, or a human
 browsing the library can see it *before* the output is used.
 
 | Level | Meaning |
@@ -194,16 +204,19 @@ The dividing line for `expert-required` is deliberately narrow: the output goes 
 authority, or it legally binds the organization. That keeps the label meaningful — if most
 skills carry it, none of them do.
 
-To see which skills declare a level:
+Both maintenance scripts require PyYAML and accept the portable nested fields or the former
+top-level fields during transition. Conflicting dual declarations and duplicate YAML keys are
+errors, not silently resolved. Install the dependency, then check supervision coverage:
 
 ```
+python3 -m pip install -r scripts/requirements.txt
 python3 scripts/check_supervision.py         # list skills missing the field
 python3 scripts/check_supervision.py --all   # show every skill with its level
 python3 scripts/check_supervision.py --json  # machine-readable output
 ```
 
-The script exits non-zero only when a skill declares a level outside the three above. Missing
-fields are reported but do not fail, so new skills can be added before their level is settled.
+The supervision script exits 1 for an invalid level and 2 for malformed metadata. Missing
+supervision fields are reported but do not fail, preserving the incremental-adoption behavior.
 
 All 102 skills currently declare a level: **7 unsupervised, 70 review, 25 expert-required**. The
 `expert-required` set is deliberately small and shares one test — a credentialed professional
@@ -216,27 +229,67 @@ privacy obligations.
 
 ## Maintenance & review cadence
 
-Skills stay useful only if they're maintained. This library commits to a predictable rhythm:
+The following are maintenance targets, not a record of completed reviews or guaranteed response
+times. Maintainers should assign an owner and record completed work before reporting a target
+as met; the presence of a date alone does not establish accuracy or professional approval.
 
-- **Quarterly light touch** — broken links, outdated tool names, deprecated regulations. Extra
+- **Quarterly light-touch target:** check broken links, outdated tool names, and changed regulations. Extra
   attention to fast-moving areas: AI tools, IRS/990 rules, grant platforms, fundraising tech.
-- **Semi-annual category sweep** — rotate categories so every one is reviewed at least once a
-  year. Test prompts against current models; refresh examples, sample outputs, and any embedded
-  benchmarks.
-- **Annual full-library audit** — re-evaluate the 10-category taxonomy for gaps or overlaps,
+- **Semi-annual sweep planning:** schedule category reviews twice a year, aiming to cover every
+  category annually while honoring the shorter intervals below. Test prompts against current
+  models; refresh examples, sample outputs, and embedded benchmarks.
+- **Annual library-structure target:** re-evaluate the Core categories and Special Collections for gaps or overlaps,
   retire or merge low-use or overlapping skills, publish a changelog.
-- **Event-triggered updates** — major IRS/state regulatory changes, significant sector-standard
-  shifts (e.g. new BoardSource frameworks), material AI model releases. Community pull requests
-  and issues get a two-week response target.
+- **Event-triggered triage:** assess major IRS/state regulatory changes, significant sector-standard
+  shifts (e.g. new BoardSource frameworks), and material AI model releases without waiting for a
+  calendar deadline. Prioritize high-consequence tax, finance, legal, and safeguarding instructions
+  wherever they appear, including Special Collections. Aim to acknowledge community issues and
+  pull requests within two weeks; this is not a resolution deadline or service guarantee.
 
-Every `SKILL.md` carries a `last_reviewed: YYYY-MM-DD` field. To see which skills are overdue:
+Review-date coverage is incomplete. A missing date means no review date is recorded, not that a
+skill is necessarily wrong or has never been reviewed. Do not bulk-fill missing dates to make a
+report pass.
+
+Set or advance `metadata.last_reviewed` only after checking the whole skill's material claims, instructions,
+examples, and boundaries. Record the date, reviewer or accountable maintainer, review scope,
+sources/tests, and unresolved limitations in the pull request or another durable review record.
+A targeted correction, broken-link repair, metadata edit, or release is not a whole-skill review:
+record its limited scope separately and leave the review date unchanged. A review date does not
+replace the skill's required level of human supervision.
+
+For skills without a recorded review, use `metadata.date_added` to show age since repository
+addition and prioritize an initial review. The script labels them `NOT_REVIEWED`, meaning no
+review date is recorded, not proof that no review has ever occurred. Imported skills can have
+a review date earlier than their repository-addition date; that is not inherently an error.
+Keep addition-date provenance separate from evidence of substantive review.
+
+To list unreviewed, overdue, or invalid records:
 
 ```
-python3 scripts/check_review_status.py         # list overdue skills
+python3 scripts/check_review_status.py         # list records needing attention
 python3 scripts/check_review_status.py --all   # show every skill with its status
 python3 scripts/check_review_status.py --json  # machine-readable output
+python3 scripts/check_review_status.py --as-of YYYY-MM-DD  # fixed date for reproducible checks
 ```
 
 Fast-moving categories (`fundraising-development`, `governance-compliance`, `technology-data`)
-use a 90-day review interval; all others use 365 days. The script exits non-zero when anything
-is overdue, so it can gate CI merges.
+use a 90-day interval; all others use 365 days. These are scheduling defaults, not a safe-life
+guarantee for high-risk content. The script distinguishes:
+
+- **CURRENT:** a valid review date is within its interval.
+- **NOT_REVIEWED:** no review date is recorded; show days since addition when available. If that
+  age exceeds the interval, also flag `initial_review_due`. Missing addition dates stay unknown.
+- **REVIEW_OVERDUE:** a recorded review date is older than its interval.
+- **INVALID_METADATA:** malformed, empty, future-dated, duplicate, or conflicting metadata.
+
+JSON uses lowercase hyphenated status names and `schema_version: 2`. `overdue_count` now means
+dated reviews past their interval, not missing dates; `not_reviewed_count`, `invalid_count`, and
+`attention_count` report the other groups. Update consumers that relied on the former combined
+count. `missing_field` means the review-date key is absent, not that a present value is invalid.
+The script exits 1 if any record needs attention, even for a newly added unreviewed skill, so the
+migration does not silently turn missing review dates into a passing check. It exits 0 only
+when all records are current, and 2 for invocation or scan errors.
+
+The script reports metadata age, not review quality or regulatory currency, and running it does
+not review or update any skill. It can be used in CI, but this repository does not currently
+configure an automatic review-status gate; introducing a blocking gate is a separate decision.

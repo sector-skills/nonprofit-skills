@@ -2,9 +2,12 @@
 name: nonprofit-faith-employment-ministerial-exception
 description: "US faith-based-nonprofit employment law: ministerial exception (Hosanna-Tabor, Our Lady of Guadalupe), Title VII §702 religious-hiring exemption, Groff accommodation, Bostock interactions, clergy misconduct and safe-sanctuary policy (USCCB/VIRTUS, MinistrySafe, GRACE), background checks, denominational discipline, and pastor termination or administrative-leave workflows. Use when a church, synagogue, mosque, denominational body, or advisor asks about firing clergy, a misconduct allegation, a religious-hiring question, safe-church policy, or the ministerial exception. Not for clergy pay/housing/SECA (use nonprofit-faith-finance-clergy-comp), generic non-clergy HR (use nonprofit-hr), congregational-vote or property disputes (use nonprofit-faith-church-governance), or RFRA/RLUIPA and federally funded programs (use nonprofit-faith-religious-liberty-compliance)."
 license: MIT
-supervision: review
-supervision_note: "Ministerial-exception scope calls, misconduct responses, and termination workflows require counsel review and appropriate insurer coordination. Emergency protection and legally required reporting must not wait for counsel, insurer, board, or internal approval; retain professional review for subsequent employment decisions and discretionary disclosures."
-last_reviewed: 2026-09-10
+metadata:
+  supervision: "review"
+  supervision_note: "Ministerial-exception scope calls, misconduct responses, and termination workflows require counsel review and appropriate insurer coordination. Emergency protection and legally required reporting must not wait for counsel, insurer, board, or internal approval; retain professional review for subsequent employment decisions and discretionary disclosures."
+  last_reviewed: "2026-09-10"
+  date_added: "2026-09-12"
+  date_added_source: "git:297d3ef69a314702df1ccc8174826716c88cff40"
 ---
 
 # Faith-Based Nonprofit Employment & Ministerial Exception (US)

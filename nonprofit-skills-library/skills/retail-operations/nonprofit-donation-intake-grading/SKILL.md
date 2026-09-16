@@ -2,8 +2,11 @@
 name: nonprofit-donation-intake-grading
 description: "Runs donated-goods intake for a thrift/resale operation: drop-off and pickup scheduling and logistics, sorting and quality grading, sell/recycle/discard triage, and at-donation receipt issuance. Use for 'set up a donation drop-off process,' 'grade incoming donations,' 'reduce discard rate.' Does not cover tax valuation/Form 8283 (nonprofit-in-kind-gift-acceptance) or shelf pricing (nonprofit-retail-pricing-merchandising)."
 license: MIT
-supervision: review
-supervision_note: "At-donation receipts are tax documents for the donor."
+metadata:
+  supervision: "review"
+  supervision_note: "At-donation receipts are tax documents for the donor."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Donation Intake & Grading

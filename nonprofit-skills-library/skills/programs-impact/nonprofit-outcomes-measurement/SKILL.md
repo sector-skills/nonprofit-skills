@@ -2,8 +2,11 @@
 name: nonprofit-outcomes-measurement
 description: "Designs KPIs, indicators, and evaluation plans for nonprofit programs, selects data collection methods and instruments, and structures outcomes reporting to funders and the board. Use when a user asks to define what to measure for a program, build an outcomes/evaluation plan or measurement framework, choose between pre/post surveys vs. administrative data vs. validated scales, set up a data collection calendar or dashboard, calculate outcome or completion rates, write the outcomes/results section of a funder or annual report, or figure out why current metrics don't show real impact. Covers measuring and reporting whether a program's stated outcomes actually occurred, not designing the logic model those outcomes came from (nonprofit-program-design) and not the community research that justifies starting a program (nonprofit-needs-assessment)."
 license: MIT
-supervision: review
-supervision_note: "Reported outcomes go to funders and the board as fact."
+metadata:
+  supervision: "review"
+  supervision_note: "Reported outcomes go to funders and the board as fact."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Outcomes Measurement

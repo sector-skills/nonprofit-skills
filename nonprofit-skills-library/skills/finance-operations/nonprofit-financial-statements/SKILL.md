@@ -2,8 +2,11 @@
 name: nonprofit-financial-statements
 description: "Reads and produces nonprofit financial statements under FASB ASC 958: statement of financial position (balance sheet), statement of activities (income statement with net asset classes), statement of functional expenses, and statement of cash flows; explains net asset classification (with/without donor restrictions), and translates these statements into plain-language board and committee presentations for non-finance board members. Use when asked to prepare, review, or explain monthly/quarterly/annual financial statements, reconcile net assets, build a functional expense statement, or create a board financial dashboard. Does not cover building the forward-looking annual budget (use nonprofit-budgeting), reserve/cash-flow forecasting (use nonprofit-reserves-cash-flow), Form 990 preparation (use nonprofit-form-990), or indirect cost rate methodology (use nonprofit-cost-allocation)."
 license: MIT
-supervision: expert-required
-supervision_note: "FASB ASC 958 statements are audited and published."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "FASB ASC 958 statements are audited and published."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Financial Statements

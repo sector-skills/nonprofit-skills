@@ -2,8 +2,11 @@
 name: nonprofit-charitable-registration
 description: "Manages state charitable solicitation registration: determining which states require registration given the organization's fundraising footprint, initial registration filings, the Unified Registration Statement (URS), registered agent requirements, annual renewal tracking, exemption eligibility, and professional fundraiser/fundraising counsel registration triggers. Use when asked to determine which states an organization must register in before soliciting donations there, file or renew a state charitable solicitation registration, set up a registered agent, build a multi-state renewal tracking calendar, or assess whether online/nationwide fundraising creates new state registration obligations. Does not cover the federal Form 990 filing (use nonprofit-form-990) or nonprofit incorporation/foreign qualification to do business in a state (a related but distinct filing this skill references but does not itself execute)."
 license: MIT
-supervision: expert-required
-supervision_note: "State filings with statutory deadlines and fees; requirements vary by state."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "State filings with statutory deadlines and fees; requirements vary by state."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Charitable Solicitation Registration

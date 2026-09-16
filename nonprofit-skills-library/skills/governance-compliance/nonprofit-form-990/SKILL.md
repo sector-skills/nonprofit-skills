@@ -2,8 +2,11 @@
 name: nonprofit-form-990
 description: "Supports Form 990/990-EZ/990-N/990-PF preparation: choosing the correct variant, assembling schedules (A, B, C, G, J, L, O, R, etc.), functional expense allocation for Part IX, Part VI governance-question responses, public disclosure/inspection requirements, and a compliance calendar for the annual filing deadline and extensions. Use when asked to prepare or review a Form 990, decide which 990 variant applies, complete or check a specific schedule, respond to Part VI governance questions, handle a public disclosure request for the 990 or exemption application, or build a filing-deadline compliance calendar. Does not cover producing the underlying financial statements the 990 draws from (use nonprofit-financial-statements) or state charitable solicitation registration filings, which are separate from the federal 990 (use nonprofit-charitable-registration)."
 license: MIT
-supervision: expert-required
-supervision_note: "Filed with the IRS; errors carry penalties and public-disclosure consequences."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Filed with the IRS; errors carry penalties and public-disclosure consequences."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Form 990 Preparation & Compliance

@@ -2,8 +2,11 @@
 name: nonprofit-in-kind-gift-acceptance
 description: "Handles donor-side tax receipting/valuation for non-cash gifts: IRS Form 8283, qualified appraisals over $5,000, gift acceptance policy for accepting/declining in-kind donations. Use for 'donor wants a receipt for a car/stock/art,' 'do we need an appraisal,' 'write our gift acceptance policy.' Physical intake/grading of resale goods is nonprofit-donation-intake-grading."
 license: MIT
-supervision: expert-required
-supervision_note: "IRS Form 8283 and qualified appraisals over $5,000; the donor's deduction depends on it."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "IRS Form 8283 and qualified appraisals over $5,000; the donor's deduction depends on it."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit In-Kind Gift Acceptance

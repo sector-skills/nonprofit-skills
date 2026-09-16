@@ -2,8 +2,11 @@
 name: nonprofit-hr
 description: "Designs nonprofit hiring processes and job postings, compensation benchmarking on limited budgets, personnel policy/employee handbook design, classification and wage-and-hour compliance (exempt vs. non-exempt, FLSA), benefits packages, and performance review systems. Use when asked to write a job posting, build an interview/hiring process, benchmark a salary against nonprofit peers, draft or update a personnel policy or employee handbook, decide FLSA exempt/non-exempt classification, design a benefits package on a tight budget, or set up an annual performance review process. Does not cover day-to-day culture/morale/retention practices once someone is hired (use nonprofit-staff-retention), executive director succession and leadership pipeline planning (use nonprofit-succession-planning), volunteer (unpaid) recruitment and management (use nonprofit-volunteer-management), or board member recruitment (use nonprofit-board-recruitment)."
 license: MIT
-supervision: expert-required
-supervision_note: "FLSA exempt/non-exempt classification and wage-hour compliance carry DOL liability."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "FLSA exempt/non-exempt classification and wage-hour compliance carry DOL liability."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit HR

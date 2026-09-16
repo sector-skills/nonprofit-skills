@@ -2,8 +2,11 @@
 name: nonprofit-donor-retention
 description: "Designs thank-you/acknowledgment processes, maps the end-to-end donor journey, plans lapsed-donor win-back campaigns, and diagnoses retention-rate and donor-attrition problems using standard retention metrics. Use when a user asks to fix a low donor-retention rate, design or speed up a gift acknowledgment/thank-you process, map the donor journey from first gift onward, plan a lapsed or lybunt/sybunt win-back campaign, or calculate retention/attrition/donor-lifetime-value metrics. Does not cover moving new prospects through initial identification/cultivation/solicitation stages (use nonprofit-donor-pipeline) or the ask-string/segmentation mechanics of a regular mass appeal (use nonprofit-annual-appeals)."
 license: MIT
-supervision: review
-supervision_note: "Acknowledgment processes carry tax-receipt language donors rely on."
+metadata:
+  supervision: "review"
+  supervision_note: "Acknowledgment processes carry tax-receipt language donors rely on."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Donor Retention & Stewardship

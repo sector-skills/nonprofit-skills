@@ -2,9 +2,12 @@
 name: nonprofit-faith-facilities-sanctuary
 description: "US worship-building operations: state property-tax exemption for religious use, RLUIPA zoning, facility-use policies for outside renters (interfaith co-use, 12-step, day care, weddings, funerals, cell tower), IRC §512(b)(3) rental UBIT and the §514 debt-financed trap, house-of-worship insurance (sexual-misconduct riders, 15-passenger van, Church Mutual / Brotherhood Mutual / GuideOne), deferred-maintenance FCAs, historic preservation, closed-church sale under denominational trust clauses (Dennis Canon, PCUSA, UMC, Jones v. Wolf), and sanctuary hosting. Triggers: 'facility use policy,' 'property tax exemption challenge,' 'wedding for non-member,' 'sell the building.' Not for trust-clause governance fights (nonprofit-faith-church-governance), church-990/UBIT (nonprofit-faith-990-exemption), RLUIPA statutory law (nonprofit-faith-religious-liberty-compliance), safe-sanctuary policy (nonprofit-faith-employment-ministerial-exception), or secular facilities (nonprofit-vendor-facilities, nonprofit-risk-management)."
 license: MIT
-supervision: review
-supervision_note: "Facility-use policies, insurance decisions, property-tax filings, and building-sale documents are legal instruments with tax, liability, and denominational-property consequences that require counsel and licensed-broker review."
-last_reviewed: 2026-09-10
+metadata:
+  supervision: "review"
+  supervision_note: "Facility-use policies, insurance decisions, property-tax filings, and building-sale documents are legal instruments with tax, liability, and denominational-property consequences that require counsel and licensed-broker review."
+  last_reviewed: "2026-09-10"
+  date_added: "2026-09-12"
+  date_added_source: "git:297d3ef69a314702df1ccc8174826716c88cff40"
 ---
 
 # Faith Facilities and Sanctuary Space (Worship-Building Operations)

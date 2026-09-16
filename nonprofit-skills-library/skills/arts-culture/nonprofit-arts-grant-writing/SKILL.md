@@ -2,9 +2,12 @@
 name: nonprofit-arts-grant-writing
 description: "Arts-funder grants: NEA Grants for Arts Projects (FY27 dates, Challenge America and Our Town as GAP disciplines, 1:1 cost-share), state arts agencies and regional arts organizations (NEA partnership pass-through money), arts foundations (Mellon, Wallace, Doris Duke, Warhol, Kresge), panel review (artistic excellence and merit, access, engagement), and post-award grants management (REACH, FFR, Final Descriptive Report). Use when a user says 'should we apply to the NEA,' 'our state arts agency deadline is coming,' 'what do panels actually score,' 'how does the 1:1 match work with in-kind,' or 'what's due in the final report.' Not for proposal structure and LOI craft (use nonprofit-grant-writing), prospect identification and fit scoring (use nonprofit-grant-research), outcomes measurement design (use nonprofit-outcomes-measurement), arts education program funding (use nonprofit-arts-education-programs), season underwriting (use nonprofit-arts-season-sponsorship), or major-gift work (use nonprofit-major-gifts)."
 license: MIT
-supervision: review
-supervision_note: "Applications, budgets, and reports to NEA and state arts agencies become official public records of a federal or state grant, and grant agreements bind the organization — knowledgeable staff must review before anything is submitted or filed."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Applications, budgets, and reports to NEA and state arts agencies become official public records of a federal or state grant, and grant agreements bind the organization — knowledgeable staff must review before anything is submitted or filed."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Arts Grant Writing

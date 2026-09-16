@@ -2,9 +2,12 @@
 name: nonprofit-faith-990-exemption
 description: "Special US federal tax status of churches, synagogues, mosques, temples, integrated auxiliaries, and conventions/associations of churches: automatic IRC §501(c)(3) exemption without Form 1023, Form 990 filing exemption under §6033(a)(3)(A), the IRS 14-point church test, integrated-auxiliary internal-support test, denominational group exemption rulings, church UBIT and Form 990-T, and IRC §7611 church-audit procedures. Use when a church administrator, clergy, denominational staffer, or advisor asks about filing a 990 or 1023, integrated-auxiliary status, group rulings, UBIT on parking/cell-tower/bookstore income, or IRS church-audit protections. Does not cover generic 990 filing (use nonprofit-form-990), clergy comp / housing allowance (nonprofit-faith-finance-clergy-comp), federal-grant faith-based compliance (nonprofit-faith-religious-liberty-compliance), or property-tax exemption for the sanctuary (nonprofit-faith-facilities-sanctuary)."
 license: MIT
-supervision: review
-supervision_note: "Determinations about church status, integrated-auxiliary classification, UBIT liability, and audit-procedure invocation have direct federal tax consequences and should be reviewed by qualified tax counsel before filing or response."
-last_reviewed: 2026-09-10
+metadata:
+  supervision: "review"
+  supervision_note: "Determinations about church status, integrated-auxiliary classification, UBIT liability, and audit-procedure invocation have direct federal tax consequences and should be reviewed by qualified tax counsel before filing or response."
+  last_reviewed: "2026-09-10"
+  date_added: "2026-09-12"
+  date_added_source: "git:297d3ef69a314702df1ccc8174826716c88cff40"
 ---
 
 # Church, Integrated-Auxiliary, and Convention/Association Federal Tax Status (IRC §§508, 6033, 7611)

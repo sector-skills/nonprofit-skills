@@ -2,8 +2,11 @@
 name: nonprofit-capital-campaigns
 description: "Plans and runs capital campaigns: feasibility studies, quiet/silent-phase gift solicitation sequencing, public-phase launch and promotion, campaign leadership structure (steering committee, campaign chair), and gift range/table construction. Use when a user asks to plan or assess feasibility for a capital campaign, build a gift range table for a campaign goal, design campaign phases and timeline, structure a campaign cabinet or steering committee, or plan a public campaign launch event. Does not cover routine annual fundraising operations (use nonprofit-annual-appeals) or the mechanics of an individual major-gift ask within the campaign, which use nonprofit-major-gifts."
 license: MIT
-supervision: review
-supervision_note: "Gift tables and feasibility findings set a public goal you must hit."
+metadata:
+  supervision: "review"
+  supervision_note: "Gift tables and feasibility findings set a public goal you must hit."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Capital Campaigns

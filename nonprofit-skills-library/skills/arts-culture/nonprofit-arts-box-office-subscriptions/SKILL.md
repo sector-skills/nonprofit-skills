@@ -2,9 +2,12 @@
 name: nonprofit-arts-box-office-subscriptions
 description: "Nonprofit arts box office strategy: ticketing platforms (Tessitura, Spektrix, AudienceView, PatronManager, Eventbrite — fee models, embedded vs passed-through fees); subscription packages (full-season, mini, flex); zone, preview, dynamic and tiered pricing; subscriber renewal economics; group sales and school matinees; fee disclosure under the FTC all-in rule, exchanges, refunds. Use when a user says 'our subscribers aren't renewing,' 'should we switch ticketing platforms,' 'is dynamic pricing right for us,' 'what do we charge for previews,' or 'our service fees feel too high.' Not for member tiers (use nonprofit-arts-membership-program), venue rental (use nonprofit-arts-venue-rental-earned-income), galas (use nonprofit-fundraising-events), sponsorships (use nonprofit-arts-season-sponsorship), donor conversion (use nonprofit-donor-retention), CRM selection (use nonprofit-donor-crm), season selection (use nonprofit-arts-season-planning), or education programming (use nonprofit-arts-education-programs)."
 license: MIT
-supervision: review
-supervision_note: "Published ticket prices, per-ticket fees, and discount policies become public commitments that are hard to walk back and need knowledgeable staff review before they go live."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Published ticket prices, per-ticket fees, and discount policies become public commitments that are hard to walk back and need knowledgeable staff review before they go live."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Box Office and Season Subscriptions

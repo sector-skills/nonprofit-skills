@@ -2,9 +2,12 @@
 name: nonprofit-housing-fair-housing
 description: "Builds fair housing compliance for nonprofit housing providers: FHA protected classes and prohibited practices, advertising language review, applicant and criminal-history screening policy, reasonable accommodation and modification procedures including assistance animals, Section 504/ADA obligations, disparate impact and neutral-policy risk, limited English proficiency, steering and testing risk, and AFFH duties. Use when a user says 'review our ad for fair housing language', 'write a reasonable accommodation procedure', 'can we deny an applicant with a criminal record', 'how do we handle an emotional support animal request', 'HUD sent us a fair housing complaint', or 'update our screening policy'. Not for drafting the tenant selection plan itself (use nonprofit-housing-affordable-rental-operations; this skill performs its fair-housing legal review), LIHTC certifications and file audits (use nonprofit-housing-lihtc-hud-compliance), or org-wide risk registers (use nonprofit-risk-management)."
 license: MIT
-supervision: expert-required
-supervision_note: "Fair-housing legal positions and complaint responses need fair-housing attorney review before adoption or filing."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Fair-housing legal positions and complaint responses need fair-housing attorney review before adoption or filing."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Fair Housing Compliance for Nonprofit Housing Providers

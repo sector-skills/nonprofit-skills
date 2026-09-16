@@ -2,9 +2,12 @@
 name: nonprofit-arts-performance-licensing
 description: "Rights clearance for nonprofit arts orgs: grand vs small rights; play and musical licensing houses (Concord Theatricals, Samuel French, R&H, Dramatists Play Service, MTI, TRW) with per-performance royalty quotes set by seating, ticket prices, performance count, amateur vs pro tier, and market exclusivity; PRO blanket licenses (ASCAP, BMI, SESAC, GMR) and the dramatic-use exception; streaming/archival/video rights as separate grants; film screening licenses (Swank, MPLC). Use when a user says 'how do we get rights to a show,' 'what will our royalty quote be,' 'does ASCAP cover our musical,' 'can we livestream the show,' or 'screen a movie at our gala.' Not for commissioning new work (use nonprofit-arts-commissioning-new-work), renter obligations when the org is the venue (use nonprofit-arts-venue-rental-earned-income), union agreements and artist visas (use nonprofit-arts-union-agreements-visas), general contract risk (use nonprofit-risk-management), or budgeting royalty costs (use nonprofit-budgeting)."
 license: MIT
-supervision: review
-supervision_note: "Licensing agreements bind the organization to per-performance royalties, billing obligations, and infringement exposure for unauthorized use; a knowledgeable staff lead must review every application and counsel should review executed licenses."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Licensing agreements bind the organization to per-performance royalties, billing obligations, and infringement exposure for unauthorized use; a knowledgeable staff lead must review every application and counsel should review executed licenses."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Performance and Music Rights Licensing

@@ -2,9 +2,12 @@
 name: nonprofit-faith-finance-clergy-comp
 description: "US clergy pay and church finance mechanics: IRC §107 housing allowance, SECA dual tax status, W-2 vs. 1099 for clergy, love offerings and §102 gifts, accountable reimbursement plans, benevolence funds, IRC §4958 reasonable-comp process, 403(b)(9) plans, QSEHRA/ICHRA, and church cash-handling. Use when a church/synagogue/mosque administrator, treasurer, pastor, rabbi, imam, or advisor asks about housing allowance, parsonage, clergy W-2, SECA, love offering, benevolence, or a pastor's comp package. Not for 990 exemption (nonprofit-faith-990-exemption), giving statements (nonprofit-faith-stewardship-giving), firing clergy (nonprofit-faith-employment-ministerial-exception), or non-clergy HR (nonprofit-hr)."
 license: MIT
-supervision: review
-supervision_note: "Housing-allowance designations, W-2/1099 classification, and benevolence-fund payments have direct tax consequences for the clergyperson and the congregation."
-last_reviewed: 2026-09-10
+metadata:
+  supervision: "review"
+  supervision_note: "Housing-allowance designations, W-2/1099 classification, and benevolence-fund payments have direct tax consequences for the clergyperson and the congregation."
+  last_reviewed: "2026-09-10"
+  date_added: "2026-09-12"
+  date_added_source: "git:297d3ef69a314702df1ccc8174826716c88cff40"
 ---
 
 # Faith-Based Finance and Clergy Compensation (US Tax Mechanics)

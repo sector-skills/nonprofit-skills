@@ -2,9 +2,12 @@
 name: nonprofit-housing-construction-volunteers
 description: "Run volunteer home-building (Habitat build model): multi-site build-season calendars, crew-leader development, skilled-trade recruitment, task design for unskilled volunteers, jobsite safety and incident response, AmeriCorps deployment, partner-family participation, food/hospitality logistics, and coordinating crews with the supervisor and inspection schedule. Use when a user says 'plan a build season across three sites', 'draft a build-day run-of-show', 'how do I grow crew leaders', 'what can unskilled volunteers do versus licensed trades', 'write the Saturday safety talk', or 'schedule around inspections'. Not for general volunteer recruitment and recognition (use nonprofit-volunteer-management), ReStore volunteer staffing (use nonprofit-retail-staffing), paid contractor scopes and repair programs (use nonprofit-housing-repair-preservation), site control and financing (use nonprofit-housing-development-finance), or sweat-equity policy design (use nonprofit-housing-homeownership-programs)."
 license: MIT
-supervision: review
-supervision_note: "Jobsite safety and volunteer-injury decisions carry real physical risk; a knowledgeable construction staff member must review all safety plans before use."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Jobsite safety and volunteer-injury decisions carry real physical risk; a knowledgeable construction staff member must review all safety plans before use."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Volunteer Home Construction Program (the Habitat Build Model)

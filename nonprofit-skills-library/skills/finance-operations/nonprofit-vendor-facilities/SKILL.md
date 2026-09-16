@@ -2,8 +2,11 @@
 name: nonprofit-vendor-facilities
 description: "Handles vendor contract negotiation and management, procurement policy design (including federal procurement standards under 2 CFR 200 for grant-funded purchases), competitive bid/RFP processes, and facilities matters: lease negotiation and renewal, shared/co-located space arrangements, and build-out or maintenance planning for nonprofit offices and program space. Use when asked to negotiate or review a vendor contract, write a procurement policy, run a competitive bid process for a purchase, negotiate or renew an office/program space lease, evaluate a shared-space or co-location arrangement, or plan a facility build-out or capital repair. Does not cover fundraising venue logistics for a specific gala/event (use nonprofit-fundraising-events), internal approval-threshold controls (use nonprofit-financial-controls), or corporate sponsorship deal structuring (use nonprofit-corporate-sponsorships)."
 license: MIT
-supervision: expert-required
-supervision_note: "Leases and contracts legally bind the organization; federal procurement rules apply to grant funds."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Leases and contracts legally bind the organization; federal procurement rules apply to grant funds."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Vendor & Facilities Management

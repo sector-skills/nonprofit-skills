@@ -2,8 +2,11 @@
 name: nonprofit-email-newsletter
 description: "Plans nonprofit e-newsletter strategy: send cadence, list segmentation for supporter (non-ask) updates, template/section structure, and subject-line and deliverability practices for the recurring newsletter — as distinct from fundraising appeal emails. Use for tasks like \"design our monthly e-newsletter template,\" \"segment our newsletter list by donor vs. volunteer vs. general subscriber,\" \"improve our newsletter open rates,\" \"plan our newsletter content calendar,\" or \"should this go in the newsletter or the appeal email.\" Does not cover fundraising ask emails/appeal campaigns (nonprofit-annual-appeals), donor database/segmentation tooling setup (nonprofit-donor-crm), social content (nonprofit-social-media), or donation page copy (nonprofit-donation-page-copy)."
 license: MIT
-supervision: unsupervised
-supervision_note: "Recurring supporter updates, no ask and no filing."
+metadata:
+  supervision: "unsupervised"
+  supervision_note: "Recurring supporter updates, no ask and no filing."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Email Newsletter

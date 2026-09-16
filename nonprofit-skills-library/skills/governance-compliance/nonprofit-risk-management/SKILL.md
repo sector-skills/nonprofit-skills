@@ -2,8 +2,11 @@
 name: nonprofit-risk-management
 description: "Runs enterprise risk assessment and mitigation for nonprofits: insurance coverage review (general liability, D&O, professional liability, property, cyber, abuse/molestation), liability exposure mapping, crisis response and business continuity policy, and safeguarding/incident policy design for programs serving minors or vulnerable adults. Use when asked to conduct a risk assessment, review an insurance policy or coverage gaps, design a crisis communications/response plan, write an incident reporting and safeguarding policy, run background-check/screening protocols for staff or volunteers working with vulnerable populations, or build a business continuity/disaster recovery plan. Does not cover internal financial controls or fraud prevention (use nonprofit-financial-controls), data privacy/cybersecurity policy for donor data specifically (use nonprofit-data-privacy), or volunteer recruitment/onboarding mechanics generally (use nonprofit-volunteer-management)."
 license: MIT
-supervision: review
-supervision_note: "Insurance and risk decisions need an informed owner, not a filing authority."
+metadata:
+  supervision: "review"
+  supervision_note: "Insurance and risk decisions need an informed owner, not a filing authority."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Risk Management

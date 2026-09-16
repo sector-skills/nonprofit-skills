@@ -2,8 +2,11 @@
 name: nonprofit-voter-engagement
 description: "Designs and runs nonpartisan voter registration, voter education, and get-out-the-vote (GOTV) activities that stay compliant with 501(c)(3) rules against candidate/party endorsement. Use when a user asks to plan a voter registration drive, build a nonpartisan candidate forum or voter guide, design a GOTV or 'vote early' reminder campaign, train staff/volunteers on what a 501(c)(3) can and can't say about elections, or review event/social content for partisan-neutrality risk before publishing. Covers nonpartisan electoral participation activity specifically; issue-based lobbying on bills/regulations is not electoral activity and belongs to nonprofit-legislative-advocacy or nonprofit-policy-analysis, and general non-election supporter action campaigns belong to nonprofit-grassroots-mobilization."
 license: MIT
-supervision: expert-required
-supervision_note: "501(c)(3) electioneering rules; a partisan slip can cost exempt status."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "501(c)(3) electioneering rules; a partisan slip can cost exempt status."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Voter Engagement

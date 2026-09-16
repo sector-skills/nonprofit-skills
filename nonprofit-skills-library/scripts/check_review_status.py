@@ -1,28 +1,19 @@
 #!/usr/bin/env python3
-"""Report which SKILL.md files are overdue for review.
+"""Report review coverage and age without treating an addition as a review.
 
-Every SKILL.md carries a `last_reviewed: YYYY-MM-DD` frontmatter field. This
-script reads that field, applies the library's review cadence, and prints an
-overdue report.
+Read metadata.last_reviewed and metadata.date_added (legacy top-level fields are
+also accepted). Dates are scheduling evidence, not content certification.
+Missing review dates are NOT_REVIEWED, never silently CURRENT or REVIEW_OVERDUE.
+date_added means first addition to this repository, not original creation.
 
-Cadence
--------
-- Fast-moving categories (reviewed every 90 days):
-    * technology-data
-    * fundraising-development
-    * governance-compliance
-  These categories touch AI/CRM tools, IRS/990 rules, grant platforms, and
-  fundraising tech, which move quickly.
+Usage from nonprofit-skills-library:
+    python3 scripts/check_review_status.py
+    python3 scripts/check_review_status.py --all --json
+    python3 scripts/check_review_status.py --as-of 2026-09-16
 
-- All other categories: reviewed every 365 days.
-
-Usage
------
-    python3 scripts/check_review_status.py              # list overdue skills
-    python3 scripts/check_review_status.py --all        # list every skill with its status
-    python3 scripts/check_review_status.py --json       # machine-readable output
-
-Exit code 1 if any skill is overdue, else 0. Useful in CI to gate merges.
+JSON schema version 2 separates not_reviewed_count from overdue_count.
+Exit 1 for any not-reviewed, overdue, or invalid record; 0 only when all records
+are current; 2 for invocation/scan errors. No CI gate or scheduled job is installed.
 """
 from __future__ import annotations
 
@@ -30,23 +21,17 @@ import argparse
 import json
 import re
 import sys
-from dataclasses import dataclass, asdict
-from datetime import date, datetime
+from dataclasses import asdict, dataclass
+from datetime import date
 from pathlib import Path
+
+from skill_metadata import read_metadata
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKILLS_ROOT = REPO_ROOT / "skills"
-
-FAST_MOVING_CATEGORIES = {
-    "technology-data",
-    "fundraising-development",
-    "governance-compliance",
-}
+FAST_MOVING_CATEGORIES = {"technology-data", "fundraising-development", "governance-compliance"}
 FAST_INTERVAL_DAYS = 90
 DEFAULT_INTERVAL_DAYS = 365
-
-LAST_REVIEWED_RE = re.compile(r"^last_reviewed:\s*(\d{4}-\d{2}-\d{2})\s*$", re.MULTILINE)
-NAME_RE = re.compile(r"^name:\s*(\S+)\s*$", re.MULTILINE)
 
 
 @dataclass
@@ -55,102 +40,123 @@ class SkillStatus:
     category: str
     path: str
     last_reviewed: str | None
+    date_added: str | None
     interval_days: int
     days_since_review: int | None
+    days_since_added: int | None
+    status: str
     overdue: bool
     missing_field: bool
+    initial_review_due: bool
+    error: str | None
+
+    @property
+    def needs_attention(self):
+        return self.status != "current"
 
 
-def parse_frontmatter(text: str) -> tuple[str | None, date | None]:
-    if not text.startswith("---"):
-        return None, None
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return None, None
-    fm = parts[1]
-    name_match = NAME_RE.search(fm)
-    date_match = LAST_REVIEWED_RE.search(fm)
-    name = name_match.group(1) if name_match else None
-    reviewed = None
-    if date_match:
-        try:
-            reviewed = datetime.strptime(date_match.group(1), "%Y-%m-%d").date()
-        except ValueError:
-            reviewed = None
-    return name, reviewed
+def parse_date(value, field, today):
+    if value is None:
+        return None
+    text = str(value)
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", text):
+        raise ValueError(f"{field} must be YYYY-MM-DD")
+    try:
+        parsed = date.fromisoformat(text)
+    except ValueError as exc:
+        raise ValueError(f"{field} is not a valid calendar date") from exc
+    if parsed > today:
+        raise ValueError(f"{field} is in the future relative to {today}")
+    return parsed
 
 
-def scan(today: date | None = None) -> list[SkillStatus]:
+def scan(today=None):
     today = today or date.today()
-    results: list[SkillStatus] = []
-    for skill_md in sorted(SKILLS_ROOT.rglob("SKILL.md")):
-        rel = skill_md.relative_to(REPO_ROOT)
-        category = skill_md.relative_to(SKILLS_ROOT).parts[0]
+    paths = sorted(SKILLS_ROOT.glob("*/*/SKILL.md"))
+    if not paths:
+        raise ValueError(f"No skills found under {SKILLS_ROOT}")
+    results = []
+    for path in paths:
+        category = path.parent.parent.name
         interval = FAST_INTERVAL_DAYS if category in FAST_MOVING_CATEGORIES else DEFAULT_INTERVAL_DAYS
-        name, reviewed = parse_frontmatter(skill_md.read_text())
-        if reviewed is None:
-            results.append(SkillStatus(
-                name=name or skill_md.parent.name,
-                category=category,
-                path=str(rel),
-                last_reviewed=None,
-                interval_days=interval,
-                days_since_review=None,
-                overdue=True,
-                missing_field=True,
-            ))
-            continue
-        days = (today - reviewed).days
+        name, reviewed, added, error = path.parent.name, None, None, None
+        missing = True
+        try:
+            fields = read_metadata(path.read_text(encoding="utf-8"))
+            name = fields.get("name", name)
+            missing = "last_reviewed" not in fields
+            # An explicitly empty date is invalid, not a missing review record.
+            for field in ("last_reviewed", "date_added"):
+                if field in fields and fields[field] is None:
+                    raise ValueError(f"{field} is empty; omit unknown dates")
+            reviewed = parse_date(fields.get("last_reviewed"), "last_reviewed", today)
+            added = parse_date(fields.get("date_added"), "date_added", today)
+        except ValueError as exc:
+            error = str(exc)
+        review_age = (today - reviewed).days if reviewed else None
+        added_age = (today - added).days if added else None
+        overdue = error is None and reviewed is not None and review_age > interval
+        status = ("invalid-metadata" if error else "not-reviewed" if reviewed is None
+                  else "review-overdue" if overdue else "current")
         results.append(SkillStatus(
-            name=name or skill_md.parent.name,
-            category=category,
-            path=str(rel),
-            last_reviewed=reviewed.isoformat(),
-            interval_days=interval,
-            days_since_review=days,
-            overdue=days > interval,
-            missing_field=False,
+            name=name, category=category, path=str(path.relative_to(REPO_ROOT)),
+            last_reviewed=reviewed.isoformat() if reviewed else None,
+            date_added=added.isoformat() if added else None, interval_days=interval,
+            days_since_review=review_age, days_since_added=added_age,
+            status=status, overdue=overdue, missing_field=missing,
+            initial_review_due=status == "not-reviewed" and added_age is not None and added_age > interval,
+            error=error,
         ))
     return results
 
 
-def format_row(s: SkillStatus) -> str:
-    if s.missing_field:
-        return f"  MISSING  {s.name:45s} {s.category:25s} (no last_reviewed field)"
-    tag = "OVERDUE " if s.overdue else "ok      "
-    return (
-        f"  {tag} {s.name:45s} {s.category:25s} "
-        f"reviewed {s.last_reviewed} ({s.days_since_review}d ago, interval {s.interval_days}d)"
-    )
-
-
-def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    parser.add_argument("--all", action="store_true", help="Show every skill, not just overdue ones")
-    parser.add_argument("--json", action="store_true", help="Emit JSON instead of a text report")
-    args = parser.parse_args(argv)
-
-    statuses = scan()
-    overdue = [s for s in statuses if s.overdue]
-
-    if args.json:
-        print(json.dumps({
-            "checked": len(statuses),
-            "overdue_count": len(overdue),
-            "skills": [asdict(s) for s in (statuses if args.all else overdue)],
-        }, indent=2))
-        return 1 if overdue else 0
-
-    to_show = statuses if args.all else overdue
-    print(f"Nonprofit Skills review status  ({len(statuses)} skills checked)")
-    print(f"Overdue: {len(overdue)}  |  Fast-moving interval: {FAST_INTERVAL_DAYS}d  |  Default interval: {DEFAULT_INTERVAL_DAYS}d")
-    print()
-    if not to_show:
-        print("  All skills are within their review interval.")
+def format_row(s):
+    tag = s.status.upper().replace("-", "_")
+    if s.error:
+        detail = s.error
+    elif s.last_reviewed:
+        detail = f"reviewed {s.last_reviewed} ({s.days_since_review}d ago; interval {s.interval_days}d)"
     else:
-        for s in to_show:
+        detail = (f"added {s.date_added} ({s.days_since_added}d ago)" if s.date_added else "addition date unknown")
+        if s.initial_review_due:
+            detail += "; initial review past scheduling interval"
+        detail += "; no review date recorded"
+    return f"  {tag:16s} {s.name:45s} {s.category:25s} {detail}"
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
+    parser.add_argument("--all", action="store_true", help="Show current records as well as those needing attention")
+    parser.add_argument("--json", action="store_true", help="Emit versioned JSON")
+    parser.add_argument("--as-of", type=date.fromisoformat, help="Use a fixed YYYY-MM-DD for reproducible checks")
+    args = parser.parse_args(argv)
+    today = args.as_of or date.today()
+    try:
+        statuses = scan(today)
+    except (ValueError, OSError) as exc:
+        print(f"Review-status error: {exc}", file=sys.stderr)
+        return 2
+    attention = [s for s in statuses if s.needs_attention]
+    summary = {
+        "schema_version": 2, "as_of": today.isoformat(), "checked": len(statuses),
+        "current_count": sum(s.status == "current" for s in statuses),
+        "not_reviewed_count": sum(s.status == "not-reviewed" for s in statuses),
+        "overdue_count": sum(s.overdue for s in statuses),
+        "invalid_count": sum(s.status == "invalid-metadata" for s in statuses),
+        "initial_review_due_count": sum(s.initial_review_due for s in statuses),
+        "attention_count": len(attention),
+    }
+    shown = statuses if args.all else attention
+    if args.json:
+        print(json.dumps({**summary, "skills": [asdict(s) for s in shown]}, indent=2))
+    else:
+        print(f"Nonprofit Skills review status ({len(statuses)} skills; as of {today})")
+        print(f"Current: {summary['current_count']} | Not reviewed: {summary['not_reviewed_count']} | "
+              f"Review overdue: {summary['overdue_count']} | Invalid: {summary['invalid_count']}")
+        print("NOT_REVIEWED means no review date is recorded, not proof that no review ever occurred.")
+        for s in shown:
             print(format_row(s))
-    return 1 if overdue else 0
+    return 1 if attention else 0
 
 
 if __name__ == "__main__":

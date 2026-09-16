@@ -2,9 +2,12 @@
 name: nonprofit-arts-union-agreements-visas
 description: "Artist employment for nonprofit arts orgs: when AEA, IATSE, AFM, and SAG-AFTRA agreements apply (SPT, LOA, Guest Artist tiers; overhire rules; signatory tiers); costs beyond wages (Equity-League and AFM-EPF contributions, work-rule premiums, minimum calls); guest-artist contracts (fees, travel, housing, riders); O-1 and P visa petitions for foreign artists (petitioner choice, union consultation letters, premium processing); and foreign-artist tax withholding (the 30% rule, Central Withholding Agreements). Use when a user says 'do we need an Equity contract,' 'how do we bring in a director from abroad,' 'the venue says we need IATSE crew,' or 'our foreign artist owes 30% withholding.' Not for general staff HR (use nonprofit-hr), staff retention (use nonprofit-staff-retention), commissioning new work (use nonprofit-arts-commissioning-new-work), general risk (use nonprofit-risk-management), or executive hiring (use nonprofit-executive-search)."
 license: MIT
-supervision: expert-required
-supervision_note: "Visa petitions are filed with USCIS and union agreements bind the organization — immigration counsel and union business-agent review are required before any petition or agreement is signed or filed."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Visa petitions are filed with USCIS and union agreements bind the organization — immigration counsel and union business-agent review are required before any petition or agreement is signed or filed."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Union Agreements and Guest-Artist Visas

@@ -2,8 +2,11 @@
 name: nonprofit-revenue-diversification
 description: "Evaluates and builds earned-income ventures, social enterprise models, fee-for-service programs, and overall revenue-mix diversification strategy beyond traditional fundraising: revenue concentration/dependency analysis, business model selection (related vs. unrelated business, program-integrated vs. arm's-length social enterprise), UBIT (unrelated business income tax) screening, break-even/pricing analysis, and a staged launch plan. Use when a user says things like \"we're too dependent on one funder,\" \"should we start charging fees for this program,\" \"we want to launch a social enterprise,\" \"help us diversify our revenue mix,\" or \"is this earned-income idea financially viable.\" Does not cover annual fund/major gift/grant fundraising tactics (use the Fundraising & Development skills), does not cover the day-to-day operating budget once revenue streams are set (use nonprofit-budgeting), and does not cover merger or fiscal sponsorship as a growth path (use nonprofit-mergers-fiscal-sponsorship)."
 license: MIT
-supervision: expert-required
-supervision_note: "Earned-income and social-enterprise models raise unrelated business income tax questions."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Earned-income and social-enterprise models raise unrelated business income tax questions."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Revenue Diversification

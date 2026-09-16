@@ -2,8 +2,11 @@
 name: nonprofit-annual-appeals
 description: "Plans and writes annual fund direct-mail and email appeal campaigns: donor segmentation for appeals, ask-string/amount ladders, appeal letter and reply-device copy, year-end and giving-season campaign calendars, and appeal performance benchmarks (response rate, average gift). Use when a user asks to plan a year-end or giving-season appeal, segment a donor file for a mail/email drop, write or edit an appeal letter or reply card, build an ask-string ladder, or analyze appeal response rates. Does not cover donor database/segmentation tooling setup (use nonprofit-donor-crm), social/team fundraising campaigns (use nonprofit-peer-to-peer-fundraising), or general e-newsletter content unrelated to a fundraising ask (use nonprofit-email-newsletter)."
 license: MIT
-supervision: review
-supervision_note: "Solicitation copy goes to your whole donor file at once."
+metadata:
+  supervision: "review"
+  supervision_note: "Solicitation copy goes to your whole donor file at once."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Annual Fund Appeals

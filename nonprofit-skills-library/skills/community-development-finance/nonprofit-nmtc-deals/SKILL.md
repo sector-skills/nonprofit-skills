@@ -2,9 +2,12 @@
 name: nonprofit-nmtc-deals
 description: "New Markets Tax Credit deal work for nonprofits: how NMTC works (investors, CDEs, Qualified Equity Investments, the 39% credit over 7 years), the CDFI Fund allocation process and what CDEs look for, deal structuring (leverage loans, sub-CDEs, exits), eligible-use rules, rural/non-metro targets, 7-year compliance and recapture triggers, and layering NMTC with LIHTC/HOME and CDFI lending. Use when a user says 'can we use New Markets Tax Credits for our building,' 'pitch our project to a CDE,' 'structure an NMTC deal for our nonprofit,' 'what can NMTC proceeds pay for,' or 'explain the 7-year compliance period.' Not for LIHTC/HOME/CDBG housing capital stacks (use nonprofit-housing-development-finance), CDFI Fund certification and awards (use nonprofit-cdfi-finance), community facilities funding landscape (use nonprofit-community-facilities-finance), Qualified Opportunity Funds (use nonprofit-opportunity-zones), or donor-side fundraising for the building (use nonprofit-capital-campaigns)."
 license: MIT
-supervision: expert-required
-supervision_note: "NMTC structures, allocation agreements, QEI/QLICI documents, and compliance filings carry recapture and tax exposure; qualified tax counsel and a CPA must review before the output is relied on, executed, or filed."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "expert-required"
+  supervision_note: "NMTC structures, allocation agreements, QEI/QLICI documents, and compliance filings carry recapture and tax exposure; qualified tax counsel and a CPA must review before the output is relied on, executed, or filed."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:184e56d49996189ac0083abc8dc85965945dd2d3"
 ---
 
 # Nonprofit NMTC Deals (New Markets Tax Credit)

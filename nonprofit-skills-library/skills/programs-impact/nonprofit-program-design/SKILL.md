@@ -2,8 +2,11 @@
 name: nonprofit-program-design
 description: "Builds logic models and theory-of-change frameworks that connect a nonprofit program's inputs, activities, and outputs to short-, mid-, and long-term outcomes. Use when a user asks to design a new program, articulate a theory of change, build or revise a logic model, map program assumptions and external factors, define a program's causal chain before writing a grant proposal, or diagnose why a program's activities aren't producing the outcomes leadership expects. Covers the design and structuring of the model itself, not writing it into a funder narrative (nonprofit-grant-writing) and not measuring whether the outcomes actually occurred (nonprofit-outcomes-measurement)."
 license: MIT
-supervision: review
-supervision_note: "Logic models set what the program promises to achieve."
+metadata:
+  supervision: "review"
+  supervision_note: "Logic models set what the program promises to achieve."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Program Design

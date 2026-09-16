@@ -2,9 +2,12 @@
 name: nonprofit-arts-education-programs
 description: "Arts education for nonprofit arts orgs: teaching-artist rosters and contracts (W-2 vs 1099 practice, fee norms), district partnerships (arts integration, teacher PD, transport), student matinees, National Core Arts Standards and state standards, youth safety (background checks, mandated reporting, ratios, releases), arts-ed funders (NEA GAP arts education, state rosters, Title IV-A/Title I/21st CCLC), evaluation at arts-ed scale. Use when a user says 'build a teaching artist roster and set pay rates,' 'are teaching artists 1099 or W-2,' 'the district wants standards alignment,' 'we're adding student matinees,' or 'do teaching artists need background checks.' Not for general program design (use nonprofit-program-design), outcomes measurement (use nonprofit-outcomes-measurement), worker classification (use nonprofit-hr), matinee ticketing (use nonprofit-arts-box-office-subscriptions), arts grants (use nonprofit-arts-grant-writing), or teaching-artist union rules (use nonprofit-arts-union-agreements-visas)."
 license: MIT
-supervision: review
-supervision_note: "Programs serving minors carry youth-safety obligations (background checks, mandated reporting, ratios) and employment-classification exposure that vary by state, so a knowledgeable staff member must review staffing, safety, and contract decisions before the program launches."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Programs serving minors carry youth-safety obligations (background checks, mandated reporting, ratios) and employment-classification exposure that vary by state, so a knowledgeable staff member must review staffing, safety, and contract decisions before the program launches."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Teaching Artists and Arts Education Programs

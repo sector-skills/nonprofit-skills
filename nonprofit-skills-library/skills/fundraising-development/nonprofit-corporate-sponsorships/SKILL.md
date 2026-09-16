@@ -2,8 +2,11 @@
 name: nonprofit-corporate-sponsorships
 description: "Builds corporate sponsorship programs: sponsorship package/benefit-tier design, pricing, sponsor pitch decks and proposals, cause-marketing partnership structuring, and sponsor renewal/retention strategy. Use when a user asks to design sponsorship tiers or benefit packages for an event or program, price a sponsorship ask, write a corporate sponsor pitch deck or one-pager, structure a cause-marketing partnership, or plan sponsor renewal outreach. Does not cover foundation or government grant funding, even from a corporate foundation (use nonprofit-grant-research), and does not cover the underlying event budget/logistics the sponsorship funds (use nonprofit-fundraising-events)."
 license: MIT
-supervision: review
-supervision_note: "Benefit tiers touch the sponsorship-vs-advertising line and UBIT."
+metadata:
+  supervision: "review"
+  supervision_note: "Benefit tiers touch the sponsorship-vs-advertising line and UBIT."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Corporate Sponsorships & Cause Marketing

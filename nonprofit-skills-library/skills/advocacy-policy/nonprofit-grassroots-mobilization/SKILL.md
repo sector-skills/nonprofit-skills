@@ -2,8 +2,11 @@
 name: nonprofit-grassroots-mobilization
 description: "Builds action alerts, petition campaigns, call-in/email-to-legislator tools, and supporter activation tactics that generate public pressure on a policy issue. Use when a user asks to write an action alert or 'take action' email, set up a click-to-call or email-your-legislator campaign, draft petition copy and a petition-to-signature-to-action funnel, plan a rapid-response mobilization for a breaking policy moment, or design a supporter activation ladder from low-effort to high-effort engagement. Covers public-facing supporter activation and grassroots lobbying content specifically; the org's own direct legislator meetings/testimony are nonprofit-legislative-advocacy, the underlying policy research is nonprofit-policy-analysis, and nonpartisan election-specific activity is nonprofit-voter-engagement."
 license: MIT
-supervision: review
-supervision_note: "Public action alerts speak for the organization and count toward lobbying."
+metadata:
+  supervision: "review"
+  supervision_note: "Public action alerts speak for the organization and count toward lobbying."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Grassroots Mobilization

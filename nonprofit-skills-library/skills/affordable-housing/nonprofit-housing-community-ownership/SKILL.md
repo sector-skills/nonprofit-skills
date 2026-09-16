@@ -2,9 +2,12 @@
 name: nonprofit-housing-community-ownership
 description: "Designs shared-equity community ownership models — community land trusts (tri-partite governance, ground leases, resale formulas), limited-equity housing cooperatives (share purchase, occupancy agreements, co-op boards), and deed-restricted ownership (index-based, appreciation-capped, and equity-share formulas) — plus perpetuity stewardship and model selection. Use when a user says 'should we start a community land trust,' 'explain our resale formula to a homebuyer,' 'draft the key terms for our ground lease,' 'convert our rentals into a limited-equity co-op,' or 'our deed restriction expires soon — how do we enforce and renew it.' Not for homebuyer selection, education, or post-purchase support, or program-level shared-equity resale formulas in a conventional homeownership program (use nonprofit-housing-homeownership-programs), for developing the housing or its capital stack (use nonprofit-housing-development-finance), or for general nonprofit board governance (use nonprofit-board-governance)."
 license: MIT
-supervision: expert-required
-supervision_note: "Ground leases and deed restrictions bind real property in perpetuity; all drafts require attorney review and county recording review before adoption."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Ground leases and deed restrictions bind real property in perpetuity; all drafts require attorney review and county recording review before adoption."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Nonprofit Housing: Community Ownership and Shared-Equity Models

@@ -2,9 +2,12 @@
 name: nonprofit-executive-transitions
 description: "Designs the transitioning nonprofit executive's own transition work: incoming ED/CEO/COO 30/60/90-day plan, listening-tour design and synthesis (board/staff/funders/partners/participants), first-board-meeting brief, interim/acting-ED workplan with mandate constraints, outgoing-ED handoff memo, and founder-to-professional-CEO or long-tenure-successor transitions. Use when asked to plan a new ED's first 90 days, design a listening tour, draft an interim/acting-ED mandate, write an outgoing ED's transition memo, prep the first board meeting, negotiate success with the board chair, run a STARS diagnosis, or manage a founder or long-tenure succession from the executive's own seat. Does not cover building an internal leadership pipeline or emergency-succession plan (use nonprofit-succession-planning); the board-run search that picks the next executive (use nonprofit-executive-search); or ongoing CEO-board partnership work past the transition (use nonprofit-ceo-board-partnership)."
 license: MIT
-supervision: review
-supervision_note: "Transition and interim plans commit board and staff time."
-last_reviewed: 2026-09-07
+metadata:
+  supervision: "review"
+  supervision_note: "Transition and interim plans commit board and staff time."
+  last_reviewed: "2026-09-07"
+  date_added: "2026-09-07"
+  date_added_source: "git:34f6bfb6b4bc8cabe1683622f7fc16704d6a80b9"
 ---
 
 # Nonprofit Executive Transitions

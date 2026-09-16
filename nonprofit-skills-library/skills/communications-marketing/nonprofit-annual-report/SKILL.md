@@ -2,8 +2,11 @@
 name: nonprofit-annual-report
 description: "Plans and structures a nonprofit annual report: section architecture, impact-highlight selection, financial-summary framing for lay readers, donor/volunteer recognition sections, and print-vs-digital/interactive format decisions. Use for tasks like \"outline our annual report,\" \"decide what goes on the annual report cover,\" \"write the ED/board chair letter,\" \"structure our donor honor roll,\" or \"turn our 990 numbers into a one-page financial summary graphic.\" Does not cover writing the underlying beneficiary narratives (nonprofit-storytelling), the org's ongoing brand voice/messaging house (nonprofit-brand-messaging), preparing the actual audited financial statements (nonprofit-financial-statements), or Form 990 filing itself (nonprofit-form-990)."
 license: MIT
-supervision: review
-supervision_note: "Summarises financials for lay readers; the numbers must match the statements."
+metadata:
+  supervision: "review"
+  supervision_note: "Summarises financials for lay readers; the numbers must match the statements."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Annual Report

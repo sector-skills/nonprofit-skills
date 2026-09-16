@@ -2,9 +2,12 @@
 name: nonprofit-housing-repair-preservation
 description: "Designs and operates nonprofit home repair and preservation programs: critical home repair intake-to-completion workflow (roof, HVAC, plumbing, ramps), DOE Weatherization Assistance Program weatherization, CAPABLE-style aging-in-place modifications, EPA RRP lead-safe work, work-scope and cost estimating, contractor vs. volunteer labor decisions, income eligibility and affordability covenants, and preserving at-risk stock (expiring-use and NOAH). Use when a user says 'set up a critical home repair program,' 'our repair waitlist is a year long,' 'help us scope and estimate a roof replacement,' 'do we need lead certification for pre-1978 homes,' 'should volunteers or contractors do ramp builds,' or 'how do we keep NOAH units affordable.' Not for building new homes or development finance (nonprofit-housing-development-finance), volunteer build-day operations and crew site safety (nonprofit-housing-construction-volunteers), or general vendor/contractor management policy (nonprofit-vendor-facilities)."
 license: MIT
-supervision: review
-supervision_note: "Construction scoping and lead-safety decisions carry occupant and worker safety consequences."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Construction scoping and lead-safety decisions carry occupant and worker safety consequences."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Nonprofit Home Repair & Housing Preservation

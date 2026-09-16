@@ -2,9 +2,12 @@
 name: nonprofit-arts-ad-ed-partnership
 description: "Arts dual leadership: the AD/ED partnership (also AD/MD, music director/executive director, opera general director), decision rights over season approval, artistic hires, budget lines, and fundraising; the board's artistic mandate (ratify vs advise); tension patterns and repairs; combining or splitting the roles; succession when one partner leaves. Use when a user says 'who decides the season, the AD or the board,' 'our AD and MD fight over the budget,' 'should we combine the AD and ED jobs,' or 'our ED is leaving, what happens to the partnership.' Not for general CEO-board partnership work (use nonprofit-ceo-board-partnership), board governance mechanics (use nonprofit-board-governance), transition or search process (use nonprofit-executive-transitions, nonprofit-executive-search), season content selection (use nonprofit-arts-season-planning), or the budget build (use nonprofit-budgeting)."
 license: MIT
-supervision: review
-supervision_note: "Partnership charters and decision-rights changes become governance precedent for the organization, so board leadership must review them before adoption."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Partnership charters and decision-rights changes become governance precedent for the organization, so board leadership must review them before adoption."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # The Artistic and Executive Directorship Partnership

@@ -2,9 +2,12 @@
 name: nonprofit-housing-homeownership-programs
 description: "Designs and operates nonprofit affordable homeownership programs — the Habitat-style cycle from homebuyer eligibility and selection through sweat equity, below-market financing (0% first mortgages, silent seconds, forgivable loans), underwriting, closing, and post-purchase support. Use when a user says 'draft our homebuyer selection policy', 'how many sweat equity hours should we require', 'should we use a 0% first mortgage or a silent second', 'can this family afford our house at 60% AMI', 'our homebuyer is 60 days delinquent', or 'what resale formula should our program use'. Not for community land trusts, limited-equity co-ops, or perpetual deed restrictions (use nonprofit-housing-community-ownership), build-day volunteer operations (use nonprofit-housing-construction-volunteers), the development capital stack (use nonprofit-housing-development-finance), or raising donor funds for construction (use nonprofit-capital-campaigns)."
 license: MIT
-supervision: review
-supervision_note: "Selection policies, loan structures, and resale formulas carry fair-housing and lending-law exposure and become legal loan documents; a knowledgeable staffer must review before adoption."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Selection policies, loan structures, and resale formulas carry fair-housing and lending-law exposure and become legal loan documents; a knowledgeable staffer must review before adoption."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Nonprofit Affordable Homeownership Programs

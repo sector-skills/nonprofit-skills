@@ -2,9 +2,12 @@
 name: nonprofit-housing-rapid-rehousing-transitional
 description: "Designs and runs rapid re-housing (RRH) and transitional housing (TH) programs under HUD CoC and ESG rules: RRH core components, progressive engagement and tapering, TH models and TH-vs-RRH choices, landlord recruitment with risk-mitigation funds, program budgets and per-household costs, and exits to permanent housing. Use when a user says 'design our rapid rehousing program', 'draft a progressive engagement assistance policy', 'recruit landlords for our rehousing program', 'should we use transitional housing or rapid rehousing', or 'our exits to permanent housing are too low'. Not for street outreach, shelter, diversion, or coordinated entry (use nonprofit-housing-homelessness-services); permanent supportive housing (use nonprofit-housing-permanent-supportive-housing); program design or theory of change (use nonprofit-program-design); program evaluation (use nonprofit-outcomes-measurement); ESG/CoC audits (use nonprofit-housing-lihtc-hud-compliance); fair housing law (use nonprofit-housing-fair-housing)."
 license: MIT
-supervision: review
-supervision_note: "Program design choices set binding assistance caps, lease terms, and compliance postures under HUD CoC/ESG rules, and errors can strand households or trigger monitoring findings - a knowledgeable housing staffer must check every design document against the current CoC written standards and HUD notices before adoption."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Program design choices set binding assistance caps, lease terms, and compliance postures under HUD CoC/ESG rules, and errors can strand households or trigger monitoring findings - a knowledgeable housing staffer must check every design document against the current CoC written standards and HUD notices before adoption."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Rapid Re-Housing and Transitional Housing Programs

@@ -2,9 +2,12 @@
 name: nonprofit-faith-stewardship-giving
 description: "Stewardship and giving in US worship communities: annual pledge campaigns, tithe/tzedakah/zakat/dana messaging, capital campaigns for houses of worship, named and memorial gifts, faith-community planned giving, and IRS rules specific to religious contributions — §170(f)(8) acknowledgment, the intangible-religious-benefit carveout to §6115 quid-pro-quo, control-and-discretion for donor-designated gifts (mission trips, missionaries, benevolence), Form 8283/8282, offering-counting and digital-giving. Use when a pastor, rabbi, imam, or stewardship chair says 'plan our pledge campaign,' 'run a building campaign,' 'write our giving statements,' or 'quid pro quo for a wedding fee.' Does not cover generic appeals, major gifts, capital, or planned giving (see nonprofit-annual-appeals, nonprofit-major-gifts, nonprofit-capital-campaigns, nonprofit-planned-giving), clergy love offerings (nonprofit-faith-finance-clergy-comp), or pastoral voice of giving letters (nonprofit-faith-communications-pastoral)."
 license: MIT
-supervision: review
-supervision_note: "Giving acknowledgments, quid-pro-quo disclosures, and designated-gift control language become part of the tax record and directly affect donor deductibility."
-last_reviewed: 2026-09-10
+metadata:
+  supervision: "review"
+  supervision_note: "Giving acknowledgments, quid-pro-quo disclosures, and designated-gift control language become part of the tax record and directly affect donor deductibility."
+  last_reviewed: "2026-09-10"
+  date_added: "2026-09-12"
+  date_added_source: "git:297d3ef69a314702df1ccc8174826716c88cff40"
 ---
 
 # Faith-Community Stewardship and Giving

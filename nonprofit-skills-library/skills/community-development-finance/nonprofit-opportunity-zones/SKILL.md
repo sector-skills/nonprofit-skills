@@ -2,9 +2,12 @@
 name: nonprofit-opportunity-zones
 description: "Opportunity Zones for nonprofits and mission-driven deals: current-law QOF/QOZB mechanics (rolling five-year deferral, 10% and rural 30% basis step-ups, 10-year appreciation exclusion, 90% asset tests, sin-business exclusions), 2027 OZ 2.0 tract redesignations, rural QROF enhancements, nonprofit roles (QOZB sponsor, JV partner, fund investor), deal selection against community benefit, community-benefit covenants, and 6039K/6039L reporting. Use when a user says 'an investor wants to put opportunity zone money into our project,' 'should our nonprofit be the QOZB or a limited partner,' 'what changed in opportunity zones law in 2025-2026,' 'can our foundation invest in a qualified opportunity fund,' or 'draft a community benefits covenant for this OZ deal.' Not for New Markets Tax Credit structuring (use nonprofit-nmtc-deals), CDFI lending (use nonprofit-cdfi-finance), housing capital stacks (use nonprofit-housing-development-finance), or endowment investment policy (use org investment policy and counsel)."
 license: MIT
-supervision: expert-required
-supervision_note: "QOF structuring, 90% asset-test cure positions, and 6039K/6039L filings produce binding federal tax positions requiring tax attorney and CPA review before filing or adoption."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "expert-required"
+  supervision_note: "QOF structuring, 90% asset-test cure positions, and 6039K/6039L filings produce binding federal tax positions requiring tax attorney and CPA review before filing or adoption."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:184e56d49996189ac0083abc8dc85965945dd2d3"
 ---
 
 # Nonprofit Opportunity Zones

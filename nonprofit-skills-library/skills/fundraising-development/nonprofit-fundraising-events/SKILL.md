@@ -2,8 +2,11 @@
 name: nonprofit-fundraising-events
 description: "Plans and budgets fundraising events (galas, auctions, benefit dinners): event budgeting and net-revenue projection, sponsorship-vs-ticket revenue mix planning, live/silent auction procurement and structure, and event-day run-of-show/logistics planning. Use when a user asks to budget or plan a gala/auction/benefit event, project net revenue or set ticket pricing, plan auction item procurement and auction mechanics (live vs. silent, paddle raise/fund-a-need), or build an event-day run of show and volunteer/staffing plan. Does not cover designing corporate sponsorship tiers/pitch decks themselves (use nonprofit-corporate-sponsorships, then plug the resulting revenue into this event's budget) or peer-to-peer/team fundraising event formats like walks and runs (use nonprofit-peer-to-peer-fundraising)."
 license: MIT
-supervision: review
-supervision_note: "Auctions and raffles are state-regulated and budgets commit real money."
+metadata:
+  supervision: "review"
+  supervision_note: "Auctions and raffles are state-regulated and budgets commit real money."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Fundraising Events: Galas, Auctions & Benefits

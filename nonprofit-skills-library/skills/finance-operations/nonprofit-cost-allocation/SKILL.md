@@ -2,8 +2,11 @@
 name: nonprofit-cost-allocation
 description: "Calculates nonprofit indirect costs, evaluates federal de minimis elections and NICRA negotiation, and documents shared-cost allocation and true program costs. Use for rate selection, overhead allocation, or full-cost analysis. Does not build annual budgets, audited functional expense statements, or cash-flow plans; use nonprofit-budgeting, nonprofit-financial-statements, or nonprofit-reserves-cash-flow respectively."
 license: MIT
-supervision: expert-required
-supervision_note: "Indirect cost rates and NICRAs under 2 CFR 200 are negotiated with the federal government."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Indirect cost rates and NICRAs under 2 CFR 200 are negotiated with the federal government."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Cost Allocation

@@ -2,9 +2,12 @@
 name: nonprofit-arts-venue-rental-earned-income
 description: "Venue rental and ancillary earned income for arts orgs: rentable inventory (hall, studio, gallery, lobby); renter channels (weddings, corporate, film shoots, community groups) and tiered pricing; rental agreement checklist (COI, damage deposits, load-in, staffing, liquor licensing); season conflict rules; ancillary lines (parking, concessions, bar, merchandise) and margins; UBIT basics (IRC 512(b)(3), 514). Use when a user says 'should we rent our theater for weddings,' 'a production company wants to shoot in our gallery,' 'do renters need a certificate of insurance,' or 'is rental income taxable as UBIT.' Not for the org's own ticketing (use nonprofit-arts-box-office-subscriptions), music rights (use nonprofit-arts-performance-licensing), facilities/vendor management (use nonprofit-vendor-facilities), fundraising galas (use nonprofit-fundraising-events), risk management (use nonprofit-risk-management), or the museum shop (use nonprofit-retail-store-operations)."
 license: MIT
-supervision: review
-supervision_note: "Rental agreements, insurance terms, and liquor arrangements bind the organization contractually — a knowledgeable staff member must review every agreement before signature."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Rental agreements, insurance terms, and liquor arrangements bind the organization contractually — a knowledgeable staff member must review every agreement before signature."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Venue Rental and Ancillary Earned Income

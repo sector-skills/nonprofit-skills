@@ -2,9 +2,12 @@
 name: nonprofit-community-facilities-finance
 description: "Designs capital stacks for nonprofit community facilities — health centers (FQHCs), child care centers, charter schools, grocery and healthy-food retail, community centers, workforce training space — layering USDA Community Facilities loans and grants, tax-exempt 501(c)(3) conduit bonds (bank-qualified or public), NMTC equity, CDFI debt, government grants, and philanthropic gap capital. Use when a user says 'how do we finance our new health center / child care building / charter school facility,' 'are we eligible for USDA Community Facilities,' 'should we do a bank-qualified bond,' 'help us put together the capital stack,' or 'what funders pay for this kind of facility.' Not for NMTC deal structuring (use nonprofit-nmtc-deals), CDFI lending and awards (use nonprofit-cdfi-finance), housing projects (use nonprofit-housing-development-finance), donor-side capital campaigns (use nonprofit-capital-campaigns), or disaster-rebuild financing (use nonprofit-disaster-recovery-finance)."
 license: MIT
-supervision: expert-required
-supervision_note: "Bond eligibility and structure, USDA applications, and intercreditor agreements require qualified counsel and the appropriate financial advisor to review before reliance, execution, or filing; bond matters require bond counsel."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Bond eligibility and structure, USDA applications, and intercreditor agreements require qualified counsel and the appropriate financial advisor to review before reliance, execution, or filing; bond matters require bond counsel."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:184e56d49996189ac0083abc8dc85965945dd2d3"
 ---
 
 # Nonprofit Community Facilities Finance

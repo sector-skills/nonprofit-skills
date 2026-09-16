@@ -2,8 +2,11 @@
 name: nonprofit-budgeting
 description: "Builds a nonprofit's annual operating budget: revenue and expense projections, program-vs-admin-vs-fundraising allocation across functional categories, zero-based vs. incremental budgeting approaches, budget-to-actual variance setup, and the board approval process and calendar. Use when asked to build, draft, revise, or present an annual budget, allocate costs by function for budgeting purposes, set up a budget calendar, or prepare a budget narrative for board vote. Does not cover reading/producing the audited statement of activities or functional expense statement after the fact (use nonprofit-financial-statements), operating reserve targets or cash flow timing (use nonprofit-reserves-cash-flow), indirect cost rate calculation for grants (use nonprofit-cost-allocation), or internal control design (use nonprofit-financial-controls)."
 license: MIT
-supervision: review
-supervision_note: "The board adopts this; errors propagate through the whole year."
+metadata:
+  supervision: "review"
+  supervision_note: "The board adopts this; errors propagate through the whole year."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Budgeting

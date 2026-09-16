@@ -2,9 +2,11 @@
 name: nonprofit-staff-retention
 description: "Diagnoses and improves paid-staff culture, morale, and retention specifically under nonprofit resource constraints: turnover/exit-interview analysis, burnout diagnosis, non-cash total-rewards design, career-pathing without a hierarchy to climb, and manager practices for under-resourced teams. Use for tasks like 'why is our staff turnover so high,' 'design a retention plan on a flat budget,' 'build an exit interview process,' 'address burnout on my program team,' or 'improve staff morale without a raise budget.' Boundary: pay-band benchmarking, job descriptions, hiring/onboarding process, and formal personnel policy are nonprofit-hr; ED transition and leadership pipeline is nonprofit-succession-planning; unpaid volunteer retention is nonprofit-volunteer-management."
 license: MIT
-supervision: review
-supervision_note: "Compensation and culture changes affect employment terms."
 metadata:
+  supervision: "review"
+  supervision_note: "Compensation and culture changes affect employment terms."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
   author: nonprofit-skills-library
   version: '1.0'
 ---

@@ -2,9 +2,12 @@
 name: nonprofit-housing-permanent-supportive-housing
 description: "Designs and operates permanent supportive housing (PSH) with Housing First fidelity: no housing-readiness conditions, voluntary services, harm reduction, standard renewable leases, scattered-site choice. Covers the USICH Housing First checklist, staffing models (ACT, intensive case management, peers), lease-up planning, retention and eviction-prevention protocols, and braided funding (CoC PSH, PBV, Medicaid 1915(i), HUD-VASH). Use when a user says 'design a PSH program', 'are we really Housing First', 'our caseloads are too high', 'write an eviction-prevention protocol', 'can Medicaid pay for our services'. Not for rapid rehousing or transitional housing (use nonprofit-housing-rapid-rehousing-transitional); shelter, outreach, diversion, or coordinated entry/HMIS (use nonprofit-housing-homelessness-services); tenant selection, income certs, or unit property/asset management (use nonprofit-housing-affordable-rental-operations); Section 42/HUD file compliance (use nonprofit-housing-lihtc-hud-compliance)."
 license: MIT
-supervision: review
-supervision_note: "PSH design choices and eviction decisions directly affect the housing stability of people with disabilities and carry fair-housing exposure; a knowledgeable staffer must read before adoption."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "PSH design choices and eviction decisions directly affect the housing stability of people with disabilities and carry fair-housing exposure; a knowledgeable staffer must read before adoption."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Permanent Supportive Housing (PSH): Design and Operations

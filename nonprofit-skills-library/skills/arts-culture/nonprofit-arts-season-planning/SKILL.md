@@ -2,9 +2,12 @@
 name: nonprofit-arts-season-planning
 description: "The annual artistic planning cycle for performing arts organizations and galleries: season and exhibition selection (artistic balance, audience, budget); planning calendars and real lead times (rights 12-18 months out for hot titles, loan exhibitions 2-3 years out); per-title cost estimating; premiere vs licensed economics; holdover and extension math; and the subscription vs single-ticket mix as a planning input. Use when a user says 'help us pick next season,' 'when do we lock rights for 2027-28,' 'what will this title cost us,' 'should we extend the run,' or 'how far out do we plan exhibitions.' Not for commissioning agreements (use nonprofit-arts-commissioning-new-work), rights clearance (use nonprofit-arts-performance-licensing), ticket pricing and subscription packaging (use nonprofit-arts-box-office-subscriptions), season underwriting (use nonprofit-arts-season-sponsorship), org-wide strategy (use nonprofit-strategic-planning), or budget mechanics (use nonprofit-budgeting)."
 license: MIT
-supervision: review
-supervision_note: "Season and exhibition selections commit a full year of budget, staff capacity, and rights negotiations before any revenue arrives, so a knowledgeable staff or board leader must review before the calendar locks."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Season and exhibition selections commit a full year of budget, staff capacity, and rights negotiations before any revenue arrives, so a knowledgeable staff or board leader must review before the calendar locks."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Season and Exhibition Planning

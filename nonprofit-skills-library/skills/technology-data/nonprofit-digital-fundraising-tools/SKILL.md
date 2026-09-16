@@ -2,8 +2,11 @@
 name: nonprofit-digital-fundraising-tools
 description: "Evaluates and sets up online giving platforms (e.g., Classy, Donorbox, GiveButter, Qgiv, Network for Good), peer-to-peer/crowdfunding fundraising technology, payment processors and gateways (Stripe, PayPal, Authorize.Net), recurring-gift/subscription billing setup, and transaction fee modeling. Use for online giving platform selection, payment processor comparison, recurring donation setup, peer-to-peer platform configuration, and donation form technical setup (fields, redirects, receipts, Apple/Google Pay). Does not cover CRM/database selection or data hygiene (nonprofit-donor-crm), PCI compliance policy or data privacy (nonprofit-data-privacy), or donation page persuasive copywriting (nonprofit-donation-page-copy)."
 license: MIT
-supervision: review
-supervision_note: "Payment and gateway choices move donor money."
+metadata:
+  supervision: "review"
+  supervision_note: "Payment and gateway choices move donor money."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Digital Fundraising Tools

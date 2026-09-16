@@ -2,9 +2,12 @@
 name: nonprofit-faith-programs-social-services
 description: "Designing and operating faith-based direct-service programs — food pantry, addiction recovery, refugee resettlement, homeless shelter, prison and re-entry ministry, immigration legal services, disaster response — while preserving religious character and staying inside the voluntary/separate/not-a-condition rules for federally funded services. Use when a faith-based ED, program director, or clergyperson says 'start a food pantry,' 'can our recovery program be faith-based with SAMHSA money,' 'joining a sponsor circle,' 'must we offer a secular alternative,' or 'FEMA activated our team.' Does not cover the RFRA/RLUIPA/Charitable Choice statutory framework (nonprofit-faith-religious-liberty-compliance), generic program design (nonprofit-program-design, nonprofit-outcomes-measurement), lay-leader development (nonprofit-faith-volunteer-lay-leadership), hosted-program facility use (nonprofit-faith-facilities-sanctuary), or benevolence cash grants (nonprofit-faith-finance-clergy-comp)."
 license: MIT
-supervision: review
-supervision_note: "Federal grant compliance and beneficiary-rights language have legal and funder consequences; discipleship-integrated program designs need to be tested against funding source before deployment."
-last_reviewed: 2026-09-10
+metadata:
+  supervision: "review"
+  supervision_note: "Federal grant compliance and beneficiary-rights language have legal and funder consequences; discipleship-integrated program designs need to be tested against funding source before deployment."
+  last_reviewed: "2026-09-10"
+  date_added: "2026-09-12"
+  date_added_source: "git:297d3ef69a314702df1ccc8174826716c88cff40"
 ---
 
 # Faith-Based Programs and Social Services (Direct-Service Delivery)

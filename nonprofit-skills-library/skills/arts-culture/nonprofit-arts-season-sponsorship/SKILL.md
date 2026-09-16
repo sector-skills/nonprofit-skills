@@ -2,9 +2,12 @@
 name: nonprofit-arts-season-sponsorship
 description: "Arts underwriting model for nonprofit arts orgs (theaters, orchestras, dance, galleries, presenters): the season presenter / production sponsor / exhibition underwriter / program sponsor ladder; benefits matrix (credits, tickets, hospitality, CSR activation); cash and in-kind valuation; the sponsor pitch and one-pager; opening-night hospitality; sponsor reporting and renewal; credit and naming conventions. Use when a development director says 'we need a season sponsor,' 'a company wants to underwrite a show — what do we charge,' 'our sponsor wants ad copy in the playbill,' or 'the sponsor wants a renewal report.' Not for corporate-partnership strategy or cause marketing (use nonprofit-corporate-sponsorships), stewardship beyond the package (use nonprofit-donor-retention), galas and benefit events (use nonprofit-fundraising-events), season programming (use nonprofit-arts-season-planning), capital naming rights (use nonprofit-capital-campaigns), or arts-funder grants (use nonprofit-arts-grant-writing)."
 license: MIT
-supervision: review
-supervision_note: "Sponsor commitments are contractual and reputationally public — credit language, exclusivity, deliverables, and tax treatment need knowledgeable staff review before signature and publication."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Sponsor commitments are contractual and reputationally public — credit language, exclusivity, deliverables, and tax treatment need knowledgeable staff review before signature and publication."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Season and Production Sponsorship

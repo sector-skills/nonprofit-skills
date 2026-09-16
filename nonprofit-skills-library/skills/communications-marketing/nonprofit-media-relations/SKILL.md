@@ -2,8 +2,11 @@
 name: nonprofit-media-relations
 description: "Handles nonprofit press and media relations: writing press releases and media advisories, building journalist target lists and pitches, preparing spokespeople for interviews, and crisis/rapid-response media statements for a nonprofit news moment. Use for tasks like \"write a press release for our new program launch,\" \"pitch a local reporter on our story,\" \"prep our ED for a TV interview,\" \"draft a statement responding to this news story about us,\" or \"build our media contact list.\" Does not cover social media content (nonprofit-social-media), the org's underlying brand voice/messaging house (nonprofit-brand-messaging), legislative testimony or lobby-day meeting prep (nonprofit-legislative-advocacy), or organizing supporter action alerts/petitions (nonprofit-grassroots-mobilization)."
 license: MIT
-supervision: review
-supervision_note: "Press statements and crisis response are on the record permanently."
+metadata:
+  supervision: "review"
+  supervision_note: "Press statements and crisis response are on the record permanently."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Media Relations

@@ -2,8 +2,11 @@
 name: nonprofit-mergers-fiscal-sponsorship
 description: "Assesses and structures formal inter-organizational combinations: merger/consolidation feasibility studies, joint venture structuring, and fiscal sponsorship arrangements (Model A comprehensive vs. Model C pre-approved grant relationship), including due diligence checklists, culture-fit assessment, integration planning, and sponsorship agreement terms (fees, liability, IP/donor-list ownership on exit). Use for \"we're considering merging with another nonprofit,\" \"should we become a fiscally sponsored project,\" \"we want to sponsor a smaller grassroots group,\" \"evaluate this merger partner,\" or \"draft our fiscal sponsorship agreement terms.\" Not for 501(c)(3)/501(c)(4) dual-entity lobbying structures (use nonprofit-c3-c4-structure), advocacy coalitions of legally separate orgs (use nonprofit-coalition-building), or leading staff/culture through the resulting transition (use nonprofit-change-management)."
 license: MIT
-supervision: expert-required
-supervision_note: "Mergers, joint ventures and fiscal sponsorship are legal structures requiring counsel."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Mergers, joint ventures and fiscal sponsorship are legal structures requiring counsel."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Mergers & Fiscal Sponsorship

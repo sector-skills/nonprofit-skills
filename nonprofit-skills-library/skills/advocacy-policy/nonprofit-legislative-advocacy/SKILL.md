@@ -2,8 +2,11 @@
 name: nonprofit-legislative-advocacy
 description: "Prepares nonprofit staff and board members for direct legislative engagement: legislator office meetings, lobby days, committee testimony, and tracking 501(h) lobbying expenditure limits. Use when a user asks to prep for a meeting with a legislator or their staff, plan a lobby day or fly-in, write or rehearse spoken/written testimony for a hearing, build a leave-behind packet for a Hill/statehouse visit, or determine whether a planned activity counts as direct vs. grassroots lobbying under 501(h). Covers direct engagement with policymakers, not the underlying research/brief content (nonprofit-policy-analysis), not multi-org coalition sign-on logistics (nonprofit-coalition-building), and not public-facing action alerts to mobilize supporters (nonprofit-grassroots-mobilization)."
 license: MIT
-supervision: expert-required
-supervision_note: "Tracks 501(h) lobbying expenditure limits; exceeding them is a tax matter."
+metadata:
+  supervision: "expert-required"
+  supervision_note: "Tracks 501(h) lobbying expenditure limits; exceeding them is a tax matter."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Legislative Advocacy

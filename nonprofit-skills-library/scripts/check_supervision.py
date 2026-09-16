@@ -6,7 +6,7 @@ that comes out wrong costs an edit. A Form 990 or a set of bylaws that comes out
 wrong is filed with the IRS or binds the organization — and the person running
 the agent is often the least equipped to notice the error.
 
-`supervision:` records that difference in the frontmatter so an agent, a CI job,
+`metadata.supervision` records that difference in the frontmatter so an agent, a CI job,
 or a human browsing the library can see it before the output is used.
 
 Levels
@@ -39,19 +39,15 @@ from __future__ import annotations
 
 import argparse
 import json
-import re
 import sys
 from dataclasses import asdict, dataclass
 from pathlib import Path
+from skill_metadata import read_metadata
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SKILLS_ROOT = REPO_ROOT / "skills"
 
 VALID_LEVELS = ("unsupervised", "review", "expert-required")
-
-NAME_RE = re.compile(r"^name:\s*(\S+)\s*$", re.MULTILINE)
-SUPERVISION_RE = re.compile(r"^supervision:\s*(\S+)\s*$", re.MULTILINE)
-
 
 @dataclass
 class SkillStatus:
@@ -67,23 +63,15 @@ class SkillStatus:
         return "OK" if self.valid else "INVALID"
 
 
-def frontmatter(text: str) -> str:
-    """Return the YAML frontmatter block, or '' when the file has none."""
-    parts = text.split("---")
-    return parts[1] if len(parts) >= 3 and text.lstrip().startswith("---") else ""
-
-
 def collect() -> list[SkillStatus]:
     out: list[SkillStatus] = []
     for path in sorted(SKILLS_ROOT.glob("*/*/SKILL.md")):
         text = path.read_text(encoding="utf-8")
-        block = frontmatter(text)
-
-        name_match = NAME_RE.search(block)
-        name = name_match.group(1) if name_match else path.parent.name
-
-        level_match = SUPERVISION_RE.search(block)
-        level = level_match.group(1) if level_match else None
+        fields = read_metadata(text)
+        name = fields.get("name", path.parent.name)
+        level = fields.get("supervision")
+        if level is not None and not isinstance(level, str):
+            raise ValueError(f"{path}: supervision must be a string")
 
         out.append(
             SkillStatus(
@@ -102,7 +90,11 @@ def main() -> int:
     parser.add_argument("--json", action="store_true", help="machine-readable output")
     args = parser.parse_args()
 
-    statuses = collect()
+    try:
+        statuses = collect()
+    except ValueError as exc:
+        print(f"Metadata error: {exc}", file=sys.stderr)
+        return 2
     invalid = [s for s in statuses if s.supervision is not None and not s.valid]
     missing = [s for s in statuses if s.supervision is None]
 

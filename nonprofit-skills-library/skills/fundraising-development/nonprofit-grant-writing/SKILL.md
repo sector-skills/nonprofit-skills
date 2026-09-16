@@ -2,8 +2,11 @@
 name: nonprofit-grant-writing
 description: "Drafts letters of inquiry (LOIs) and full grant proposals for foundation, government, and corporate funders: needs statements, program narratives, budget narratives, evaluation/logic-model summaries written for a specific funder's guidelines, and grant reports. Use when a user asks to write or edit an LOI, draft a proposal narrative or budget narrative, respond to a specific RFP/NOFO's required sections, or write a grant report to a funder. Does not cover finding or vetting funders, tracking RFP deadlines, or scoring funder fit (use nonprofit-grant-research), and does not cover building the underlying logic model or theory of change from scratch (use nonprofit-program-design) — this skill packages an existing program design into funder-ready language."
 license: MIT
-supervision: review
-supervision_note: "Proposals are binding representations to a funder about what you will deliver."
+metadata:
+  supervision: "review"
+  supervision_note: "Proposals are binding representations to a funder about what you will deliver."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Grant Writing: LOIs, Proposals & Reports

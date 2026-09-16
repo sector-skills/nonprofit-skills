@@ -2,8 +2,11 @@
 name: nonprofit-online-resale
 description: "Runs multi-channel online resale of high-value donated items through marketplaces (ShopGoodwill, eBay-style auctions): identifying/photographing items, writing listings, shipping logistics, online customer service. Use for 'list this on ShopGoodwill,' 'set up our eBay auction workflow,' 'handle online resale shipping.' In-store pricing/floor merchandising lives in nonprofit-retail-pricing-merchandising."
 license: MIT
-supervision: unsupervised
-supervision_note: "Marketplace listings and photos; mistakes are relisted."
+metadata:
+  supervision: "unsupervised"
+  supervision_note: "Marketplace listings and photos; mistakes are relisted."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Online Resale

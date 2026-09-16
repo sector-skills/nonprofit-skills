@@ -2,9 +2,12 @@
 name: nonprofit-ceo-board-partnership
 description: "The CEO/executive-director side of the US nonprofit CEO-board partnership: CEO board report and dashboard narrative, exec-session prep, board-chair 1:1 agendas, annual CEO evaluation from the CEO seat (self-eval memo, 360 request, response to eval), managing up to the board, packet narrative discipline, consent-agenda coaching for the chair, and CEO-initiated generative-mode board conversations. Use when a nonprofit CEO/ED (or chief of staff, or advisor) says 'write my board report,' 'prep me for exec session,' 'agenda for my chair 1:1,' 'draft my CEO self-eval,' or 'CEO review with no written criteria.' Does not cover board-side work — running the board, committees, self-assessment, member job descriptions, bylaws, recruitment, Form 990 governance disclosure — use nonprofit-board-governance, nonprofit-board-recruitment, nonprofit-bylaws-policy, or nonprofit-form-990; for CEO transition use nonprofit-executive-transitions; for all-staff or funder CEO messages use nonprofit-executive-communications."
 license: MIT
-supervision: review
-supervision_note: "Board reports and CEO evaluations become part of the governance record."
-last_reviewed: 2026-09-07
+metadata:
+  supervision: "review"
+  supervision_note: "Board reports and CEO evaluations become part of the governance record."
+  last_reviewed: "2026-09-07"
+  date_added: "2026-09-07"
+  date_added_source: "git:34f6bfb6b4bc8cabe1683622f7fc16704d6a80b9"
 ---
 
 # Nonprofit CEO ↔ Board Partnership (Executive Side)

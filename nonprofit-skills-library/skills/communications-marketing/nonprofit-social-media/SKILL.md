@@ -2,8 +2,11 @@
 name: nonprofit-social-media
 description: "Builds nonprofit social media strategy and execution: platform selection, content calendars, post-format mix (volunteer spotlights, donor shoutouts, program updates, behind-the-scenes), posting cadence, and engagement/growth tactics. Use for tasks like \"build our social media content calendar,\" \"what should we post this month on Instagram,\" \"write a volunteer spotlight post,\" \"plan our #GivingTuesday social push,\" or \"our engagement is dropping, diagnose our social strategy.\" Does not cover the org's core brand voice/messaging house (nonprofit-brand-messaging), e-newsletter content (nonprofit-email-newsletter), press/media pitching (nonprofit-media-relations), peer-to-peer fundraising participant tools (nonprofit-peer-to-peer-fundraising), or paid ad campaign strategy/budgets (general marketing, not covered here)."
 license: MIT
-supervision: unsupervised
-supervision_note: "Ordinary channel content; mistakes are cheap and reversible."
+metadata:
+  supervision: "unsupervised"
+  supervision_note: "Ordinary channel content; mistakes are cheap and reversible."
+  date_added: "2026-09-07"
+  date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
 
 # Nonprofit Social Media

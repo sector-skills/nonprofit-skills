@@ -2,9 +2,12 @@
 name: nonprofit-housing-homelessness-services
 description: "Operates US homelessness services: street outreach, emergency shelter operations, low-barrier and trauma-informed shelter practice, diversion and homelessness prevention, coordinated entry participation, HMIS data quality, and Point-in-Time counts. Use when a user says 'draft our shelter operations manual', 'what should our street outreach protocol include', 'train staff on diversion conversations', 'we need a coordinated entry access plan', 'plan our PIT count', or 'what are the ESG rules for shelter and prevention funding'. Not for rapid rehousing or transitional housing program design (use nonprofit-housing-rapid-rehousing-transitional), permanent supportive housing (use nonprofit-housing-permanent-supportive-housing), or drafting eviction-defense legal filings (route to legal aid partners)."
 license: MIT
-supervision: review
-supervision_note: "Shelter rules, safety protocols, and field outreach decisions carry liability and directly affect vulnerable people; a knowledgeable staffer must review before adoption."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Shelter rules, safety protocols, and field outreach decisions carry liability and directly affect vulnerable people; a knowledgeable staffer must review before adoption."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Operating Homelessness Services

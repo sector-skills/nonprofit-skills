@@ -2,9 +2,12 @@
 name: nonprofit-arts-membership-program
 description: "Arts membership program design: member tier and benefit architecture (3-4 tiers, belonging-shaped benefits, not donor recognition), pricing anchored to single-ticket value, the subscriber→member→donor ladder, renewal campaigns and lapse winback, young-patron circles, benefit fulfillment, and the token-benefit substantiation rules membership drives (2026 thresholds verified). Use when a user says 'design our membership program,' 'members aren't renewing,' 'how should we price member tiers,' 'start a young patrons circle,' or 'what part of a membership is tax-deductible.' Not for season subscriptions, flex passes, or ticket pricing (use nonprofit-arts-box-office-subscriptions), the annual fund and general appeals (use nonprofit-annual-appeals), major gifts and gift societies (use nonprofit-major-gifts), galas and benefit events (use nonprofit-fundraising-events), corporate season sponsorship (use nonprofit-arts-season-sponsorship), or member-program outcomes measurement (use nonprofit-outcomes-measurement)."
 license: MIT
-supervision: review
-supervision_note: "Member pricing and benefit commitments are public promises to members; a knowledgeable staff member must review any published tier, price, benefit list, or tax-deductibility statement before it goes live."
-last_reviewed: 2026-09-13
+metadata:
+  supervision: "review"
+  supervision_note: "Member pricing and benefit commitments are public promises to members; a knowledgeable staff member must review any published tier, price, benefit list, or tax-deductibility statement before it goes live."
+  last_reviewed: "2026-09-13"
+  date_added: "2026-09-14"
+  date_added_source: "git:726373473479010893fcb0eb8a5a7b264c16b856"
 ---
 
 # Arts Membership Programs

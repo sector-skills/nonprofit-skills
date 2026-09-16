@@ -2,9 +2,12 @@
 name: nonprofit-faith-church-governance
 description: "US worship-community governance and polity: congregational, presbyterian, episcopal, and elder-led Christian polity plus Jewish, Muslim, Hindu, and Buddhist analogs; church/synagogue/mosque bylaws, member vs. non-member models, congregational meetings and quorum, elder/vestry/shura/trustee structures, denominational reporting, pastor call and separation, member discipline, disaffiliation and property disputes, ecclesiastical abstention. Use when a pastor, rabbi, imam, administrator, elder chair, or vestry warden says 'redo our bylaws,' 'call a pastor,' 'leaving the denomination,' or 'quorum failed.' Not for secular boards (nonprofit-board-governance, nonprofit-bylaws-policy), clergy comp or ministerial firings (nonprofit-faith-employment-ministerial-exception, nonprofit-faith-finance-clergy-comp), church tax exemption (nonprofit-faith-990-exemption), building use (nonprofit-faith-facilities-sanctuary), or clergy's own board artifacts (nonprofit-ceo-board-partnership)."
 license: MIT
-supervision: review
-supervision_note: "Church governance decisions become part of the corporate and ecclesiastical record and can trigger property, employment, and denominational litigation."
-last_reviewed: 2026-09-10
+metadata:
+  supervision: "review"
+  supervision_note: "Church governance decisions become part of the corporate and ecclesiastical record and can trigger property, employment, and denominational litigation."
+  last_reviewed: "2026-09-10"
+  date_added: "2026-09-12"
+  date_added_source: "git:297d3ef69a314702df1ccc8174826716c88cff40"
 ---
 
 # Church, Synagogue, Mosque, and Temple Governance (Worship-Community Polity)

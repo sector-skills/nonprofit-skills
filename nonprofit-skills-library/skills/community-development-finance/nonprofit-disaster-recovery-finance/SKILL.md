@@ -2,9 +2,12 @@
 name: nonprofit-disaster-recovery-finance
 description: "US disaster recovery and mitigation finance for nonprofits: the federal rebuild funding map (FEMA Public Assistance for private nonprofits, SBA disaster loans, HUD CDBG-DR/CDBG-MIT through state grantees), PN eligibility and registration checklists, CDBG-DR subrecipient readiness, the FEMA PA appeal path, and rebuild capital stacks layering insurance, SBA, CDBG-DR gap fill, philanthropy, and CDFI lending. Use when a user says 'our nonprofit building flooded — how do we pay to rebuild,' 'are we eligible for FEMA Public Assistance,' 'the state announced CDBG-DR funds — how do we get some,' 'should we take the SBA disaster loan,' 'FEMA denied our project — can we appeal,' or 'how do we stack the rebuild funding.' Not for international humanitarian response (use the intl-aid pack), CDFI lending programs generally (use nonprofit-cdfi-finance), community facilities financing outside a disaster (use nonprofit-community-facilities-finance), or risk registers and continuity planning (use nonprofit-risk-management)."
 license: MIT
-supervision: review
-supervision_note: "FEMA, SBA, and CDBG-DR filings carry strict deadlines, duplication-of-benefits rules, and audit exposure; appeals need counsel."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "FEMA, SBA, and CDBG-DR filings carry strict deadlines, duplication-of-benefits rules, and audit exposure; appeals need counsel."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:184e56d49996189ac0083abc8dc85965945dd2d3"
 ---
 
 # Nonprofit Disaster Recovery Finance

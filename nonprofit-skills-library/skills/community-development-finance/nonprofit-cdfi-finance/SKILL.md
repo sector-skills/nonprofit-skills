@@ -2,9 +2,12 @@
 name: nonprofit-cdfi-finance
 description: "CDFI ecosystem for nonprofits: CDFI types (banks, credit unions, loan funds) and their loan and participation products; finding and working with a CDFI as borrower or deal partner (underwriting culture, technical assistance, subordination); Treasury CDFI Fund award programs with verified 2025-26 status; and CDFI certification strategy and readiness. Use when a user says 'find a CDFI to lend on our project,' 'a CDFI offered to subordinate to the bank,' 'should our nonprofit become a certified CDFI,' 'how do CDFI Fund awards work,' or 'help us apply for an FA grant.' Not for NMTC deal structuring (use nonprofit-nmtc-deals), Opportunity Zone funds (use nonprofit-opportunity-zones), community facilities financing (use nonprofit-community-facilities-finance), disaster recovery funding (use nonprofit-disaster-recovery-finance), the org's line of credit (use nonprofit-reserves-cash-flow), housing capital stacks (use nonprofit-housing-development-finance), or donor-side fundraising (use nonprofit-capital-campaigns)."
 license: MIT
-supervision: review
-supervision_note: "CDFI certification and Financial Assistance/Technical Assistance award applications are filed with Treasury and need experienced-practitioner review before submission."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "CDFI certification and Financial Assistance/Technical Assistance award applications are filed with Treasury and need experienced-practitioner review before submission."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:184e56d49996189ac0083abc8dc85965945dd2d3"
 ---
 
 # Nonprofit CDFI Finance

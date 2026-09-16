@@ -2,9 +2,12 @@
 name: nonprofit-housing-affordable-rental-operations
 description: "Runs the operating side of nonprofit-owned affordable rental housing: tenant selection plans, income certification and recertification, rent setting with AMI-band targeting, waitlist management, the property-management vs asset-management split, capital-needs planning and reserve studies, PM vendor selection (in-house vs third-party), HQS/NSPIRE inspection readiness, and occupancy/financial reporting to boards. Use when a user says 'draft our tenant selection plan,' 'how should we set rents across AMI bands,' 'our waitlist is a mess,' 'should we self-manage or hire a property manager,' 'get ready for our NSPIRE inspection,' or 'build a portfolio dashboard for the board.' Not for Section 42/HUD file compliance and monitoring (use nonprofit-housing-lihtc-hud-compliance), fair-housing complaints and accommodation/screening legal review (use nonprofit-housing-fair-housing), or developing new projects and capital stacks (use nonprofit-housing-development-finance)."
 license: MIT
-supervision: review
-supervision_note: "Tenant selection plans are adopted, consequential policy documents that shape who gets housed."
-last_reviewed: 2026-09-12
+metadata:
+  supervision: "review"
+  supervision_note: "Tenant selection plans are adopted, consequential policy documents that shape who gets housed."
+  last_reviewed: "2026-09-12"
+  date_added: "2026-09-12"
+  date_added_source: "git:466adeb4b20092f7790a7d1d6b555af30dd69b99"
 ---
 
 # Nonprofit Housing: Affordable Rental Operations
