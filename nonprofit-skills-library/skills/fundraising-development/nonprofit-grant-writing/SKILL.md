@@ -64,12 +64,26 @@ program description:
 
 - State the basis for each figure (e.g., "0.5 FTE Program Coordinator at $58,000 annual salary +
   22% fringe = $35,380") rather than a bare number.
-- Separate direct costs from indirect/administrative costs and state the indirect cost rate used
-  (federally negotiated rate, the 10% de minimis rate under 2 CFR 200.414, or the funder's own cap)
-  — indirect rate mechanics themselves belong to `nonprofit-cost-allocation`, but the narrative
-  must state which rate and cite its source.
-- Flag and justify any funder-restricted categories (many funders cap or exclude indirect costs,
-  capital expenses, or lobbying-adjacent activity).
+- Separate direct and indirect costs; do not assume every administrative cost is indirect.
+  State the finance-approved rate, base, effective period, and authority. For Federal funding,
+  distinguish a Federal negotiated rate, a pass-through-negotiated rate, and an eligible de minimis
+  election of **up to 15% of MTDC**, not an automatic 15% or a universal 10%. Eligibility requires
+  no current Federal negotiated rate, including a provisional rate. Route rate selection and
+  calculations to `nonprofit-cost-allocation`; do not invent missing approval or eligibility.
+  See [2 CFR 200.414](https://www.law.cornell.edu/cfr/text/2/200.414) and
+  [200.332(b)(4)](https://www.law.cornell.edu/cfr/text/2/200.332).
+- Name the applicable MTDC exclusions and show the arithmetic, not just a percentage of the entire
+  project budget. Under the revised definition, only the first $50,000 of each subaward enters MTDC;
+  other exclusions include equipment, rental costs, and participant support. See
+  [200.1](https://www.law.cornell.edu/cfr/text/2/200.1).
+  Confirm the governing Federal award and amendments before using revised rules: a recent subaward
+  date alone does not update an older Federal award, the increased de minimis rate is not retroactive,
+  and an existing NICRA's approved base must not be silently changed. See
+  [COFFA implementation guidance](https://www.energy.gov/sites/default/files/2025-08/COFFA-FY%202024%20Revisions%20to%202%20CFR-%20Federal%20Agency%20Implementation.pdf).
+- Flag restricted expense categories and distinguish private-funder caps from Federal requirements.
+  For Federal funds, ask finance to verify the legal authority for a conflicting cap; a pass-through's
+  preference alone does not override the protections for negotiated or elected rates in
+  [200.414(c)–(f)](https://www.law.cornell.edu/cfr/text/2/200.414).
 - Reconcile the requested amount against the total project budget — clearly show what other
   revenue sources cover the balance if this grant is partial funding.
 
@@ -84,11 +98,15 @@ program description:
    skeleton above — reviewers score against their own rubric, not general best practice.
 4. Write the statement of need with locally specific data and named sources.
 5. Draft goals/objectives as SMART statements distinct from activities.
-6. Build the budget narrative line-by-line against the numeric budget; reconcile totals.
+6. Build the budget narrative line-by-line against the numeric budget; reconcile totals and match
+   the indirect rate, base, and cost period to finance's approved calculation. Keep unresolved rate
+   assumptions visibly marked for review rather than presenting them as approved.
 7. Trim to the funder's word/page/character limit — cutting adjectives and repeated context first,
    never cutting the ask amount, outcomes, or evaluation plan.
 8. Route for internal review: program staff check factual/programmatic accuracy, finance checks
    the budget, ED or board chair signs off on institutional commitments before submission.
+   Escalate unresolved Federal rate, base, or applicability questions to the qualified reviewer
+   required by `nonprofit-cost-allocation`; ordinary proposal drafting remains staff-reviewed.
 9. Submit ahead of the deadline accounting for portal upload time and required attachments
    (W-9, 501(c)(3) determination letter, board list, audited financials, org chart).
 10. On award, calendar the reporting schedule and build the report from the same
@@ -111,8 +129,8 @@ stories), and specific plans for the next period if renewal is possible.
   reading level by one grade" is an outcome — funders increasingly require the latter.
 - **Budget-narrative mismatch**: numbers in the narrative don't foot to the attached budget
   spreadsheet — always reconcile before submission.
-- **Ignoring restrictions**: proposing an indirect rate or expense category the funder explicitly
-  disallows, triggering an avoidable rejection or clawback.
+- **Mishandling restrictions**: ignoring a valid expense restriction, or accepting a conflicting
+  Federal indirect-cost cap without checking its authority; resolve with finance before submission.
 - **Missing attachments**: technically compliant narrative but incomplete required-attachments
   checklist, causing an administrative rejection regardless of narrative quality.
 
@@ -126,3 +144,6 @@ separate program description from evaluation language, since conflating the two 
 weakness advisors see in client-drafted narratives. Recommend a standing "boilerplate library"
 (mission, org history, capacity statements) maintained centrally so writers spend their drafting
 time on the funder-specific need/outcomes sections that actually move scores.
+
+Targeted federal indirect-cost check: September 16, 2026. Verify current agency and award terms
+at use; this check does not certify the rest of the proposal or authorize submission.
