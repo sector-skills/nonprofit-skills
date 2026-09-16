@@ -92,17 +92,23 @@ investments; both required investment before 2027. Legacy investments keep their
 
 Two layers, both flow-through entities (partnership or corporation; trusts cannot certify):
 
-1. **QOF** — the fund. Self-certifies via Form 8996 filed with its return; must hold ≥90% of assets
-   in QOZ property (tested on two semiannual testing dates — the last day of the first month of
-   the fund's taxable year and the date six months later — with asset values averaged over the
-   preceding 90 days under the 2019 final regulations) or face monthly penalty amounts under
-   § 1400Z-2(f). Cannot invest in another QOF.
+1. **QOF** — the fund. Self-certifies via Form 8996 filed with its return. The 90% investment
+   standard is the average of the percentages of QOZ property held on the last day of the
+   first six-month period of the taxable year and the last day of that taxable year.
+   For an established calendar-year QOF, use June 30 and December 31. Value assets on
+   those dates using the applicable permitted valuation method consistently; do not use
+   a preceding-90-day valuation average. In the first year, determine testing dates from
+   the first month of QOF status under the special rule: if status starts in the seventh
+   or later month of a 12-month taxable year, only year-end is tested. Have tax counsel
+   confirm first-year or short-year dates and any permitted exclusions before calculating
+   a § 1400Z-2(f) penalty. A QOF cannot invest in another QOF.
 2. **QOZB** — the operating business the QOF drops capital into. A QOZB must: hold ≥70% of
    tangible property (owned or leased) as qualified OZ business property; derive ≥50% of gross
    income from active business conduct in the zone (safe harbors: hours worked, costs incurred,
    or property use); keep nonqualified financial property ≤5% of average assets (cash beyond the
-   working-capital safe harbor counts); keep intangible property ≤40% of assets, used in the
-   active business; do "substantially all" of its business in the zone; and avoid **sin
+   working-capital safe harbor counts); use at least 40% of its intangible property in the
+   active conduct of business in the zone (an active-use test, not a ceiling on intangible
+   property as a share of total assets); do "substantially all" of its business in the zone; and avoid **sin
    businesses** under IRC § 144(c)(6)(B) — country clubs, massage parlors, hot tub facilities,
    tanning salons, gambling, liquor stores, racetracks. Real property must be newly purchased from
    an unrelated party (buying an already-developed parcel inside the zone doesn't qualify), and
@@ -112,6 +118,10 @@ Two layers, both flow-through entities (partnership or corporation; trusts canno
    safe harbor** (62 months for phased projects) under a written plan and schedule.
    One cure period is available if qualification is lost — the 2026 proposed regulations require
    QOZBs invoking it to attest to that fact and identify the month qualification was lost.
+
+Testing reference: [IRS final regulations, 90% standard, first-year rules, and intangible-property use](https://www.irs.gov/pub/irs-drop/td-9889.pdf),
+pp. 362, 454–456, and 472. Targeted test correction checked September 15, 2026;
+verify the rules applicable to the transaction before reliance. This is not expert sign-off.
 
 **Nonprofit-specific structural facts:**
 - A QOF must be a partnership or corporation. A 501(c)(3) cannot *itself* certify as a QOF, but a
@@ -135,7 +145,8 @@ Two layers, both flow-through entities (partnership or corporation; trusts canno
    cheaper, softer capital? Section headers: tract status / gain timing / asset-test viability /
    capital-stack fit / mission benefit / recommendation.
 2. **QOZB operating-rules outline** — the internal compliance architecture: entity and election
-   dates, 70%/50%/5%/40% test calendar and measurement dates, working-capital safe-harbor plan and
+   dates, a test register naming each numerator, denominator, threshold, and measurement date
+   (including ≥40% active use of intangible property), working-capital safe-harbor plan and
    schedule adoption (31/62-month clock starts when cash is received), substantial-improvement
    basis tracking and start dates, sin-business screens, the single cure period as last resort,
    and the 6039L statement calendar (QOZB statements to the QOF by the first of the second month
@@ -224,10 +235,16 @@ commitments:
    rulemaking before relying on current draft mechanics.
 2. Investor: Form 8997 annually (holdings and deferred gains, beginning and end of year).
 3. QOZB: statement to each QOF by the first day of the second month after its taxable year-end
-   (February 1 for calendar-year QOZBs), including perjury-backed attestations of the 70%, 50%,
-   40%, and 5% tests and sin-business compliance; disclose single-cure-period invocations.
-4. Semiannual: 90% asset test measurement (the two testing dates keyed to the fund's taxable
-   year) — calendar the remedial-action windows under § 1.1400Z2(d)-1.
+   (February 1 for calendar-year QOZBs), including the applicable attestations and supporting
+   calculations for tangible-property qualification, gross income, ≥40% active use of
+   intangible property, nonqualified financial property, and prohibited-business compliance.
+   Verify effective requirements before issuing perjury-backed statements; disclose
+   single-cure-period invocations where required.
+4. QOF testing: record each applicable testing date and the QOZ-property percentage measured
+   on it; calculate the average of the two percentages, not a 90-day average of asset values.
+   Use June 30 and December 31 for an established calendar-year fund; document counsel's
+   first-year or short-year determination where applicable. Calendar remedial-action windows
+   under § 1.1400Z2(d)-1 separately.
 5. Working-capital safe harbor: adopt the written plan and schedule when cash is received; track
    the 31-month clock (62 for phased projects) against actual deployment.
 

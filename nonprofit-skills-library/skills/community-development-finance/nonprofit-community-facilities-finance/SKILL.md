@@ -2,8 +2,8 @@
 name: nonprofit-community-facilities-finance
 description: "Designs capital stacks for nonprofit community facilities — health centers (FQHCs), child care centers, charter schools, grocery and healthy-food retail, community centers, workforce training space — layering USDA Community Facilities loans and grants, tax-exempt 501(c)(3) conduit bonds (bank-qualified or public), NMTC equity, CDFI debt, government grants, and philanthropic gap capital. Use when a user says 'how do we finance our new health center / child care building / charter school facility,' 'are we eligible for USDA Community Facilities,' 'should we do a bank-qualified bond,' 'help us put together the capital stack,' or 'what funders pay for this kind of facility.' Not for NMTC deal structuring (use nonprofit-nmtc-deals), CDFI lending and awards (use nonprofit-cdfi-finance), housing projects (use nonprofit-housing-development-finance), donor-side capital campaigns (use nonprofit-capital-campaigns), or disaster-rebuild financing (use nonprofit-disaster-recovery-finance)."
 license: MIT
-supervision: review
-supervision_note: "Bond documents, USDA applications, and intercreditor agreements need bond counsel and financial advisor review before execution or filing."
+supervision: expert-required
+supervision_note: "Bond eligibility and structure, USDA applications, and intercreditor agreements require qualified counsel and the appropriate financial advisor to review before reliance, execution, or filing; bond matters require bond counsel."
 last_reviewed: 2026-09-12
 ---
 
@@ -51,12 +51,25 @@ USDA Rural Development CF is the most accessible federal facility capital for ru
 
 A 501(c)(3) cannot issue tax-exempt bonds in its own name. The structure is always **conduit**: a governmental issuer (state health facility or educational/cultural facilities authority, local industrial development authority, or state bond bank) issues bonds and lends the proceeds to the nonprofit under a loan agreement, with debt service secured by a mortgage on the facility and the nonprofit's revenues. The issuer lends its tax exemption, not its credit — the bonds are repaid solely from the nonprofit's revenue. Bond counsel (a specialist firm) documents the deal; the nonprofit also engages a municipal advisor. All documents go to counsel and advisor review before execution.
 
-Two issuance paths, chosen by size:
+Consider placement method and bank-qualified eligibility separately:
 
-- **Bank-qualified (small issuer) placement, roughly ≤$10 million:** if the issuer reasonably anticipates no more than **$10 million of tax-exempt bonds in the calendar year** (tested at the conduit-borrower level for 501(c)(3) deals — a single authority's issuance for multiple nonprofits doesn't blow one borrower's limit), the bonds can be designated bank-qualified and sold directly to a local bank, which may deduct 80% of its carrying costs. This bypasses the underwriting, rating, and continuing-disclosure apparatus and typically saves 25–40 basis points. The **$10 million limit is unchanged since 1986**; proposals to raise it (e.g., to $30 million) have repeatedly been introduced but **were not enacted as of September 2026** — do not assume a higher limit.
+- **Bank-qualified (small issuer) placement:** screen the governmental **issuer**, not just
+  the nonprofit borrower's issue size. Under IRC §265(b)(3), the general qualified-small-issuer
+  test is reasonably anticipated tax-exempt issuance of no more than **$10 million in the
+  calendar year**, with statutory exclusions, issuer aggregation, and a separate designation
+  limit. Qualified 501(c)(3) bonds can be eligible, but a $5 million nonprofit project does
+  not establish eligibility if the issuer's relevant annual issuance exceeds the limit.
+  The special rule treating the nonprofit borrower as issuer applied to bonds issued in
+  **2009 or 2010**; do not use it as the current default. Obtain the issuer's annual issuance
+  and designation schedule and bond counsel's determination, including any refunding
+  exceptions, before recommending bank-qualified treatment or estimating pricing benefits.
+  A bank placement can also be non-bank-qualified; do not promise a fixed interest-rate saving.
 - **Publicly offered (or larger privately placed) issuance:** above the small-issuer limit, bonds are sold through an underwriter (rated and marketed) or placed with an institutional buyer. The nonprofit bears: a public hearing with 14-day notice (TEFRA approval) *before* issuance, ongoing arbitrage rebate compliance, annual continuing-disclosure filings on EMMA for the life of the bonds, and the 501(c)(3)-bond use rules — no more than 5% of proceeds for non-qualifying uses (including costs of issuance) and a **$150 million cap on non-hospital 501(c)(3) bonds outstanding per organization** (hospitals are exempt from the cap).
 
 2025 federal tax law (the One Big Beautiful Bill Act, enacted July 4, 2025) **preserved the tax exemption for municipal bonds including qualified 501(c)(3) and private activity bonds and made no changes to the bank-qualified rules** — but it did make the New Markets Tax Credit permanent at $5 billion in annual allocation (relevant to layering, below), permanently lowered the private-activity-bond threshold for 4% LIHTC deals to 25% of basis, and raised LIHTC allocations 12% starting 2026 (housing implications route to `nonprofit-housing-development-finance`). Re-verify all of this if asked after September 2026.
+
+Bank-qualified screening reference: [26 USC 265(b)(3)(C)–(G)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section265&num=0&edition=prelim).
+Targeted issuer-test correction checked September 15, 2026; this is not bond-counsel sign-off.
 
 ## Layering One Capital Stack
 
@@ -100,7 +113,11 @@ Fundable projects are ready projects. Sequence the readiness checklist in this o
 - **Quoting stale USDA rates or wrong population limits.** Rates reset quarterly and the FY guarantee percentage changes annually (80% in FY2026 vs. the 90% statutory max); the 20,000 cap is for direct loans/grants and 50,000 for guarantees. Remedy: verify at rd.usda.gov the week you cite.
 - **Applying for a CF grant on a commercial project.** A nonprofit grocery or business incubator can qualify as an essential facility only with a documented food-access/community-service case; "inherently commercial enterprises" are excluded from guarantees. Remedy: pre-clear with the state CF office.
 - **Assuming grant money is available at closing.** Grants reimburse on milestones; projects stall without a bridge. Remedy: build the draw-timing bridge into the stack.
-- **Blowing the bank-qualified limit.** The $10 million test is per calendar year at the borrower level — a second bond issue or a refinancing in the same year disqualifies it. Remedy: confirm the year's issuance calendar with the conduit issuer before designation.
+- **Testing only the borrower's bond size.** Bank-qualified screening requires the issuer's
+  relevant calendar-year issuance, aggregation, designation limits, and applicable exceptions.
+  A second issue or refinancing does not automatically disqualify the bonds. Remedy: obtain
+  the issuer's complete schedule and bond counsel's written eligibility determination before
+  recommending designation; do not revive the 2009–2010 borrower-level rule.
 - **Starting NMTC too late.** CDE allocation relationships and structuring take 6–12 months. Remedy: open CDE conversations at concept design.
 - **No facility-level operating pro forma.** Organizational budgets hide facility ramp-up losses; lenders decline on year-1 and year-2 coverage. Remedy: build the standalone multi-year facility pro forma before sizing debt.
 - **Skipping TEFRA/rebate/disclosure compliance planning on public bonds.** Hearing after issuance, missed rebate filings, or lapsed EMMA disclosures impair the exemption. Remedy: bond counsel and municipal advisor engaged before the first drafting session.

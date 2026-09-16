@@ -2,8 +2,8 @@
 name: nonprofit-nmtc-deals
 description: "New Markets Tax Credit deal work for nonprofits: how NMTC works (investors, CDEs, Qualified Equity Investments, the 39% credit over 7 years), the CDFI Fund allocation process and what CDEs look for, deal structuring (leverage loans, sub-CDEs, exits), eligible-use rules, rural/non-metro targets, 7-year compliance and recapture triggers, and layering NMTC with LIHTC/HOME and CDFI lending. Use when a user says 'can we use New Markets Tax Credits for our building,' 'pitch our project to a CDE,' 'structure an NMTC deal for our nonprofit,' 'what can NMTC proceeds pay for,' or 'explain the 7-year compliance period.' Not for LIHTC/HOME/CDBG housing capital stacks (use nonprofit-housing-development-finance), CDFI Fund certification and awards (use nonprofit-cdfi-finance), community facilities funding landscape (use nonprofit-community-facilities-finance), Qualified Opportunity Funds (use nonprofit-opportunity-zones), or donor-side fundraising for the building (use nonprofit-capital-campaigns)."
 license: MIT
-supervision: review
-supervision_note: "Allocation agreements, QEI/QLICI documents, and compliance filings carry recapture and tax exposure — counsel and CPA must review before execution or filing."
+supervision: expert-required
+supervision_note: "NMTC structures, allocation agreements, QEI/QLICI documents, and compliance filings carry recapture and tax exposure; qualified tax counsel and a CPA must review before the output is relied on, executed, or filed."
 last_reviewed: 2026-09-12
 ---
 
@@ -36,11 +36,12 @@ this skill builds.
 
 The New Markets Tax Credit (IRC § 45D) is a 39% federal tax credit delivered over 7 years:
 5% of the Qualified Equity Investment (QEI) in each of credit years 1-3, 6% in years 4-7. It
-flows through four parties:
+flows through the following financing chain:
 
-1. **The investor** — a bank, insurance company, or other taxpayer with tax capacity — makes a
-   **Qualified Equity Investment (QEI)** in a certified Community Development Entity (CDE),
-   typically purchasing a 99.99% equity interest in a deal-specific CDE or fund.
+1. **The investor** contributes tax-credit equity. In the common leveraged structure, that
+   equity and a separate leverage loan enter an **investment fund**, which makes the
+   **Qualified Equity Investment (QEI)** in the Community Development Entity (CDE).
+   Distinguish this from a direct investment, where the investor makes the QEI itself.
 2. **The CDE** — a domestic entity certified by the CDFI Fund that serves low-income communities
    and maintains accountability to residents — holds a Treasury **allocation** of credit
    authority and must invest "substantially all" (at least 85%) of QEI cash into **Qualified
@@ -49,10 +50,9 @@ flows through four parties:
    Business (QALICB)**. In nonprofit deals the QALICB is typically a single-purpose LLC or
    subsidiary of the nonprofit, because the QLICI usually takes the form of a loan and NMTC
    structuring is far easier with a taxable or pass-through borrower.
-4. **The nonprofit sponsor** ends up with below-market, flexible debt: the investor pays
-   roughly the present value of the credits (negotiated per deal) for its QEI, and that
-   premium funds an interest-rate subsidy — typically a 1-2 percentage point rate reduction
-   and/or a forgivable "soft second" at exit — versus conventional debt.
+4. **The nonprofit sponsor** can benefit from flexible financing supported by the investor's
+   tax-credit equity. Model the actual fees, loan terms, sponsor contributions, and exit;
+   do not equate the investor's equity with the full QEI or promise automatic forgiveness.
 
 **Program status (verified as of September 2026):** The One Big Beautiful Bill Act (Public Law
 119-21, enacted July 4, 2025) made the NMTC **permanent at $5 billion in annual allocation
@@ -82,16 +82,17 @@ before anyone spends money:
    poverty rate ≥ 20%, or median family income ≤ 80% of area (or state, for non-metro)
    median, or a population under 2,000 with high out-migration/poverty; or it must qualify
    under targeted-population rules. Verify the tract at the CDFI Fund's NMTC mapping tool early.
-4. **Debt-capacity gate.** NMTC arrives as a loan the nonprofit must support. Net operating
-   income of the project/enterprise must service it (with the subsidy). Purely philanthropy-
-   funded projects with no revenue against the debt rarely fit.
+4. **Debt-capacity gate.** Identify the borrower and repayment source for each QLICI,
+   leverage loan, source loan, and any direct project debt. Test project and sponsor cash
+   flow against their actual obligations; philanthropy may capitalize the leverage loan
+   and must not be mistaken for an additional project debt obligation.
 5. **Tolerance gate.** The board must accept a 7-year compliance regime, lender-style
    reporting, and a tax-investor "lender" with cure and step-in rights. If the nonprofit cannot
    staff that, NMTC is the wrong tool.
 
 **Completion condition:** a one-page memo answering all five gates with evidence (tract
-number and LIC status, project budget, sources-and-uses, projected cash flow against the
-leverage loan). If any gate fails, route to `nonprofit-community-facilities-finance`
+number and LIC status, project budget, sources-and-uses, projected cash flow against each
+entity's actual debt obligations). If any gate fails, route to `nonprofit-community-facilities-finance`
 (for a facilities stack without NMTC) or `nonprofit-capital-campaigns` and stop.
 
 ## Step 2 — Understand What CDEs Look For, Then Pitch
@@ -135,28 +136,30 @@ parallel; commitment deadlines differ by CDE and allocation expires.
 
 ## Step 3 — Structure the Deal
 
-Standard nonprofit NMTC structure (describe the structure in the pro forma memo with this
-diagram; ASCII in a memo, a drawn diagram in a deck):
+Common leveraged nonprofit NMTC structure (adapt to the actual entities and term sheets;
+do not substitute a direct-investment structure without identifying the difference):
 
 ```
-INVESTOR (bank) --QEI (purchase of 99.99% interest)--> CDE (fund or deal CDE)
-                                                       |
-                                            QLICI: loan to QALICB (or through
-                                            sub-CDE / leverage structure)
-                                                       |
-INVESTOR --leverage loan (senior, ~market rate)--> QALICB (SPV of the nonprofit)
-CDE --QLICI proceeds (subordinate/soft)----------> QALICB
-QALICB --owns--> Project (facility / business assets)
-Nonprofit sponsor operates the project; QALICB revenues service both loans
+TAX-CREDIT INVESTOR --equity--------------------> INVESTMENT FUND
+LEVERAGE LENDER ----leverage loan---------------> INVESTMENT FUND
+INVESTMENT FUND ----QEI------------------------> CDE / project-specific sub-CDE
+CDE / sub-CDE ------QLICI loan(s)---------------> QALICB
+QALICB ------------owns / operates-------------> PROJECT
+
+Optional source financing, shown separately:
+SOURCE LENDER --source loan--> SPONSOR / AFFILIATE --leverage loan--> INVESTMENT FUND
+Sponsor grants or other available capital may also fund the leverage loan.
+Map repayment and security separately for every loan and legal borrower.
 ```
 
 Structure choices that change the economics:
 
-1. **Leverage loan mechanics.** The classic structure: the same investor (or a bank) makes a
-   senior "leverage loan" at near-market terms to the QALICB, while the CDE's QLICI (funded by
-   QEI proceeds) makes a parallel loan below market or with a forgive-all feature at the end.
-   Banks like NMTC because they get lending economics plus credits; the nonprofit's net
-   subsidy equals the equity premium minus fees.
+1. **Leverage loan mechanics.** The leverage lender lends to the investment fund, not
+   directly to the QALICB. The fund combines that loan with investor equity to make its QEI;
+   the CDE deploys QLICI financing to the QALICB. A sponsor may borrow a source loan and
+   on-lend it to the investment fund, or use grants or other available capital for that
+   leverage loan. A direct loan to the project is a separate obligation, not the leverage
+   loan in this structure. Name each lender, borrower, security, repayment source, and term.
 2. **Sub-CDE structuring.** In multi-CDE deals, a CDE can lend QEI proceeds through a
    subsidiary CDE ("sub-CDE") or another CDE in the stack (a QLICI can fund a second QLICI),
    letting multiple allocatees each deploy their tranche. Expect parallel-loan or sub-CDE
@@ -164,13 +167,14 @@ Structure choices that change the economics:
 3. **Investment period and credit schedule.** The QEI closes with a **7-year investment
    period**; credits flow 5%/5%/5%/6%/6%/6%/6% on credit allowance dates (investment date
    anniversaries). The investor's QEI must stay outstanding 7 years. Plan the nonprofit's cash
-   flows so debt service on the NMTC loans is serviceable from day one — the subsidy usually
-   shows up as reduced interest, not as cash at close.
-4. **Pricing the ask.** Allocation face ≠ proceeds. Investor "pricing" (percent of allocation
-   face paid for the QEI) is negotiated; the nonprofit's net benefit is roughly
-   (equity price × allocation) − fees − incremental legal/consulting costs, delivered through
-   the interest-rate spread and exit forgiveness. Model both loans over the full term, not
-   just close.
+   flows so each entity can meet its documented debt service throughout the compliance period.
+4. **Pricing the ask.** Distinguish QEI, tax credits, investor equity, and project proceeds.
+   If pricing is quoted per dollar of tax credit, investor equity = QEI × 39% × that price.
+   For illustration, a $10 million QEI at $0.75 per credit dollar yields $2.925 million of
+   investor equity; $7.075 million of leverage capital completes that QEI, before separate
+   fees or other funding needs. This is an arithmetic example, not a market quote or net
+   subsidy estimate. Reconcile all fees, reserves, contributions, debt service, and exit
+   obligations to calculate the sponsor's actual benefit; never assume automatic forgiveness.
 5. **The nonprofit's entity.** The QALICB is usually a single-purpose LLC owned by the
    nonprofit (unrelated-business-income analysis required for tax-exempt parents; a nonprofit
    corporation can itself be a QALICB, but a clean SPV eases investor diligence). Counsel
@@ -181,9 +185,13 @@ Structure choices that change the economics:
    forgiven, nonprofit owns the asset. Design the exit in the original documents — retrofitting
    a year-6 exit is where deals go sour.
 
-**Completion condition:** a sources-and-uses with both loans, an operating pro forma showing
-debt service through year 7 and the exit, and a structure diagram the board and counsel have
-reviewed.
+**Completion condition:** entity-level sources-and-uses reconcile investor equity and leverage
+capital to the QEI, then QLICI proceeds to project uses; a debt schedule identifies every
+borrower and repayment source through year 7 and exit. Tax counsel and a CPA review the
+structure and calculations before reliance, and the board reviews the financing decision.
+
+Structure reference: [CDFI Fund NMTC guide, leverage structure and glossary](https://www.cdfifund.gov/system/files/2023-10/CDFI_NMTC_NI_Self-Assessment_Guide_Final.pdf).
+Targeted structure correction checked September 15, 2026; this is not independent expert sign-off.
 
 ## Step 4 — Apply the Eligible Use Rules
 
@@ -293,15 +301,17 @@ This skill produces four standard deliverables:
 2. **CDE allocation pitch** — the 3-5 page project summary, target CDE list with strategy fit,
    and the allocation ask.
 3. **Deal structure description** — the diagram above adapted to the project, sources-and-uses
-   with both loans, pricing assumptions, and the exit plan.
+   by entity, all loan obligations and repayment sources, credit-dollar pricing assumptions,
+   and the exit plan; reconcile the investment fund, CDE, and project separately.
 4. **7-year compliance calendar** — annual test certifications, covenant dates,
    credit-allowance dates, record retention, recapture-trigger watch list, and the exit
    window.
 
 ## Common Failure Modes
 
-- **Assuming NMTC is a grant.** It is debt plus an interest subsidy; projects with no revenue
-  against the leverage loan fail. Screen debt capacity first.
+- **Assuming NMTC is a grant or that all loans sit at the project.** Map QLICI, leverage,
+  source, and direct project loans to their actual borrowers. Screen each repayment source
+  and model the documented exit rather than assuming debt disappears after year 7.
 - **Pitching CDEs cold with a concept.** CDEs need ready projects because their QEI-issuance
   clock is running (five years from allocation effective date); come with site control and
   firm sources.
