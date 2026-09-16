@@ -45,8 +45,9 @@ Or clone the whole library and point your agent at the `skills/` directory.
 | [Faith-Based Organizations](skills/faith-based) | church governance, finance & clergy comp, 990 exemption, stewardship & giving, ministerial-exception employment, religious liberty compliance, programs & social services, pastoral communications, lay leadership, facilities & sanctuary |
 | [Affordable Housing](skills/affordable-housing) | housing continuum planning, homelessness services, rapid rehousing & transitional housing, permanent supportive housing, affordable rental operations, homeownership programs, home repair & preservation, development & finance, LIHTC/HUD compliance, fair housing, land-use advocacy, community ownership, construction volunteers |
 | [Community Development Finance](skills/community-development-finance) | CDFI finance, NMTC deals, opportunity zones, community facilities finance, disaster recovery finance |
+| [Arts & Culture](skills/arts-culture) | box office & subscriptions, membership programs, venue rental & earned income, season & production sponsorship, arts grant writing, season & exhibition planning, commissioning & new work, teaching artists & education, performance & music rights, union agreements & artist visas, AD/ED partnership |
 
-## All skills (91)
+## All skills (102)
 
 | Skill | What it's for |
 |---|---|
@@ -141,6 +142,17 @@ Or clone the whole library and point your agent at the `skills/` directory.
 | `nonprofit-opportunity-zones` | QOF/QOZB structuring, current-law mechanics, nonprofit roles, community-benefit covenants |
 | `nonprofit-community-facilities-finance` | Capital stacks for health centers, child care, charter schools, food retail: USDA CF, bonds, layering |
 | `nonprofit-disaster-recovery-finance` | FEMA PA for nonprofits, SBA disaster loans, CDBG-DR/MIT, rebuild capital stacks |
+| `nonprofit-arts-box-office-subscriptions` | Ticketing platforms and fee models, subscription packages, dynamic pricing, group sales, subscriber renewal economics |
+| `nonprofit-arts-membership-program` | Member tiers and benefits, pricing, renewal campaigns, subscriber→member→donor ladder, token-benefit substantiation |
+| `nonprofit-arts-venue-rental-earned-income` | Hall/gallery/studio rental programs, rental agreements and COI/liquor terms, ancillary earned lines, rental UBIT basics |
+| `nonprofit-arts-season-sponsorship` | Season/production/exhibition underwriting packages, sponsor benefits matrices, in-kind valuation, renewal reporting |
+| `nonprofit-arts-grant-writing` | NEA Grants for Arts Projects, state arts agencies, arts foundations: panel scoring, 1:1 cost share, grants management |
+| `nonprofit-arts-season-planning` | Annual programming cycles, selection scorecards, rights and exhibition lead times, per-title cost estimating, extension math |
+| `nonprofit-arts-commissioning-new-work` | Commission agreement anatomy, IP ownership and options, development pipelines, co-commissioning, gallery consignment |
+| `nonprofit-arts-education-programs` | Teaching-artist rosters and classification, district partnerships, student matinees, youth safety, standards alignment |
+| `nonprofit-arts-performance-licensing` | Grand vs small rights, play/musical licensing houses, PRO blankets, streaming/archival rights, film screening licenses |
+| `nonprofit-arts-union-agreements-visas` | AEA/IATSE/AFM/SAG-AFTRA basics, guest-artist contracts, O-1/P visas, foreign-artist 30% withholding and CWAs |
+| `nonprofit-arts-ad-ed-partnership` | AD/ED decision rights, the board's artistic mandate, tension patterns and repairs, dual-model succession |
 
 ## Contributing
 
@@ -193,7 +205,7 @@ python3 scripts/check_supervision.py --json  # machine-readable output
 The script exits non-zero only when a skill declares a level outside the three above. Missing
 fields are reported but do not fail, so new skills can be added before their level is settled.
 
-All 63 skills currently declare a level: **7 unsupervised, 38 review, 18 expert-required**. The
+All 102 skills currently declare a level: **7 unsupervised, 70 review, 25 expert-required**. The
 `expert-required` set is deliberately small and shares one test — a credentialed professional
 (attorney, CPA, licensed auditor) is genuinely needed, not merely advisable. It covers Form 990
 and charitable registration, bylaws and entity structure, audited statements, indirect cost rates

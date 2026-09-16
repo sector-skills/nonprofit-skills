@@ -212,7 +212,7 @@ python3 nonprofit-skills-library/scripts/check_supervision.py --json  # machine-
 The script exits non-zero only when a skill declares a level outside the three above. Missing
 fields are reported but do not fail, so new skills can be added before their level is settled.
 
-All 63 skills currently declare a level: **7 unsupervised, 38 review, 18 expert-required**. The
+All 102 skills currently declare a level: **7 unsupervised, 70 review, 25 expert-required**. The
 `expert-required` set is deliberately small and shares one test — a credentialed professional
 (attorney, CPA, licensed auditor) is genuinely needed, not merely advisable. It covers Form 990
 and charitable registration, bylaws and entity structure, audited statements, indirect cost rates
