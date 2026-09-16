@@ -124,9 +124,19 @@ household with one non-student member, or a household meeting a statutory except
 Exceptions include: a household receiving TANF or similar state assistance; a student in a state
 job-training assistance program; a single parent with minor children who is not a dependent of
 another taxpayer and does not live with someone who could claim them; married students entitled to
-file a joint return; and a household including a person who was in foster care or received
-foster-care assistance in the prior six months. Document student status, including mid-year changes
+file a joint return; and a household including a student who was previously under the care
+and placement responsibility of the State agency responsible for administering a plan under
+part B or part E of title IV of the Social Security Act. This former-state-care exception
+has no six-month lookback; do not deny it solely because the student left care more than
+six months ago. Verify the qualifying history using the allocating agency's current
+documentation process; a missing record is a verification issue, not an invented eligibility
+cutoff. Document the applicable exception and its evidence in the household file.
+Document student status, including mid-year changes
 — tenants turning full-time mid-tenancy is a recurring hidden finding.
+
+Former-state-care reference: [26 USC §42(i)(3)(D)(i)(II)](https://www.law.cornell.edu/uscode/text/26/42).
+Targeted exception correction checked September 15, 2026; assess other household and
+layered-program requirements separately before making the eligibility decision.
 
 ### The 140% / next available unit rule
 
@@ -354,6 +364,9 @@ Completion condition: every recurring deadline above has a named owner and a lea
   differ; layered units need parallel calculations.
 - **Self-certifying where third-party verification is required.** If the file shows only tenant
   statements for wages, the certification is unsupported.
+- **Adding a foster-care recency cutoff to the student exception.** Verify former State care
+  and placement responsibility and retain the supporting evidence; do not impose a six-month
+  limit absent from §42(i)(3)(D)(i)(II).
 - **Ignoring over-income flags.** The 140% rule is quiet until the next available unit is rented
   wrong — then the qualified unit is lost for good.
 - **Filing 8823 responses late or informally.** Cure within the stated period, in writing, with

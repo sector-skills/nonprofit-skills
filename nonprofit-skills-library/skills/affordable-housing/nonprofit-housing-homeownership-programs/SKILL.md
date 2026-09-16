@@ -162,10 +162,24 @@ underwriter runs per family, in order:
    any HOA) as a percent of gross income. Conventional lenders use ~28%; Habitat-style
    programs commonly hold buyers at or below **30%** — set your program's ceiling (often
    30-33%) in policy and apply it to every file.
-3. **Price/terms solve:** given the 0% (or below-market) first mortgage, back-solve the
-   affordable price: income × ceiling ratio = allowable PITI; subtract taxes, insurance,
-   HOA; the remainder is available for principal (at 0% interest this equals price minus
-   subsidy, which is why 0% structures stretch so far).
+3. **Price/terms solve:** collect the proposed purchase price, buyer contribution available
+   toward that price, subsidy/secondary financing, first-mortgage note rate, amortization
+   term, and any balloon or deferred-payment terms. Income × ceiling ratio = allowable
+   monthly housing payment; subtract monthly taxes, insurance, HOA, and required monthly
+   payments on secondary housing loans to find the first mortgage's available monthly
+   principal-and-interest payment, `M`. If `M <= 0`, no positive first-mortgage balance is
+   supported by this calculation.
+   - For a fully amortizing 0% loan, supported balance `B = M × n`, where `n` is the
+     number of monthly payments. For example, $500/month × 360 payments supports a
+     $180,000 balance, not a $500 balance.
+   - For a fully amortizing fixed-rate loan above 0%, use
+     `B = M × (1 - (1 + r)^(-n)) / r`, where `r` is the monthly note rate
+     (annual nominal note rate divided by 12). Validate against an amortization schedule;
+     do not apply this formula unchanged to balloon, adjustable-rate, or interest-only loans.
+   - Reconcile purchase price = first-mortgage balance + buyer contribution toward price
+     + separately identified subsidy/secondary financing. Keep closing costs and reserves
+     separate, avoid double-counting assistance, and reduce the proposed balance or price
+     if the later debt-ratio, residual-income, or payment-shock checks require it.
 4. **Back-end ratio:** all debt service (PITI + auto, student, credit card minimums, court-
    ordered obligations) vs. gross income — keep at or below roughly 36-43%.
 5. **Residual income check:** income minus PITI and known debt vs. a realistic household
@@ -181,10 +195,18 @@ underwriter runs per family, in order:
    many programs require $500-2,000) and whether gifts are allowed; verify the buyer can
    cover closing costs and has a small maintenance reserve.
 
+**Completion condition:** the worksheet states the monthly payment, note rate, number of
+payments, supported balance, proposed purchase price, and every funding source. Recalculate
+the payment from the proposed balance and reconcile purchase sources to uses before approval.
+Targeted calculation correction checked September 15, 2026; this is not a lending-law review.
+
 **Structures to choose among** (often stacked):
 
-- **0% first mortgage (Habitat classic).** Loan = house cost minus buyer contribution
-  minus subsidy, amortized over 20-30 years at zero interest. Simple, deeply affordable,
+- **0% first mortgage (Habitat classic).** The first-mortgage balance is the agreed purchase
+  price minus buyer contribution toward price and separately identified subsidy/secondary
+  financing, capped by the worksheet's supported balance. Keep development cost and
+  appraised value separate from purchase price. Amortize over the documented term; a
+  20-30-year structure at zero interest is simple, deeply affordable,
   easy to explain to donors and buyers. Serviced in-house; watch the accounting (loan
   receivable discounting — hand that to the org's auditor).
 - **Below-market rate first mortgage.** A modest rate (1-4%) preserves deeper subsidy for
@@ -330,6 +352,9 @@ procedure the closing agent can execute without interpretation.
 
 ## Common Failure Modes
 
+- **Confusing a monthly payment with a loan balance.** Remedy: require the note rate and
+  number of payments, use the correct amortization calculation, and reconcile buyer funds,
+  subsidy, and secondary financing without treating deferred debt as a grant.
 - **Ability-to-pay assumed because the rate is 0%.** Remedy: run full PITI with real tax
   and insurance quotes, plus payment shock — a 0% principal payment that ignores a 40%
   tax/insurance share still defaults.

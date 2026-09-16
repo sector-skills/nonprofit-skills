@@ -145,9 +145,26 @@ Layer these in the order investors and agencies expect:
 - **4% LIHTC equity.** The as-of-right credit — not competitively awarded, so it can be timed to
   the deal, but it is only ~4% of eligible basis per year for 10 years, so equity covers roughly
   30-35% of total cost and the deal still needs substantial layered subsidy to reach lower AMI
-  bands. Triggered by tax-exempt private activity bonds meeting the **50% test** (more than half
-  of aggregate project basis bond-financed), with bonds subject to the state's annual **volume
-  cap** — a separate queue, so request cap reservation early. A 4% deal layered with HOME, housing
+  bands. For the full-building credit-allocation exception under §42(h)(4)(B), establish
+  the applicable bond-financing route using aggregate basis of the **building and its land**,
+  not total development cost or LIHTC eligible basis alone:
+  - **50%-or-more route:** qualifying tax-exempt obligations finance at least 50% of that
+    aggregate basis; exactly 50% meets the threshold.
+  - **Conditional 25%-or-more route:** qualifying obligations finance at least 25% of that
+    aggregate basis, and one or more of those obligations are part of an issue dated
+    after December 31, 2025 and provide financing for at least 5% of that aggregate basis.
+    The 5% is a share of building-and-land basis, not 5% of the bond amount.
+    The amendment applies to buildings placed in service in taxable years beginning
+    after December 31, 2025. For rehabilitation expenditures treated as a separate new
+    building under §42(e), apply the special rule treating both the existing and separate
+    new building as placed in service on the §42(e)(4) expenditure placed-in-service date.
+  Record the owner's taxable-year start, applicable placed-in-service dates, each bond
+  issue date, aggregate building-and-land basis, qualifying financing amounts, and the
+  calculated percentages. Have bond/tax counsel confirm the route and the obligations'
+  §42(h)(4)(A) requirements before recommending bond sizing; do not simply replace every
+  50% assumption with 25%. Other LIHTC eligibility requirements still apply. Bonds remain
+  subject to the state's annual **volume cap**, a separate queue, so request cap reservation
+  early. A 4% deal layered with HOME, housing
   trust fund, state, and local soft sources is the workhorse structure for larger pipelines.
 - **Housing bonds (tax-exempt / taxable).** Private activity bonds issue the construction and
   permanent first mortgage, generate 4% credits, and carry their own cost (issuer fee, counsel,
@@ -173,6 +190,10 @@ Layer these in the order investors and agencies expect:
 - **Soft debt and grants.** Deferred payment/interest, forgivable loans, land donation, fee
   waivers (also called local "gap financing") — the connective tissue that closes the final 5-15%.
 
+Bond-test references: [26 USC §42(h)(4)(A)–(B)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section42&num=0&edition=prelim)
+and [Public Law 119-21, §70422(b)(2), effective date and rehabilitation rule](https://www.govinfo.gov/content/pkg/PLAW-119publ21/html/PLAW-119publ21.htm).
+Targeted threshold correction checked September 15, 2026; this is not bond/tax-counsel sign-off.
+
 **Practice difference:** hands-on staff track each funder's application cycle, threshold
 requirements, and award timing (a stack with a 9% award, an invited HOME allocation, and a bond
 cap request is three different calendars that must converge at one closing); advisors should focus
@@ -192,8 +213,11 @@ Run this screen before investing in full design:
 2. **Price the credits:** eligible basis × applicable fraction × credit rate → annual credit ×
    10 years = total credits; × investor price = gross equity. 9% screen: does gross equity plus
    sensible debt at 60% AMI rents cover estimated cost? If yes, the site is a 9% candidate — plan
-   around the QAP calendar. 4% screen: is bond volume cap available this year, and can the ~50%
-   gap be closed with HOME/NHTF/state/local sources? If the gap needs a competitive 9% award to
+   around the QAP calendar. 4% screen: document the applicable 50%-or-more or conditional
+   25%-or-more bond test above, confirm volume-cap availability, and calculate the actual
+   remaining sources-and-uses gap after equity and supportable debt. The bond-financing
+   percentage is not the funding-gap percentage. Can HOME/NHTF/state/local sources close
+   that gap? If the gap needs a competitive 9% award to
    close, do not pretend it is a 4% deal.
 3. **Check the traps:** eligible basis rules (acquisition versus rehabilitation treatment,
    the 10-year placed-in-service rule for acquisition credits and the 24-month substantial
@@ -203,7 +227,9 @@ Run this screen before investing in full design:
    cannot carry the fixed cost of a capital stack.
 4. **Completion condition:** a feasibility screen memo stating assumed basis, credit type (9% vs
    4%), estimated equity at a stated price, the gap, the named sources intended to close it, and
-   a recommendation on which application cycle to target.
+   a recommendation on which application cycle to target. For a 4% proposal, attach the
+   bond-test worksheet with taxable-year and placed-in-service dates, issue dates, basis,
+   qualifying financing percentages, and bond/tax counsel's confirmed or pending determination.
 
 ## Deal Structures — Choosing Roles and Setting the Fee
 
@@ -259,7 +285,8 @@ at Year 15, ending with a recommendation and what the board is being asked to ap
 - Sources-and-uses table with commitment status per source
 - Operating pro forma and 15-year cash flow with visible assumptions
 - Sensitivity table (rent, expense, vacancy, rate, cost, investor price)
-- LIHTC feasibility screen memo (9% vs 4%, gap, target cycle)
+- LIHTC feasibility screen memo (9% vs 4%, gap, target cycle; for 4%, date-qualified
+  bond-test worksheet and counsel-review status)
 - Deal-structure comparison memo with recommendation
 - Draw review checklist and change-order register
 - Construction closeout checklist
@@ -271,6 +298,9 @@ at Year 15, ending with a recommendation and what the board is being asked to ap
   closings, never early unconditional closing.
 - Presenting projected sources as committed to the board or agency. Fix: label every source with
   its true status and a date; restate the summary at each board meeting.
+- Assuming either 50% or 25% is a universal bond threshold. Fix: document the applicable
+  dates and building-and-land basis calculation; test the post-2025 financing condition
+  for the 25% route and obtain bond/tax counsel confirmation before sizing the bonds.
 - Bonding to the max debt the appraisal "supports" instead of what NOI covers — creates a permanent
   DSCR crisis. Fix: size debt from the 15-year cash flow under the downside case, not from a
   first-year optimistic pro forma.
