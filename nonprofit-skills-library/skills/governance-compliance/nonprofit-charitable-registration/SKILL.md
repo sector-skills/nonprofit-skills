@@ -5,6 +5,7 @@ license: MIT
 metadata:
   supervision: "expert-required"
   supervision_note: "State filings with statutory deadlines and fees; requirements vary by state."
+  last_reviewed: "2026-11-09"
   date_added: "2026-09-07"
   date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
 ---
@@ -39,18 +40,21 @@ without revisiting registration.
 1. **~40 states plus DC** require charitable solicitation registration in some form before a
    nonprofit may solicit contributions from their residents — the exact list and each state's
    specific exemptions changes periodically, so confirm current requirements against a current
-   source (e.g., the National Association of State Charity Officials or a compliance service) rather
-   than relying on a static memorized list.
-2. **Charleston Principles**: the informal multistate guidance most state charity regulators use for
-   internet solicitation — generally, if an organization's online presence is passive (a website with
-   a donate button that isn't specifically targeted at a state) but it also solicits by other means
-   (direct mail, email blasts, in-person events) in that state, or if it receives "repeated and
-   ongoing" or "substantial" contributions from a state's residents through the website, that state's
-   registration requirement is likely triggered. A purely passive website with occasional unsolicited
-   donations from a state, with no other contacts, is the weakest trigger — but organizations that
-   actively fundraise nationally (email campaigns, national peer-to-peer events, national grant/major
-   donor prospecting) should assume broad multi-state exposure rather than lean on the passive-
-   website exception.
+   source (e.g., the National Association of State Charity Officials' state survey map at
+   https://www.nasconet.org/survey-map, each state regulator's own site, or a compliance service)
+   rather than relying on a static memorized list.
+2. **Charleston Principles**: advisory guidelines on internet solicitation approved by the NASCO
+   Board in 2001 — not binding law, and states apply them differently. For an organization based
+   outside the state, registration is generally triggered if its non-internet activity there (direct
+   mail, phone, in-person events) would require it on its own; or if it solicits through an
+   interactive website (one that can take a donation online, such as a donate button — even via a
+   linked or third-party processor) and either specifically targets that state's residents or
+   receives "repeated and ongoing" or "substantial" contributions from the state through the site.
+   Email solicitation into a state is treated like direct mail or phone solicitation. A website that
+   offers information but does not solicit is not by itself a trigger, even if unsolicited donations
+   arrive — but organizations that actively fundraise nationally (email campaigns, national
+   peer-to-peer events, national grant/major donor prospecting) should assume broad multi-state
+   exposure rather than lean on the passive-website exception.
 3. **Common exemptions** (vary by state — verify per state, do not assume uniformity): religious
    organizations, all-volunteer organizations with no paid staff, organizations below a small annual
    contribution threshold (commonly in the low five figures, some states set a low-revenue exemption
@@ -65,18 +69,22 @@ without revisiting registration.
    participant/donor geography (`nonprofit-peer-to-peer-fundraising`), grant funders headquartered
    in-state, and donation-page traffic by state if available. This map, not a guess, should drive the
    registration list.
-2. **Use the Unified Registration Statement (URS)** where accepted — a single multi-state
-   application form accepted by roughly 30+ states (not all), reducing duplicate data entry; note
-   that several major solicitation states (e.g., California, New York, Florida) require their own
-   state-specific supplemental forms/fees even when the URS base form is accepted, so the URS reduces
-   but does not eliminate per-state work.
+2. **Check whether the Unified Registration Statement (URS) still helps** — it was designed as a
+   single multi-state paper application, but its publisher (the Multi-State Filer Project) now
+   describes it as having "limited utility today since most states require online filing," and its
+   June 2025 state list names only seven states that accept it (AR, GA, IL, KS, MN, OR, VA). Major
+   solicitation states such as California, New York and Florida are not on that list and use their
+   own state forms (California and Florida also offer online filing). Even where the URS is accepted, some states still require a
+   state-specific supplemental form/fee, so plan on per-state filings and confirm each state's
+   current method with its regulator.
 3. **File initial registration before the first solicitation** in a new state, not after — most
    states technically require registration prior to solicitation, and enforcement (though
    inconsistently applied) can include fines and, in serious cases, being barred from soliciting.
-4. **Registered agent**: many states require a registered agent with a physical in-state address for
-   service of process; national compliance-filing services commonly bundle this. Decide whether to
-   use a commercial registered agent service (scales cleanly across many states) versus a named
-   individual (creates a single point of failure if that person leaves the organization).
+4. **Registered agent**: some states require a resident/registered agent (or a consent to service of
+   process) as part of charitable registration; most do not, so check each state's form rather than
+   assuming. National compliance-filing services commonly bundle this. Decide whether to use a
+   commercial registered agent service (scales cleanly across many states) versus a named individual
+   (creates a single point of failure if that person leaves the organization).
 5. **Attach required supporting documents**: IRS determination letter, most recent Form 990 (see
    `nonprofit-form-990` — most states require the same version filed federally, so keep the two
    processes' timelines synchronized), audited financials above certain revenue thresholds in some
