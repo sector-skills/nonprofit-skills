@@ -7,6 +7,7 @@ metadata:
   supervision_note: "Entity structure and 501(h) election decisions carry tax-exemption risk."
   date_added: "2026-09-07"
   date_added_source: "git:1860ed47a83901ff5e6d45abc4a2ef05be8fd4cd"
+  last_reviewed: "2026-11-09"
 ---
 
 # Nonprofit 501(c)(3)/501(c)(4) Dual-Entity Structure
@@ -31,9 +32,12 @@ organization document than the cost-sharing agreement here) is `nonprofit-coalit
 A 501(c)(3) can lobby, but only within strict limits (below), and cannot engage in any partisan
 political campaign activity (supporting/opposing candidates) at all — that prohibition is absolute,
 with no expenditure-test equivalent. A 501(c)(4) social welfare organization may lobby without limit
-and may engage in a limited amount of political campaign activity (though such activity cannot be
-the organization's "primary activity," and c4s face separate, distinct reporting requirements around
-campaign spending). Organizations set up a paired c4 specifically to house unlimited lobbying and/or
+(lobbying germane to its social welfare purposes can even be its primary activity) and may engage in
+a limited amount of political campaign activity (though such activity cannot be the organization's
+"primary activity," and c4s face separate, distinct reporting requirements around campaign spending,
+including possible tax on political expenditures under IRC 527(f)). A lobbying c4 may also have to
+give members a notice of the share of dues used for lobbying or pay a proxy tax (IRC 6033(e)).
+Organizations set up a paired c4 specifically to house unlimited lobbying and/or
 electoral-adjacent work that would either exceed the c3's lobbying cap or that a c3 cannot do at all,
 while keeping charitable, tax-deductible-donation-eligible work in the c3. The trade-off: c4
 donations are NOT tax-deductible to the donor, which is why organizations keep the c3 primary for
@@ -46,31 +50,36 @@ safe default, because the default (if no 501(h) election is made) is the vaguer,
 
 1. **Substantial Part Test (default)** — the IRS default absent a 501(h) election. Prohibits
    lobbying from being a "substantial part" of the organization's activities, but does not define
-   "substantial" with a bright-line percentage — courts and IRS practice have informally treated
-   roughly 5% of activities as a rough danger-zone marker, but this is not a safe-harbor number, it's
-   a facts-and-circumstances test covering both expenditures AND volunteer/staff time, which makes it
-   harder to measure and defend than a pure dollar test. Violating it risks excise tax and, for
-   repeated/flagrant violations, loss of exempt status.
+   "substantial" with a bright-line percentage, and no percentage is a safe harbor — it's a
+   facts-and-circumstances test covering both expenditures AND volunteer/staff time, which makes it
+   harder to measure and defend than a pure dollar test. Excessive lobbying in any taxable year can
+   cost the organization its exempt status (making all its income taxable), plus a 5% excise tax on
+   that year's lobbying expenditures, and a separate 5% tax on managers who knowingly agreed to them
+   (IRC 4912).
 2. **501(h) Expenditure Test (elective)** — made by filing Form 5768, a one-time election
    (revocable) that replaces the vague substantial-part test with clear, sliding-scale dollar
-   limits on lobbying expenditures as a percentage of the organization's exempt-purpose expenditures
-   (the percentage declines as total exempt-purpose spend rises, with an overall dollar cap at the
-   top end — verify current-year dollar breakpoints before relying on exact figures, since they are
-   statutory but organizations should confirm against current IRS guidance). Critically, the 501(h)
+   limits on lobbying expenditures as a percentage of the organization's exempt-purpose expenditures.
+   The statutory limit (IRC 4911(c)(2); not inflation-indexed) is 20% of the first $500,000 of
+   exempt-purpose expenditures, 15% of the next $500,000, 10% of the next $500,000, and 5% of the
+   rest, capped at $1,000,000 (reached at $17,000,000 of exempt-purpose expenditures) — confirm
+   against the statute and current IRS guidance before relying on them. Critically, the 501(h)
    test also sets a separate, smaller sub-limit specifically for **grassroots lobbying** (calls to
    action directed at the general public to contact legislators) versus **direct lobbying**
-   (communicating directly with legislators or their staff) — grassroots lobbying is capped at a
-   smaller share of the total lobbying allowance, so classifying spend correctly between the two
-   categories matters for compliance, not just total lobbying spend.
+   (communicating directly with legislators or their staff) — grassroots lobbying is capped at 25%
+   of the total lobbying allowance, so classifying spend correctly between the two
+   categories matters for compliance, not just total lobbying spend. Exceeding either limit in a
+   year triggers a 25% excise tax on the excess (IRC 4911(a)); normally exceeding 150% of either
+   limit, measured over a four-year period, puts exempt status at risk (IRC 501(h)(1)-(2)).
 3. **Why most advocacy-active c3s elect 501(h)**: it converts an ambiguous, facts-and-circumstances
    standard into a bright-line, plannable dollar budget — advisors should generally recommend the
    election for any c3 doing regular, planned advocacy work, unless the organization is a private
    foundation or church (both ineligible to elect 501(h) — private foundations face an entirely
    separate, stricter lobbying prohibition regime; churches remain under the substantial-part test by
    default).
-4. **Filing mechanics**: Form 5768 is filed once and remains in effect until revoked; track actual
-   lobbying expenditures against the elected limits continuously (not just at filing time) and report
-   them on Schedule C of Form 990 (see `nonprofit-form-990`).
+4. **Filing mechanics**: Form 5768 can be filed at any time during the first tax year it is to cover
+   and remains in effect until revoked (a revocation takes effect the following tax year); track
+   actual lobbying expenditures against the elected limits continuously (not just at filing time)
+   and report them on Schedule C of Form 990 (see `nonprofit-form-990`).
 
 ## Cost-Sharing and Shared-Staff Compliance
 
@@ -86,7 +95,9 @@ or resources — this is the failure mode every allocation practice below exists
 2. **Shared facilities/overhead**: rent, utilities, equipment, and administrative overhead shared
    between entities must be allocated on a reasonable, documented basis (square footage, headcount,
    or usage hours) and the c4 must actually pay its share — an unpaid or underpaid allocation is, in
-   substance, a prohibited subsidy of the c4 by the c3.
+   substance, a subsidy of the c4 by the c3; for a 501(h)-electing c3, the regulations treat such a
+   below-fair-market-value transfer to a lobbying c4 as the c3's own lobbying expenditure, up to the
+   c4's lobbying spend (26 CFR 56.4911-3(c)(3)).
 3. **Written cost-sharing/shared-services agreement**: put the allocation methodology in a signed
    agreement between the two entities (even though under common control) specifying the basis for
    each shared cost category, the payment/reimbursement schedule, and a periodic true-up process —
@@ -101,10 +112,12 @@ or resources — this is the failure mode every allocation practice below exists
    transactions between the entities should follow the conflict-of-interest recusal process
    (`nonprofit-bylaws-policy`).
 6. **The c4 may make grants to the c3, but not the reverse in a way that funds c4 lobbying/political
-   activity** — a c3 generally cannot grant funds to a c4 for use in lobbying or political campaign
-   activity, since that would let the c3 indirectly do what it's restricted from doing directly;
-   any inter-entity grant needs restriction language and monitoring confirming the funds are used
-   only for activities the granting entity itself could fund directly.
+   activity** — a c3 cannot fund the c4's political campaign activity at all (the c3 prohibition
+   covers indirect participation), and for a 501(h)-electing c3, below-fair-market-value transfers
+   to a lobbying c4 count against the c3's own lobbying limits (see item 2), since otherwise the c3
+   would indirectly do what it's restricted from doing directly; any inter-entity grant needs
+   restriction language and monitoring confirming the funds are used only for activities the
+   granting entity itself could fund directly.
 
 ## Common Failure Modes
 
